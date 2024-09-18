@@ -1,10 +1,5 @@
-import psutil
-import time
-
-t_start = time.perf_counter()
-
-K = [[0, 1], [1, 1]]
-
+def last_digit(n):
+    return fast_multiply([[0, 1], [1, 1]], n, m=10)[0][1]
 
 def fast_multiply(x, n, m):
     if n == 0:
@@ -27,6 +22,7 @@ def matrix_multiply_2x2(A, B, m):
     return C
 
 
-open("output.txt", "w").write(str(fast_multiply(K, int(open("input.txt").readline()), m=10)[0][1]))
-print("Время работы: %s секунд" % (time.perf_counter() - t_start))
-print(f"Память: {psutil.Process().memory_info().rss / 1024 ** 2:.2f} МБ")
+# file_input = open("input.txt")
+# file_output = open("output.txt", "w")
+# n = int(file_input.readline())
+# file_output.write(str(last_digit(n)))
