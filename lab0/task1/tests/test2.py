@@ -1,6 +1,12 @@
 import unittest
-
 from lab0.task1.src.task2 import sum_ab2
+import psutil
+import time
+
+t_start = time.perf_counter()
+sum_ab2("-1000000000 892935367", 0)
+print("Время работы: %s секунд" % (time.perf_counter() - t_start))
+print(f"Память: {psutil.Process().memory_info().rss / 1024 ** 2:.2f} МБ")
 
 
 class Sum_ab2_test(unittest.TestCase):
