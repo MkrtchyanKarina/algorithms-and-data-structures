@@ -6,6 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="f721ea97-be28-463d-90db-e8984220e982" name="Changes" comment="added new tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/Task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/task1/src/task1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/Task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/task2/src/task2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/Task3.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/task3/src/task3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/Task3_recursion.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/task3/src/task3_recursion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/Task5.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/task5/src/task5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/Task6.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/task6/src/task6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/Task8.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/task8/src/task8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/input1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/task1/src/input1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/input2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/task2/src/input2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/output1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/task1/src/output1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/output2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/task2/src/output2.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,25 +60,56 @@
     "Python tests.Python tests in test_fib_matrix.py.executor": "Run",
     "Python.fib.executor": "Run",
     "Python.fib_matrix.executor": "Run",
+    "Python.task7.executor": "Run",
     "Python.test1.executor": "Run",
     "Python.test_fib.executor": "Run",
     "Python.test_fib_matrix.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/User/PycharmProjects/algorithms-and-data-structures/lab1"
+    "last_opened_file_path": "C:/Users/User/PycharmProjects/algorithms-and-data-structures/lab1/task8",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab1" />
-      <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures" />
-      <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab0\task3\src" />
-      <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab0\task2\src" />
-      <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab0\task1\src" />
+      <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab1\task8" />
+      <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab1\task7" />
+      <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab1\task5" />
+      <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab1\task3" />
+      <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab1\task2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab1\task2\src" />
+      <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab1\task1\src" />
+      <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab1\task8\src" />
+      <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab1\task8" />
+      <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab1\task6\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in test2.py">
+  <component name="RunManager" selected="Python.task7">
+    <configuration name="task7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithms-and-data-structures" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab1/task7/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab1/task7/src/task7.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
@@ -88,21 +130,6 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for lab0.task3.tests.test_fib.fib_number_test.test_fib_number" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="algorithms-and-data-structures" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab0/task3/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;lab0.task3.tests.test_fib.fib_number_test.test_fib_number&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests for test1.Sum_ab_test" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -152,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.task7" />
         <item itemvalue="Python tests.Python tests in test2.py" />
         <item itemvalue="Python tests.Python tests in test1.py" />
         <item itemvalue="Python.test1" />
         <item itemvalue="Python tests.Python tests for test1.Sum_ab_test" />
-        <item itemvalue="Python tests.Python tests for lab0.task3.tests.test_fib.fib_number_test.test_fib_number" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +251,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726859638471</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added new tests">
+      <option name="closed" value="true" />
+      <created>1726860206839</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1726860206839</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
