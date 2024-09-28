@@ -1,4 +1,6 @@
 import random
+from lab1.src.verifications import data_verification10
+
 
 def merge_sort(string):
     n = len(string)
@@ -27,6 +29,7 @@ def merge_list(arr1, arr2, n1, n2):
     return res_str
 
 
+@data_verification10
 def palindrome(n, s):
     s = merge_sort(s)
     count1 = ""

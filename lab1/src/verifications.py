@@ -42,6 +42,7 @@ def data_verification7(func):
                 return check(n, M, repeat+1)
     return check
 
+
 def data_verification8(func):
     def check(n, m, repeat=0):
         if 3 <= n <= 5000 and all(abs(x) <= 10**9 for x in m) and len(m) == n:
@@ -56,6 +57,7 @@ def data_verification8(func):
                 return check(n, m, repeat+1)
     return check
 
+
 def data_verification9(func):
     def check(a, b, repeat=0):
         if 1 <= len(a) == len(b) <= 10**3:
@@ -67,4 +69,18 @@ def data_verification9(func):
                 print("Enter data again")
                 a, b = input().split()
                 return check(a, b, repeat+1)
+    return check
+
+def data_verification10(func):
+    def check(n, s, repeat=0):
+        if 1 <= n <= 10**5 and all(65 <= ord(x) <= 90 for x in s) and len(s) == n:
+            return func(n, s)
+        else:
+            if repeat >= 2:
+                return "Invalid data"
+            else:
+                print("Enter data again")
+                n = int(input())
+                s = input()
+                return check(n, s, repeat+1)
     return check

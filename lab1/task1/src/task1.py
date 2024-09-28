@@ -10,7 +10,7 @@ def insertion_sort(n, m):
                 i, j = j, i
     return m
 
-print(insertion_sort(10**8, []))
+
 # file = open("input1.txt")
 # test_n = int(file.readline())
 # test_m = list(map(int, file.readline().split(" ")))
