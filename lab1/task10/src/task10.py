@@ -46,6 +46,7 @@ def palindrome(n, s):
 
     return palindrome2(count1, count2)
 
+
 def palindrome2(count1, count2):
     res_str = ""
     n = len(count2)
