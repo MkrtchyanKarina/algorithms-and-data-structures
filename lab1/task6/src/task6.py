@@ -1,10 +1,10 @@
 import psutil
 import time
 import random
-
+from lab1.src.verifications import data_verification1
 t_start = time.perf_counter()
 
-
+@data_verification1
 def bubble_sort(n, m):
     for i in range(n):
         for j in range(i+1, n):

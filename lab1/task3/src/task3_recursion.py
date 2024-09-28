@@ -1,7 +1,9 @@
 import random, time, psutil
+import sys
+from lab1.src.verifications import data_verification1
 
 t_start = time.perf_counter()
-
+sys.setrecursionlimit(10**8)
 
 def swap(a, b):
     c = b
@@ -19,6 +21,7 @@ def insertion_sort(n, m, index=1):
                 m[index], m[j] = swap(m[index], m[j])
                 index, j = j, index
         return insertion_sort(n, m, index + 1)
+
 
 
 print(insertion_sort(6, [31, 41, 59, 26, 41, 58]))

@@ -4,9 +4,12 @@ import psutil
 import time
 import random
 
+from lab1.src.verifications import data_verification8
+
 t_start = time.perf_counter()
 
 
+@data_verification8
 def swap(n, m):
     for i in range(n-1):
         index = i + 1

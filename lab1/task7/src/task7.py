@@ -7,7 +7,13 @@
 #     M.append([float(i), j])
 #     j += 1
 import random, time
+
+from lab1.src.verifications import data_verification7
+
+
+@data_verification7
 def sort_land(n, M):
+    M = [[M[i], i+1] for i in range(n)]
     sorted_M = merge_sort(M)
     return sorted_M[0][1], sorted_M[n//2][1], sorted_M[-1][1]
 import sys
@@ -42,10 +48,8 @@ def merge_list(arr1, arr2, n1, n2):
 
 
 n = 9999
-M = [[round(random.random(), 2) + random.randint(-10**6, 10**6), i] for i in range(n)]
-print(M)
+M = [round(random.random(), 2) + random.randint(0, 10**6-1) for i in range(n)]
 start = time.time()
 print(*sort_land(n, M), sep=" ")
 print(time.time() - start)
-M = sorted(M)
-print(M[0][1], M[n//2][1], M[-1][1])
+

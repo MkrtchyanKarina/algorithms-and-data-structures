@@ -1,21 +1,27 @@
 import random
 import time
 
+from lab1.src.verifications import data_verification4
+
 start = time.time()
 
 
+@data_verification4
 def lineal_search(m, x):
     res = []
     for i in range(len(m)):
         if m[i] == x:
             res.append(i)
-    if len(res) == 0:
+    count = len(res)
+    if count == 0:
         return -1
-    else:
+    elif count == 1:
         return res
+    else:
+        return count, res
 
 
-test_array = [random.randint(-10**3, 10**3+1) for i in range(10**3 + 1)]
+test_array = [random.randint(-10**3, 10**3) for i in range(10**3)]
 test_x = test_array[random.randint(0, 10**3)]
 res_test = lineal_search(test_array, test_x)
 print(*res_test, sep=", ")

@@ -1,3 +1,7 @@
+from lab1.src.verifications import data_verification1
+
+
+@data_verification1
 def insertion_sort(n, m):
     new_m = []
     indexes = [1]
@@ -10,6 +14,10 @@ def insertion_sort(n, m):
                 i, j = j, i
         indexes.append(i+1)
     return indexes, m
+
+# a = int(input())
+# b = [int(x) for x in input().split()]
+# print(insertion_sort(a, b))
 
 
 # file_input = open("input2.txt")

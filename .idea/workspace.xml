@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f721ea97-be28-463d-90db-e8984220e982" name="Changes" comment="added new tests" />
+    <list default="true" id="f721ea97-be28-463d-90db-e8984220e982" name="Changes" comment="added new tests">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/task1/src/task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/task1/src/task1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/task2/src/task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/task2/src/task2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/task3/src/task3.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/task3/src/task3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/task3/src/task3_recursion.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/task3/src/task3_recursion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/task4/src/task4.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/task4/src/task4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/task5/src/task5.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/task5/src/task5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/task6/src/task6.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/task6/src/task6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/task7/src/task7.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/task7/src/task7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/task8/src/task8.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/task8/src/task8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/task9/src/task9.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/task9/src/task9.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,12 +63,19 @@
     "Python.fib_matrix.executor": "Run",
     "Python.task1.executor": "Run",
     "Python.task10.executor": "Run",
+    "Python.task2.executor": "Run",
+    "Python.task3.executor": "Run",
+    "Python.task3_recursion.executor": "Run",
     "Python.task4.executor": "Run",
+    "Python.task5.executor": "Run",
+    "Python.task6.executor": "Run",
     "Python.task7.executor": "Run",
+    "Python.task8.executor": "Run",
     "Python.task9.executor": "Run",
     "Python.test1.executor": "Run",
     "Python.test_fib.executor": "Run",
     "Python.test_fib_matrix.executor": "Run",
+    "Python.verifications.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -80,8 +99,8 @@
       <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab1\task6\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.task2">
-    <configuration name="task1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.task9">
+    <configuration name="task4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -90,11 +109,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab1/task1/src" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab1/task4/src" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab1/task1/src/task1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab1/task4/src/task4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -103,7 +122,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="task2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="task7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -112,11 +131,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab1/task2/src" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab1/task7/src" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab1/task2/src/task2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab1/task7/src/task7.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -125,58 +144,79 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test1.InsertionSortTestCase" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="task8" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab1/task1/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab1/task8/src" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test1.InsertionSortTestCase&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab1/task8/src/task8.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test1.InsertionSortTestCase.test_insertion_sort" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="task9" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab1/task1/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab1/task9/src" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test1.InsertionSortTestCase.test_insertion_sort&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab1/task9/src/task9.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test1.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="verifications" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab1/task1/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab1/src" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/lab1/task1/tests/test1.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab1/src/verifications.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.task2" />
-        <item itemvalue="Python tests.Python tests in test1.py" />
-        <item itemvalue="Python tests.Python tests for test1.InsertionSortTestCase" />
-        <item itemvalue="Python tests.Python tests for test1.InsertionSortTestCase.test_insertion_sort" />
-        <item itemvalue="Python.task1" />
+        <item itemvalue="Python.task9" />
+        <item itemvalue="Python.task8" />
+        <item itemvalue="Python.task7" />
+        <item itemvalue="Python.verifications" />
+        <item itemvalue="Python.task4" />
       </list>
     </recent_temporary>
   </component>
@@ -284,7 +324,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727288314333</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added new tests">
+      <option name="closed" value="true" />
+      <created>1727289117101</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1727289117101</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
