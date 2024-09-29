@@ -14,25 +14,14 @@ def lineal_search(m, x):
             res.append(i)
     count = len(res)
     if count == 0:
-        return -1
+        return str(-1)
     elif count == 1:
-        return res
+        return str(res[0])
     else:
-        return count, res
+        return str(count) + ' ' + ", ".join(map(str, res))
 
-
-test_array = [random.randint(-10**3, 10**3) for i in range(10**3)]
-test_x = test_array[random.randint(0, 10**3)]
-res_test = lineal_search(test_array, test_x)
-print(*res_test, sep=", ")
-# L = ("Рак Кабан Козел Лемминг Черепаха Муравьед Нутрия Индюк Ягуар Хамелеон Коала Барсук Акула "
-#      "Соболь Осьминог Лошадь Крыса Зебра Кошка Кашалот Крот Тюлень Индейка Верблюд Сурок Лисица Утка Заяц Бобр Суслик Аллигатор Варан Леопард "
-#      "Игуана Овца Гиена Еж Ленивец Гадюка Крокодил Свинья Лось Курица Кенгуру "
-#      "Дикобраз Хомяк Утконос Жираф Ондатра Бизон Скунс Обезьяна Газель Койот "
-#      "Мышь Пингвин Осел Бурундук Тигр Олень Омар Пантера Пума Кролик Ехидна Жаба "
-#      "Удав Кит Волк Морж Выхухоль Гепард Песец Енот Антилопа Лемур Медведь Выдра "
-#      "Белка Гусь Гиппопотам Уж Рысь Зубр Куница Динозавр Лев Кобра Собака Носорог "
-#      "Лягушка Хорек Корова Анаконда")
-# print(lineal_search(L.split(" "), "Свинья"))
-print(time.time() - start)
+# file = open("input4.txt")
+# A = list(map(int, file.readline().split(" ")))
+# V = int(file.readline())
+# open("output4.txt", "w").write(lineal_search(A, V))
 

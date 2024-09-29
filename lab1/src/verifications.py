@@ -15,16 +15,19 @@ def data_verification1(func):
 
 def data_verification4(func):
     def check(M, V, repeat=0):
-        if len(M) <= 10**3 and all(abs(x) <= 10**3 for x in M) and abs(V) <= 10**3 :
+        if len(M) > 0 and type(M[0]) == str:
             return func(M, V)
         else:
-            if repeat >= 2:
-                return "Invalid data"
+            if len(M) <= 10**3 and all(abs(x) <= 10**3 for x in M) and abs(V) <= 10**3 :
+                return func(M, V)
             else:
-                print("Enter data again")
-                M = [int(i) for i in input().split()]
-                V = int(input())
-                return check(M, V, repeat+1)
+                if repeat >= 2:
+                    return "Invalid data"
+                else:
+                    print("Enter data again")
+                    M = [int(i) for i in input().split()]
+                    V = int(input())
+                    return check(M, V, repeat+1)
     return check
 
 
