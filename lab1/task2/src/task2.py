@@ -3,21 +3,14 @@ from lab1.src.verifications import data_verification1
 
 @data_verification1
 def insertion_sort(n, m):
-    new_m = []
     indexes = [1]
-    for k in range(1, n):
-        new_m.append(m[k])
-        i = k
+    for i in range(1, n):
         for j in range(i, -1, -1):
             if m[i] < m[j]:
                 m[i], m[j] = m[j], m[i]
                 i, j = j, i
         indexes.append(i+1)
     return indexes, m
-
-# a = int(input())
-# b = [int(x) for x in input().split()]
-# print(insertion_sort(a, b))
 
 
 # file_input = open("input2.txt")
