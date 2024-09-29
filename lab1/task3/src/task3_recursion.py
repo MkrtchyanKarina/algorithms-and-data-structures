@@ -1,9 +1,6 @@
-import random, time, psutil
 import sys
-from lab1.src.verifications import data_verification1
-
-t_start = time.perf_counter()
 sys.setrecursionlimit(10**8)
+
 
 def swap(a, b):
     c = b
@@ -12,26 +9,19 @@ def swap(a, b):
     return a, b
 
 
-def insertion_sort(n, m, index=1):
+def insertion_sort_rec(n, m, index=1):
     if index == n:
         return m
     else:
         for j in range(index - 1, -1, -1):
-            if m[index] < m[j]:
+            if m[index] > m[j]:
                 m[index], m[j] = swap(m[index], m[j])
                 index, j = j, index
-        return insertion_sort(n, m, index + 1)
+        return insertion_sort_rec(n, m, index + 1)
 
 
+# file = open("input_rec3.txt")
+# test_n = int(file.readline())
+# test_m = list(map(int, file.readline().split(" ")))
+# open("output_rec3.txt", "w").write(" ".join(map(str, insertion_sort_rec(test_n, test_m))))
 
-print(insertion_sort(6, [31, 41, 59, 26, 41, 58]))
-
-try:
-    test_max_m = [random.randint(-10 ** 9, 10 ** 9) for i in range(10 ** 3)]
-    max_result = insertion_sort(10 ** 3, test_max_m)
-    if max_result == sorted(test_max_m):
-        print("Время работы: %s секунд" % (time.perf_counter() - t_start))
-        print(f"Память: {psutil.Process().memory_info().rss / 1024 ** 2:.2f} МБ")
-        print(" ".join(map(str, max_result)))
-except RecursionError:
-    print("Stack overflow")

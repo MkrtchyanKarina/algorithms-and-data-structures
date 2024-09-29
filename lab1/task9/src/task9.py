@@ -1,11 +1,6 @@
-import random
 
 from lab1.src.verifications import data_verification9
 
-n = 10**3
-a = "".join(map(str, [round(random.random()) for i in range(n)]))
-b = "".join(map(str, [round(random.random()) for j in range(n)]))
-res_main = int(a, 2) + int(b, 2)
 
 @data_verification9
 def sum_dv(a, b):
@@ -21,6 +16,3 @@ def sum_dv(a, b):
         c[-i] = s % 2
 
     return "".join(map(str, c))
-res = sum_dv(a, b)
-print(int(res, 2) == res_main)
-print(res)

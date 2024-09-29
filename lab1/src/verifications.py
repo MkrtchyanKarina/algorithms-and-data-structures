@@ -60,7 +60,7 @@ def data_verification8(func):
 
 def data_verification9(func):
     def check(a, b, repeat=0):
-        if 1 <= len(a) == len(b) <= 10**3:
+        if 1 <= len(a) == len(b) <= 10**3 and all((x in '01') for x in a) and all(y in '01' for y in b):
             return func(a, b)
         else:
             if repeat >= 2:
@@ -84,3 +84,5 @@ def data_verification10(func):
                 s = input()
                 return check(n, s, repeat+1)
     return check
+
+
