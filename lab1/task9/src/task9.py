@@ -1,4 +1,3 @@
-
 from lab1.src.verifications import data_verification9
 
 
@@ -14,5 +13,10 @@ def sum_dv(a, b):
 
         c[-i - 1] = s // 2
         c[-i] = s % 2
+    result = "".join(map(str, c))
+    result = result[result.index("1"):]
+    return result
 
-    return "".join(map(str, c))
+# a, b = open('input9.txt').readline().split(" ")
+# file_output = open('output9.txt', 'w')
+# file_output.write(sum_dv(a, b))

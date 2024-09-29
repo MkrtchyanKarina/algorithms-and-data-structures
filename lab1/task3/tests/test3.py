@@ -7,29 +7,44 @@ import psutil
 import time
 import random
 
-t_start = time.perf_counter()
-# test_arr = [0]
-test_arr = [31, 41, 59, 26, 41, 58]
-# test_arr = [random.randint(-10 ** 9, 10 ** 9) for i in range(10 ** 3)]
-
-test_res = insertion_sort_rec(len(test_arr), test_arr)
-print("Время работы: %s секунд" % (time.perf_counter() - t_start))
-print(f"Память: {psutil.Process().memory_info().rss / 1024 ** 2:.2f} МБ")
-
 
 class InsertionSortTestCase(unittest.TestCase):
-    def test_insertion_sort(self):
-        self.assertEqual(insertion_sort(5, [23, 4, 89, -10, -10]), [89, 23, 4, -10, -10])
-        self.assertEqual(insertion_sort(8, [23, 4, 3, -100, 10, 89, -10, -10]), [89, 23, 10, 4, 3, -10, -10, -100])
+    def test_insertion_sort1(self):
+        t_start = time.perf_counter()
+        self.assertEqual(insertion_sort(1, [0]), [0])
+        print("Время работы: %s секунд" % (time.perf_counter() - t_start))
+        print(f"Память: {psutil.Process().memory_info().rss / 1024 ** 2:.2f} МБ")
 
-        max_arr = [random.randint(-10 ** 9, 10 ** 9) for i in range(10 ** 3)]
+    def test_insertion_sort2(self):
+        m = [31, 41, 59, 26, 41, 58]
+        t_start = time.perf_counter()
+        self.assertEqual(insertion_sort(6, m), sorted(m)[::-1])
+        print("Время работы: %s секунд" % (time.perf_counter() - t_start))
+        print(f"Память: {psutil.Process().memory_info().rss / 1024 ** 2:.2f} МБ")
 
-        self.assertEqual(insertion_sort(10 ** 3, max_arr), sorted(max_arr)[::-1])
+    def test_insertion_sort3(self):
+        m = [random.randint(-10 ** 9, 10 ** 9) for i in range(10 ** 3)]
+        t_start = time.perf_counter()
+        self.assertEqual(insertion_sort(1000, m), sorted(m)[::-1])
+        print("Время работы: %s секунд" % (time.perf_counter() - t_start))
+        print(f"Память: {psutil.Process().memory_info().rss / 1024 ** 2:.2f} МБ")
 
-    def test_insertion_sort_recursion(self):
-        self.assertEqual(insertion_sort_rec(5, [23, 4, 89, -10, -10]), [89, 23, 4, -10, -10])
-        self.assertEqual(insertion_sort_rec(8, [23, 4, 3, -100, 10, 89, -10, -10]), [89, 23, 10, 4, 3, -10, -10, -100])
+    def test_insertion_sort_rec1(self):
+        t_start = time.perf_counter()
+        self.assertEqual(insertion_sort_rec(1, [0]), [0])
+        print("Время работы: %s секунд" % (time.perf_counter() - t_start))
+        print(f"Память: {psutil.Process().memory_info().rss / 1024 ** 2:.2f} МБ")
 
-        max_arr = [random.randint(-10 ** 9, 10 ** 9) for i in range(10 ** 3)]
+    def test_insertion_sort_rec2(self):
+        m = [31, 41, 59, 26, 41, 58]
+        t_start = time.perf_counter()
+        self.assertEqual(insertion_sort_rec(6, m), sorted(m)[::-1])
+        print("Время работы: %s секунд" % (time.perf_counter() - t_start))
+        print(f"Память: {psutil.Process().memory_info().rss / 1024 ** 2:.2f} МБ")
 
-        self.assertEqual(insertion_sort_rec(10 ** 3, max_arr), sorted(max_arr)[::-1])
+    def test_insertion_sort_rec3(self):
+        m = [random.randint(-10 ** 9, 10 ** 9) for i in range(10 ** 3)]
+        t_start = time.perf_counter()
+        self.assertEqual(insertion_sort_rec(1000, m), sorted(m)[::-1])
+        print("Время работы: %s секунд" % (time.perf_counter() - t_start))
+        print(f"Память: {psutil.Process().memory_info().rss / 1024 ** 2:.2f} МБ")
