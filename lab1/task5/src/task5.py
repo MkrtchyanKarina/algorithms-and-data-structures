@@ -12,6 +12,10 @@ def selection_sort(n, m):
                 index = j
         m.pop(index)
         m.insert(i, a)
-
     return m
-print(selection_sort(6, [31, 41, 59, 26, 41, 58]))
+
+
+# file = open("input5.txt")
+# test_n = int(file.readline())
+# test_m = list(map(int, file.readline().split(" ")))
+# open("output5.txt", "w").write(" ".join(map(str, selection_sort(test_n, test_m))))
