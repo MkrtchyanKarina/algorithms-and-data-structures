@@ -1,4 +1,3 @@
-import random
 from lab1.src.verifications import data_verification10
 
 
@@ -30,39 +29,39 @@ def merge_list(arr1, arr2, n1, n2):
 
 
 @data_verification10
-def palindrome(n, s):
+def palindrome(n: int, s: str, index=0):
     s = merge_sort(s)
     count1 = ""
     count2 = ""
-    for i in range(n):
-        k = s[i]
-        if k not in count2 and k not in count1:
-            rep = 0
-            for j in range(i+1, n):
-                if s[j] == k:
-                    count2 += s[j]
-                    rep += 1
-            if rep % 2 == 0:
-                count1 += k
+    while index < n:
+        k = s[index]
+        count = 1
+        index += 1
+        while index < n:
+            if s[index] == k:
+                count += 1
+                index += 1
             else:
-                count2 += k
-
+                break
+        count1 = k * (count % 2) + count1
+        count2 += k * (count // 2) * 2
     return palindrome2(count1, count2)
 
 
 def palindrome2(count1, count2):
-    res_str = ""
-    n = len(count2)
-    if n != 0:
-        for i in range(0, n, 2):
-            res_str = count2[i] + res_str + count2[i+1]
-        if len(count1) != 0:
-            return res_str[:n//2] + count1[0] + res_str[n//2:]
-        else:
-            return res_str
+    if len(count1) > 0:
+        res_str = count1[0]
     else:
-        return count1[0]
+        res_str = ""
+    pairs_count = len(count2)
+    for i in range(0, pairs_count, 2):
+        res_str = count2[i] + res_str + count2[i+1]
+    return res_str
 
-str_test = "".join(chr(random.randint(65, 91)) for i in range(10**5 + 1))
-print(palindrome(10**5, str_test))
+
+# file = open("input10.txt")
+# test_n = int(file.readline())
+# test_s = file.readline()
+# open("output10.txt", "w").write(palindrome(test_n, test_s))
+
 

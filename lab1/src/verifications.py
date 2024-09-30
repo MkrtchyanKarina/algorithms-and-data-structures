@@ -74,6 +74,7 @@ def data_verification9(func):
                 return check(a, b, repeat+1)
     return check
 
+
 def data_verification10(func):
     def check(n, s, repeat=0):
         if 1 <= n <= 10**5 and all(65 <= ord(x) <= 90 for x in s) and len(s) == n:
