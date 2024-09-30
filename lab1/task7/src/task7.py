@@ -1,23 +1,13 @@
-# input_file = open('input7.txt')
-# output_file = open('output7.txt', 'w')
-# n = int(input_file.readline().strip())
-# M = []
-# j = 1
-# for i in input_file.readline().strip().split():
-#     M.append([float(i), j])
-#     j += 1
-import random, time
-
 from lab1.src.verifications import data_verification7
-
+import sys
+sys.setrecursionlimit(10**8)
 
 @data_verification7
 def sort_land(n, M):
     M = [[M[i], i+1] for i in range(n)]
     sorted_M = merge_sort(M)
     return sorted_M[0][1], sorted_M[n//2][1], sorted_M[-1][1]
-import sys
-sys.setrecursionlimit(10**8)
+
 
 
 def merge_sort(arr):
@@ -47,9 +37,8 @@ def merge_list(arr1, arr2, n1, n2):
     return res_arr
 
 
-n = 9999
-M = [round(random.random(), 2) + random.randint(0, 10**6-1) for i in range(n)]
-start = time.time()
-print(*sort_land(n, M), sep=" ")
-print(time.time() - start)
-
+# input_file = open('input7.txt')
+# output_file = open('output7.txt', 'w')
+# n = int(input_file.readline().strip())
+# M = [float(i) for i in input_file.readline().strip().split()]
+# output_file.write(" ".join(map(str, sort_land(n, M))))
