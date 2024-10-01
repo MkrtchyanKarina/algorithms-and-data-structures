@@ -1,5 +1,6 @@
 from lab1.src.verifications import data_verification1
 
+
 def swap(a, b):
     c = b
     b = a
