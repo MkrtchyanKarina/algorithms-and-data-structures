@@ -131,7 +131,7 @@
       <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab1\task6\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.task8">
     <configuration name="task1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
@@ -237,8 +237,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test" />
         <item itemvalue="Python.task8" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.task1" />
         <item itemvalue="Python tests.Python tests for test5.InsertionSortTestCase.test_max_count1" />
         <item itemvalue="Python.task5" />
@@ -485,7 +485,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728168437715</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="add new files">
+      <option name="closed" value="true" />
+      <created>1728230082309</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1728230082309</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
