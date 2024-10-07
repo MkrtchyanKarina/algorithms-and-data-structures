@@ -1,41 +1,55 @@
-import time
-
-import psutil
-
-A = [2, -1, 4, 3, -5, 8, 2, 3, 19]
-B = [1, -7, 2, 1, -3, -2, 2, -1, 4]
-C = [0] * (len(A) * 2 - 1)
-def multiply(ind_a, ind_b):
-    # print(ind_a, ind_b)
-    global A, B, C
-    for i in ind_a:
-        for j in ind_a:
-            C[i+j] += A[i] * B[j]
-    for i in ind_b:
-        for j in ind_b:
-            C[i+j] += A[i] * B[j]
-
-    for i in ind_a:
-        for j in ind_b:
-            C[i+j] += A[i] * B[j]
-            C[i + j] += A[j] * B[i]
-    return C
+from math import log2, ceil
 
 
-def merge(len_arr, array):
-
-    middle = len_arr // 2
-    list_a, list_b = array[:middle], array[middle:]
-    return multiply(list_a, list_b)
-
-# [2, -15, 15, -25, -25, 52, -67, -21, 36, -141, 22, 39, -87, -2, 43, -7, 76]
+def union(a, b, c):
+    n = len(a) // 2
+    return a[:-n] + [a[-n + i] + b[i] for i in range(n)] + b[n:-n] + [b[-n + i] + c[i] for i in range(n)] + c[n:]
 
 
+def power_of_two(m):
+    n = len(m)
+    return [0] * (2 ** ceil(log2(n)) - n) + m
 
 
+def reformat(x):
+    for i in range(len(x)):
+        if x[i] != 0:
+            return " ".join(map(str, x[i:]))
 
 
-t_start = time.perf_counter()
-print(merge(9, [8, 7, 6, 5, 4, 3, 2, 1, 0]))
-print("Время работы: %s секунд" % (time.perf_counter() - t_start))
-print(f"Память: {psutil.Process().memory_info().rss / 1024 ** 2:.2f} МБ")
+def multiply(poly1, poly2):
+
+    n = len(poly1)
+    if n == 1:
+        return [poly1[0] * poly2[0]]
+
+    mid = n // 2
+    a = poly1[:mid]
+    b = poly1[mid:]
+    c = poly2[:mid]
+    d = poly2[mid:]
+
+    ac = multiply(a, c)
+    bd = multiply(b, d)
+    ad_plus_bc = multiply([a[i] + b[i] for i in range(mid)], [c[i] + d[i] for i in range(mid)])
+
+    result = [ad_plus_bc[i] - ac[i] - bd[i] for i in range(len(ad_plus_bc))]
+    result2 = []
+
+    n = []
+    i = 3
+    while i <= len(ac):
+        n.append(i)
+        i = 2*i + 1
+    if len(ac) in n:
+        result2 += union(ac, result, bd)
+        return result2
+    else:
+        return ac + result + bd
+
+
+def karatsuba_polynomial_multiply(x, y):
+    return reformat(multiply(power_of_two(x), power_of_two(y)))
+
+
+print(karatsuba_polynomial_multiply([7, 1, 7, 2, 3, 4, -2, 2, 1, 2, 1, 3, 4, 5, 2, 1, 4, -2, 5, -2, 1, 3, 3, 2, 3, 4, 4, 5, -2, -1], [1, 4, -2, 5, -2, 1, 3, 3, 2, 3, 4, 4, 5, -2, -1, 7, 1, 7, 2, 3, 4, -2, 2, 1, 2, 1, 3, 4, 5, 2]))
