@@ -1,7 +1,8 @@
 from random import randint
 
 
-def verification(n, array, attempt=1):
+def verification(n, array, attempt):
+
     res = 1
     if type(n) is int and 1 <= n <= 10 ** 5:
         if type(array) is list and n == len(array) and all(type(x) is int and abs(x) <= 10 ** 9 for x in array):
@@ -24,20 +25,26 @@ def verification(n, array, attempt=1):
                 return 'Ошибка!'
 
 
-def merge_sort_main(*args):
+def merge_sort_main(args):
+    global result
+    result = 0
     if len(args) == 1:
         path = args[0]
         file_input = open(path, 'r')
         len_arr = int(file_input.readline().strip())
         array = list(map(int, file_input.readline().strip().split(" ")))
 
-        file_output = open('output' + path[5:], 'w')
-        result = " ".join(map(str, verification(len_arr, array)))
-        file_output.write(result)
+        path = 'output' + path[5:]
+        file_output = open(path, 'w')
+        file_output.close()
+        verification(len_arr, array, 1)
     else:
         len_arr, array = args
-        return verification(len_arr, array)
+        return verification(len_arr, array, 1)
 
+
+
+result = 0
 
 def merge_sort(len_arr, array):
     middle = len_arr // 2
@@ -50,57 +57,61 @@ def merge_sort(len_arr, array):
     return merge(len_a, len_b, list_a, list_b)
 
 
+
 def merge(len_a, len_b, array_a, array_b):
+    global result
     len_c = len_a + len_b
     array_c = [0] * len_c
+    count = 0
     index_a, index_b = 0, 0
     for index_c in range(len_c):
         if index_b >= len_b:
             array_c[index_c] = array_a[index_a]
+            step = abs(index_c - index_a)
             index_a += 1
         elif index_a >= len_a:
             array_c[index_c] = array_b[index_b]
+            step = abs(index_c - len_a - index_b)
             index_b += 1
         else:
             if array_a[index_a] <= array_b[index_b]:
                 array_c[index_c] = array_a[index_a]
+                step = abs(index_c - index_a)
                 index_a += 1
             else:
                 array_c[index_c] = array_b[index_b]
+                step = abs(index_c - len_a - index_b)
                 index_b += 1
+        count += step
+    # print(count//2, array_a, array_b, array_c)
+    result += count//2
     return array_c
 
+def number_of_permutations(*args):
+    merge_sort_main(args)
+    return result
+def bubble_sort(n, m):
+    count = 0
+    for i in range(n):
+        for j in range(0, n-i-1):
 
-"""
-def merge(len_a, len_b, array_a, array_b):
-    array_c = []
-    index_a, index_b = 0, 0
-    for i in range(len_a + len_b):
-        if index_b == len_b:
-            array_c.extend(array_a[index_a:])
-            break
-        elif index_a == len_a:
-            array_c.extend(array_b[index_b:])
-            break
-        else:
-            if array_a[index_a] <= array_b[index_b]:
-                array_c.append(array_a[index_a])
-                index_a += 1
-            else:
-                array_c.append(array_b[index_b])
-                index_b += 1
+            if m[j] > m[j+1]:
+                m[j], m[j+1] = m[j+1], m[j]
+                count += 1
+    return count
 
-    return array_c
-"""
-
+n = 1000
+m = [randint(-10 ** 9, 10 ** 9) for i in range(n)]
+print(number_of_permutations(n, m))
+# print(number_of_permutations() == bubble_sort(n, m))
 
 # Запись данных в input файл и запуск программы для этого файла
 
-# file = open('input1.txt', 'w')
+# file = open('input2.txt', 'w')
 # n = 10
 # m = ' '.join(map(str, [randint(-20, 20) for i in range(n)]))
 # file.write(str(n))
 # file.write('\n'+m)
 #
 # file.close()
-# merge_sort_main('input1.txt')
+# merge_sort_main('input2.txt')

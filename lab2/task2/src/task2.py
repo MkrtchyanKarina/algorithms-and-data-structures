@@ -1,11 +1,12 @@
 from random import randint
 
 
-def verification(n, array, attempt=1):
+def verification(n, array, attempt, source):
+
     res = 1
     if type(n) is int and 1 <= n <= 10 ** 5:
         if type(array) is list and n == len(array) and all(type(x) is int and abs(x) <= 10 ** 9 for x in array):
-            return merge_sort(n, array)
+            return merge_sort(0, n-1, array, source)
         else:
             res *= 0
     else:
@@ -19,7 +20,7 @@ def verification(n, array, attempt=1):
             try:
                 new_n = int(input())
                 new_array = list(map(int, input().split(" ")))
-                return verification(new_n, new_array, attempt + 1)
+                return verification(new_n, new_array, attempt + 1, '')
             except:
                 return 'Ошибка!'
 
@@ -31,55 +32,37 @@ def merge_sort_main(*args):
         len_arr = int(file_input.readline().strip())
         array = list(map(int, file_input.readline().strip().split(" ")))
 
-        file_output = open('output' + path[5:], 'w')
-        result = " ".join(map(str, verification(len_arr, array)))
-        file_output.write(result)
+        path = 'output' + path[5:]
+        file_output = open(path, 'w')
+        file_output.close()
+        verification(len_arr, array, 1, path)
     else:
         len_arr, array = args
-        return verification(len_arr, array)
+        return verification(len_arr, array, 1, '')
 
 
-def merge_sort(len_arr, array):
-    middle = len_arr // 2
-    list_a, list_b = array[:middle], array[middle:]
-    len_a, len_b = middle, len_arr - middle
+def merge_sort(start, end, array, source):
+
+    middle = (start + end + 1) // 2
+    list_a, list_b = array[start:middle], array[middle:end+1]
+
+    len_a, len_b = middle - start, end + 1 - middle
     if len_a > 1:
-        list_a = merge_sort(len_a, list_a)
+        list_a = merge_sort(start, middle-1, array, source)
     if len_b > 1:
-        list_b = merge_sort(len_b, list_b)
-    return merge(len_a, len_b, list_a, list_b)
+        list_b = merge_sort(middle, end, array, source)
+    return merge(start, end, list_a, list_b, source)
 
 
-def merge(len_a, len_b, array_a, array_b):
-    len_c = len_a + len_b
-    array_c = [0] * len_c
-    index_a, index_b = 0, 0
-    for index_c in range(len_c):
-        if index_b >= len_b:
-            array_c[index_c] = array_a[index_a]
-            index_a += 1
-        elif index_a >= len_a:
-            array_c[index_c] = array_b[index_b]
-            index_b += 1
-        else:
-            if array_a[index_a] <= array_b[index_b]:
-                array_c[index_c] = array_a[index_a]
-                index_a += 1
-            else:
-                array_c[index_c] = array_b[index_b]
-                index_b += 1
-    return array_c
+def merge(start, end, array_a, array_b, source):
 
-
-"""
-def merge(len_a, len_b, array_a, array_b):
     array_c = []
     index_a, index_b = 0, 0
-    for i in range(len_a + len_b):
-        if index_b == len_b:
+    for i in range(end - start + 1):
+        if index_b == len(array_b):
             array_c.extend(array_a[index_a:])
             break
-        elif index_a == len_a:
+        elif index_a == len(array_a):
             array_c.extend(array_b[index_b:])
             break
         else:
@@ -89,18 +72,23 @@ def merge(len_a, len_b, array_a, array_b):
             else:
                 array_c.append(array_b[index_b])
                 index_b += 1
-
+    # if len(source) == 0:
+    #     print(start+1, end+1, *array_c)
+    # else:
+    #     file = open(source, 'a')
+    #     file.write(f'{start+1} {end+1} {' '.join(map(str, array_c))}\n')
+    #     file.close()
     return array_c
-"""
 
+merge_sort_main(10, [1, 8, 2, 1, 4, 7, 3, 2, 3, 6])
 
 # Запись данных в input файл и запуск программы для этого файла
 
-# file = open('input1.txt', 'w')
+# file = open('input2.txt', 'w')
 # n = 10
 # m = ' '.join(map(str, [randint(-20, 20) for i in range(n)]))
 # file.write(str(n))
 # file.write('\n'+m)
 #
 # file.close()
-# merge_sort_main('input1.txt')
+# merge_sort_main('input2.txt')

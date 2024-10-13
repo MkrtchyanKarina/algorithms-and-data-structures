@@ -3,7 +3,7 @@ import psutil
 import time
 import random
 
-from lab2.task1.src.task1 import merge_sort_main
+from lab2.task2.src.task2 import merge_sort_main
 
 
 class MergeSortTest(unittest.TestCase):
