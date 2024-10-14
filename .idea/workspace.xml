@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f721ea97-be28-463d-90db-e8984220e982" name="Changes" comment="add new files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/task8/src/task8.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task8/src/task8.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/task8/tests/test8.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task8/tests/test8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/task2/src/input2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task2/src/input2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/task2/src/output2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task2/src/output2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/task2/src/task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task2/src/task2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/task4/src/task4.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +75,9 @@
     "Python tests.Python tests for test4.InsertionSortTestCase.test_lineal_search1.executor": "Run",
     "Python tests.Python tests for test4.InsertionSortTestCase.test_lineal_search2.executor": "Run",
     "Python tests.Python tests for test4.InsertionSortTestCase.test_lineal_search3.executor": "Run",
+    "Python tests.Python tests for test4.MergeSortTest.executor": "Run",
+    "Python tests.Python tests for test4.MergeSortTest.test_merge_sort1.executor": "Run",
+    "Python tests.Python tests for test4.MergeSortTest.test_merge_sort3.executor": "Run",
     "Python tests.Python tests for test5.InsertionSortTestCase.executor": "Debug",
     "Python tests.Python tests for test5.InsertionSortTestCase.test_max_count1.executor": "Run",
     "Python tests.Python tests for test5.InsertionSortTestCase.test_selection_sort1.executor": "Run",
@@ -82,6 +87,8 @@
     "Python tests.Python tests for test7.InsertionSortTestCase.test_insertion_sort1.executor": "Run",
     "Python tests.Python tests for test7.InsertionSortTestCase.test_insertion_sort2.executor": "Run",
     "Python tests.Python tests for test7.InsertionSortTestCase.test_insertion_sort3.executor": "Run",
+    "Python tests.Python tests for test7.MaxSubarrayTest.executor": "Run",
+    "Python tests.Python tests for test7.MaxSubarrayTest.test_max_subarray2.executor": "Run",
     "Python tests.Python tests for test8.PolyMultiplyTest.executor": "Run",
     "Python tests.Python tests for test8.PolyMultiplyTest.test_multiply1.executor": "Run",
     "Python tests.Python tests for test8.PolyMultiplyTest.test_multiply2.executor": "Run",
@@ -114,6 +121,7 @@
     "Python.task4.executor": "Run",
     "Python.task5.executor": "Run",
     "Python.task6.executor": "Run",
+    "Python.task7 (1).executor": "Run",
     "Python.task7.executor": "Run",
     "Python.task8 (1).executor": "Run",
     "Python.task8.executor": "Run",
@@ -143,15 +151,15 @@
       <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab1\task5" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab2\task7\src" />
       <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab2\task8\src" />
       <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab2\task4\src" />
       <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab2\task1\src" />
       <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab1\task2\src" />
-      <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab1\task1\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test8.PolyMultiplyTest.test_multiply1">
-    <configuration name="task8" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.task7 (1)">
+    <configuration name="task7 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,11 +168,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab2/task8/src" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab2/task7/src" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab2/task8/src/task8.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab2/task7/src/task7.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,73 +181,80 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test8.PolyMultiplyTest" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="task7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithms-and-data-structures" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab2\task7\src\task7.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test4.MergeSortTest" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab2/task8/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab2/task4/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test8.PolyMultiplyTest&quot;" />
+      <option name="_new_target" value="&quot;test4.MergeSortTest&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test8.PolyMultiplyTest.test_multiply1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test7.MaxSubarrayTest" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab2/task8/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab2/task7/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test8.PolyMultiplyTest.test_multiply1&quot;" />
+      <option name="_new_target" value="&quot;test7.MaxSubarrayTest&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test8.PolyMultiplyTest.test_multiply2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test7.MaxSubarrayTest.test_max_subarray2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab2/task8/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab2/task7/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test8.PolyMultiplyTest.test_multiply2&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test8.PolyMultiplyTest.test_multiply3" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="algorithms-and-data-structures" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab2/task8/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test8.PolyMultiplyTest.test_multiply3&quot;" />
+      <option name="_new_target" value="&quot;test7.MaxSubarrayTest.test_max_subarray2&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test8.PolyMultiplyTest.test_multiply1" />
-        <item itemvalue="Python tests.Python tests for test8.PolyMultiplyTest" />
-        <item itemvalue="Python.task8" />
-        <item itemvalue="Python tests.Python tests for test8.PolyMultiplyTest.test_multiply3" />
-        <item itemvalue="Python tests.Python tests for test8.PolyMultiplyTest.test_multiply2" />
+        <item itemvalue="Python.task7 (1)" />
+        <item itemvalue="Python tests.Python tests for test7.MaxSubarrayTest" />
+        <item itemvalue="Python tests.Python tests for test7.MaxSubarrayTest.test_max_subarray2" />
+        <item itemvalue="Python.task7" />
+        <item itemvalue="Python tests.Python tests for test4.MergeSortTest" />
       </list>
     </recent_temporary>
   </component>
@@ -555,7 +570,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728916679525</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="add new files">
+      <option name="closed" value="true" />
+      <created>1728919134471</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1728919134471</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

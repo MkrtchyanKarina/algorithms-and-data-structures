@@ -80,7 +80,7 @@ def merge(start, end, array_a, array_b, source):
     #     file.close()
     return array_c
 
-merge_sort_main(10, [1, 8, 2, 1, 4, 7, 3, 2, 3, 6])
+
 
 # Запись данных в input файл и запуск программы для этого файла
 
@@ -89,6 +89,6 @@ merge_sort_main(10, [1, 8, 2, 1, 4, 7, 3, 2, 3, 6])
 # m = ' '.join(map(str, [randint(-20, 20) for i in range(n)]))
 # file.write(str(n))
 # file.write('\n'+m)
-#
 # file.close()
+
 # merge_sort_main('input2.txt')
