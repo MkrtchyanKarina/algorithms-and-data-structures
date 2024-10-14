@@ -3,7 +3,7 @@ import psutil
 import time
 import random
 
-from lab2.task8.src.task8 import karatsuba_polynomial_multiply_main
+from lab2.task8.src.task8 import karatsuba_polynomial_multiply
 def poly_multiply(n, A, B):
     C = [0] * (2*n - 1)
     for i in range(n):
@@ -21,7 +21,7 @@ class PolyMultiplyTest(unittest.TestCase):
         print(f'{n}\n{' '.join(map(str, A))}\n{' '.join(map(str, B))}')
 
         t_start = time.perf_counter()
-        result = karatsuba_polynomial_multiply_main(n, A, B)
+        result = karatsuba_polynomial_multiply(n, A, B)
         print("Время работы: %s секунд" % (time.perf_counter() - t_start))
         print(f"Память: {psutil.Process().memory_info().rss / 1024 ** 2:.2f} МБ \n")
 
@@ -34,7 +34,7 @@ class PolyMultiplyTest(unittest.TestCase):
         print(f'{n}\n{' '.join(map(str, A))}\n{' '.join(map(str, B))}')
 
         t_start = time.perf_counter()
-        result = karatsuba_polynomial_multiply_main(n, A, B)
+        result = karatsuba_polynomial_multiply(n, A, B)
         print("Время работы: %s секунд" % (time.perf_counter() - t_start))
         print(f"Память: {psutil.Process().memory_info().rss / 1024 ** 2:.2f} МБ \n")
 
@@ -47,7 +47,7 @@ class PolyMultiplyTest(unittest.TestCase):
         print(f'{n}\n{' '.join(map(str, A))}\n{' '.join(map(str, B))}')
 
         t_start = time.perf_counter()
-        result = karatsuba_polynomial_multiply_main(n, A, B)
+        result = karatsuba_polynomial_multiply(n, A, B)
         print("Время работы: %s секунд" % (time.perf_counter() - t_start))
         print(f"Память: {psutil.Process().memory_info().rss / 1024 ** 2:.2f} МБ \n")
 
