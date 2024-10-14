@@ -52,4 +52,49 @@ def karatsuba_polynomial_multiply(x, y):
     return reformat(multiply(power_of_two(x), power_of_two(y)))
 
 
-print(karatsuba_polynomial_multiply([7, 1, 7, 2, 3, 4, -2, 2, 1, 2, 1, 3, 4, 5, 2, 1, 4, -2, 5, -2, 1, 3, 3, 2, 3, 4, 4, 5, -2, -1], [1, 4, -2, 5, -2, 1, 3, 3, 2, 3, 4, 4, 5, -2, -1, 7, 1, 7, 2, 3, 4, -2, 2, 1, 2, 1, 3, 4, 5, 2]))
+def verification(n, A, B, attempt=1):
+    res = 1
+    if type(n) is int and type(A) is list and type(B) is list:
+        if len(A) == len(B) == n:
+            pass
+        else:
+            res *= 0
+    else:
+        res *= 0
+
+    if res == 0:
+        if attempt == 3:
+            return 'Ошибка!'
+
+        else:
+            print("Введите данные ещё раз, соблюдая ограничения: ")
+            try:
+                new_n = int(input())
+                new_A = list(map(int, input().split(" ")))
+                new_B = list(map(int, input().split(" ")))
+                return verification(new_n, new_A, new_B, attempt + 1)
+            except:
+                return 'Ошибка!'
+    else:
+        return res
+
+
+def karatsuba_polynomial_multiply_main(*args):
+    if len(args) == 1:
+        path = args[0]
+        file_input = open(path, 'r')
+        n = int(file_input.readline())
+        A = list(map(int, file_input.readline().strip().split()))
+        B = list(map(int, file_input.readline().strip().split()))
+        if verification(n, A, B):
+            file_output = open('output' + path[5:], 'w')
+            file_output.write(karatsuba_polynomial_multiply(A, B))
+    else:
+        n, A, B = args
+        if verification(n, A, B):
+            return karatsuba_polynomial_multiply(A, B)
+
+
+
+# karatsuba_polynomial_multiply_main('input8.txt')
+# print(karatsuba_polynomial_multiply_main(30, [7, 1, 7, 2, 3, 4, -2, 2, 1, 2, 1, 3, 4, 5, 2, 1, 4, -2, 5, -2, 1, 3, 3, 2, 3, 4, 4, 5, -2, -1], [1, 4, -2, 5, -2, 1, 3, 3, 2, 3, 4, 4, 5, -2, -1, 7, 1, 7, 2, 3, 4, -2, 2, 1, 2, 1, 3, 4, 5, 2]))
