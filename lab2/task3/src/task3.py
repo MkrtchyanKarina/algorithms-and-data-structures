@@ -1,7 +1,9 @@
 from random import randint
 
+result = 0
 
-def verification(n, array, attempt):
+
+def verification(n, array, attempt=1):
 
     res = 1
     if type(n) is int and 1 <= n <= 10 ** 5:
@@ -20,7 +22,7 @@ def verification(n, array, attempt):
             try:
                 new_n = int(input())
                 new_array = list(map(int, input().split(" ")))
-                return verification(new_n, new_array, attempt + 1)
+                return verification(new_n, new_array, attempt)
             except:
                 return 'Ошибка!'
 
@@ -36,15 +38,13 @@ def merge_sort_main(args):
 
         path = 'output' + path[5:]
         file_output = open(path, 'w')
+        result = str(number_of_permutations(len_arr, array))
+        file_output.write(result)
         file_output.close()
-        verification(len_arr, array, 1)
     else:
         len_arr, array = args
-        return verification(len_arr, array, 1)
+        return verification(len_arr, array)
 
-
-
-result = 0
 
 def merge_sort(len_arr, array):
     middle = len_arr // 2
@@ -55,7 +55,6 @@ def merge_sort(len_arr, array):
     if len_b > 1:
         list_b = merge_sort(len_b, list_b)
     return merge(len_a, len_b, list_a, list_b)
-
 
 
 def merge(len_a, len_b, array_a, array_b):
@@ -83,35 +82,25 @@ def merge(len_a, len_b, array_a, array_b):
                 step = abs(index_c - len_a - index_b)
                 index_b += 1
         count += step
-    # print(count//2, array_a, array_b, array_c)
     result += count//2
     return array_c
 
+
 def number_of_permutations(*args):
-    merge_sort_main(args)
+    merge_sort_main([i for i in args])
     return result
-def bubble_sort(n, m):
-    count = 0
-    for i in range(n):
-        for j in range(0, n-i-1):
 
-            if m[j] > m[j+1]:
-                m[j], m[j+1] = m[j+1], m[j]
-                count += 1
-    return count
 
-n = 1000
-m = [randint(-10 ** 9, 10 ** 9) for i in range(n)]
-print(number_of_permutations(n, m))
-# print(number_of_permutations() == bubble_sort(n, m))
+
 
 # Запись данных в input файл и запуск программы для этого файла
 
-# file = open('input2.txt', 'w')
-# n = 10
-# m = ' '.join(map(str, [randint(-20, 20) for i in range(n)]))
+# file = open('input3.txt', 'w')
+# n = 10**5
+# arr = [randint(-10**9, 10**9) for i in range(n)]
+# m = ' '.join(map(str, arr))
 # file.write(str(n))
 # file.write('\n'+m)
-#
 # file.close()
-# merge_sort_main('input2.txt')
+#
+# number_of_permutations('input3.txt')

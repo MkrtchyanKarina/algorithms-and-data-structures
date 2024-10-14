@@ -3,8 +3,18 @@ import psutil
 import time
 import random
 
-from lab2.task3.src.task3 import bubble_sort, number_of_permutations
+from lab2.task3.src.task3 import number_of_permutations
 
+
+def bubble_sort(n, m):
+    count = 0
+    for i in range(n):
+        for j in range(0, n-i-1):
+
+            if m[j] > m[j+1]:
+                m[j], m[j+1] = m[j+1], m[j]
+                count += 1
+    return count
 
 class PermutationsTest(unittest.TestCase):
     def test_permutations1(self):
