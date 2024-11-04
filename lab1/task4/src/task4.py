@@ -17,7 +17,7 @@ def lineal_search(m, x):
 
 
 # file = open("input4.txt")
-# A = list(map(int, file.readline().split(" ")))
+# array = list(map(int, file.readline().split(" ")))
 # V = int(file.readline())
-# open("output4.txt", "w").write(lineal_search(A, V))
+# open("output4.txt", "w").write(lineal_search(array, V))
 

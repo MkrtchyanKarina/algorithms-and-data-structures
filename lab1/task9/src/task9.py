@@ -17,6 +17,6 @@ def sum_dv(a, b):
     result = result[result.index("1"):]
     return result
 
-# a, b = open('input9.txt').readline().split(" ")
+# array, b = open('input9.txt').readline().split(" ")
 # file_output = open('output9.txt', 'w')
-# file_output.write(sum_dv(a, b))
+# file_output.write(sum_dv(array, b))

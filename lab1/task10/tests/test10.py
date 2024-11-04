@@ -8,7 +8,7 @@ import random
 class InsertionSortTestCase(unittest.TestCase):
     def test_palindrome1(self):
         t_start = time.perf_counter()
-        self.assertEqual(palindrome(1, "A"), "A")
+        self.assertEqual(palindrome(1, "array"), "array")
         print("Время работы: %s секунд" % (time.perf_counter() - t_start))
         print(f"Память: {psutil.Process().memory_info().rss / 1024 ** 2:.2f} МБ")
 
@@ -32,7 +32,7 @@ class InsertionSortTestCase(unittest.TestCase):
 
     def test_palindrome5(self):
         t_start = time.perf_counter()
-        self.assertEqual(palindrome(6, "ABCDEF"), "A")
+        self.assertEqual(palindrome(6, "ABCDEF"), "array")
         print("Время работы: %s секунд" % (time.perf_counter() - t_start))
         print(f"Память: {psutil.Process().memory_info().rss / 1024 ** 2:.2f} МБ")
 

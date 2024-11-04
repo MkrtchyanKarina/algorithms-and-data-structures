@@ -98,9 +98,9 @@ def merge(len_a, len_b, array_a, array_b):
 
 # file = open('input1.txt', 'w')
 # n = 10
-# m = ' '.join(map(str, [randint(-20, 20) for i in range(n)]))
+# strings = ' '.join(map(str, [randint(-20, 20) for i in range(n)]))
 # file.write(str(n))
-# file.write('\n'+m)
+# file.write('\n'+strings)
 #
 # file.close()
 # merge_sort_main('input1.txt')

@@ -25,6 +25,6 @@ def swap(n, m):
 # file_input = open('input8.txt')
 # file_output = open('output8.txt', 'w')
 # n = int(file_input.readline())
-# m = list(map(int, file_input.readline().split(" ")))
-# file_output.write(swap(n, m))
+# strings = list(map(int, file_input.readline().split(" ")))
+# file_output.write(swap(n, strings))
 

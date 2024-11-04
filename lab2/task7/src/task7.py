@@ -68,9 +68,9 @@ def verification(n, array, attempt=1):
 
 # file = open('input7.txt', 'w')
 # n = 10**5
-# m = ' '.join(map(str, [randint(-10**9, 10**9) for i in range(n)]))
+# strings = ' '.join(map(str, [randint(-10**9, 10**9) for i in range(n)]))
 # file.write(str(n))
-# file.write('\n'+m)
+# file.write('\n'+strings)
 #
 # file.close()
 # line_find_max_subarray_main('input7.txt')

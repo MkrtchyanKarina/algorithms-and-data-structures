@@ -75,7 +75,7 @@ def merge(start, end, array_a, array_b, source):
     # if len(source) == 0:
     #     print(start+1, end+1, *array_c)
     # else:
-    #     file = open(source, 'a')
+    #     file = open(source, 'array')
     #     file.write(f'{start+1} {end+1} {' '.join(map(str, array_c))}\n')
     #     file.close()
     return array_c
@@ -86,9 +86,9 @@ def merge(start, end, array_a, array_b, source):
 
 # file = open('input2.txt', 'w')
 # n = 10
-# m = ' '.join(map(str, [randint(-20, 20) for i in range(n)]))
+# strings = ' '.join(map(str, [randint(-20, 20) for i in range(n)]))
 # file.write(str(n))
-# file.write('\n'+m)
+# file.write('\n'+strings)
 # file.close()
 
 # merge_sort_main('input2.txt')

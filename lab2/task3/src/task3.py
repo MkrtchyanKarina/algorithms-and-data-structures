@@ -97,10 +97,10 @@ def number_of_permutations(*args):
 
 # file = open('input3.txt', 'w')
 # n = 10**5
-# arr = [randint(-10**9, 10**9) for i in range(n)]
-# m = ' '.join(map(str, arr))
+# strings = [randint(-10**9, 10**9) for i in range(n)]
+# strings = ' '.join(map(str, strings))
 # file.write(str(n))
-# file.write('\n'+m)
+# file.write('\n'+strings)
 # file.close()
 #
 # number_of_permutations('input3.txt')
