@@ -11,15 +11,15 @@ def min_distance2(count, dots):
     return d_min
 
 def write_dots(count, start, end):
-    dots = [()]*count
+    dots = []
     for i in range(count):
-        dots[i] = (randint(start, end), randint(start, end))
+        dots.append((randint(start, end), randint(start, end)))
     return dots
 
 def test_shortest_distance():
     assert shortest_distance(2, [(0, 0), (3, 4)]) == 5.0
-    # dots = write_dots(100, -1000, 1000)
-    # assert shortest_distance(100, dots) == min_distance2(100, dots)
+    dots = write_dots(100, -1000, 1000)
+    assert shortest_distance(100, dots) == min_distance2(100, dots)
 
 
 dots = write_dots(10**5, -10**9, 10**9)
