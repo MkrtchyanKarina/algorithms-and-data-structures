@@ -1,34 +1,18 @@
 import pathlib
 
 
-class Read_txt:
-    def __init__(self, file_name: str, task_number: int, function, **arguments):
-        file = open(pathlib.Path(pathlib.Path(__file__).parent.parent, 'task'+str(task_number), 'txtf', file_name), 'r')
-
-def f_read():
-    args = ()
-    f = open('../txtf/input.txt', 'r')
-    for line in f:
-        args += ((int(line),) if len(line.split()) == 1 else ([int(elem) for elem in line.split()],))
-    f.close()
-    return args
+def read_txt(task_number: int):
+    folder = f'task{task_number}'
+    input_file = f'input{task_number}.txt'
+    path = pathlib.Path(pathlib.Path(__file__).parent.parent, folder, 'txtf', input_file)
+    file = open(path)
+    arguments = file.read().split("\n")
+    return arguments
 
 
-def f_write(answer):
-    f = open('../txtf/output.txt', 'array')
-    if type(answer) is list:
-        answer = ' '.join(map(str, answer)) + '\n'
-    elif type(answer) is int:
-        answer = str(answer) + '\n'
-    f.write(answer)
-    f.close()
-
-
-def work(func, *dop):
-    input_data = f_read()
-    if len(dop) != 0:
-        args = (input_data[1],) + (0,) + (len(input_data[1]) - 1,)
-    else:
-        args = tuple(input_data)
-    result = func(*args)
-    f_write(result)
+def write_txt(task_number: int, result:str):
+    folder = f'task{task_number}'
+    output_file = f'output{task_number}.txt'
+    path = pathlib.Path(pathlib.Path(__file__).parent.parent, folder, 'txtf', output_file)
+    file = open(path, 'w')
+    file.write(result)

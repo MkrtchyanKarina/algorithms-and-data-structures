@@ -1,39 +1,48 @@
-import string
 import time
-from random import randint, choice
 
 import psutil
 
+from lab3.src.utils import *
+import typing as tp
 
-def radix_sort(n, m, k, strings):
+
+def time_memory(function):
+    def check(n: int, m: int, k: int, strings: tp.List[str]):
+        start = time.time()
+        function(n, m, k, strings)
+        print("Время работы: %s секунд" % (time.time() - start))
+        print(f"Память: {psutil.Process().memory_info().rss / 1024 ** 2:.2f} МБ")
+    return check
+
+def strings_sort_txt():
+    arguments = read_txt(task_number=7)
+    n, m, k = list(map(int, arguments[0].split()))
+    strings = []
+    for s in range(n):
+        strings.append(arguments[s+1])
+    res = ' '.join(map(str, strings_sort(n, m, k, strings)))
+    write_txt(task_number=7, result=res)
+
+
+def radix_sort(k: int, strings: tp.List[tp.List[str]]):
     alf = {i:[] for i in range(97, 123)}
     for s in strings:
         alf[ord(s[1][k])] += [s]
     return sum(alf.values(), [])
 
-def strings_sort(n, m, k, strings):
+def reformat(n, strings):
+    strings_indexes = []
+    for s in range(n):
+        strings_indexes.append([s+1, strings[s]])
+    return strings_indexes
+
+
+def strings_sort(n: int, m: int, k: int, strings: tp.List[str]):
+    strings = reformat(n, strings)
     for ind in range(m-1, m-k-1, -1):
-        strings = radix_sort(n, m, ind, strings)
+        strings = radix_sort(ind, strings)
     return [s[0] for s in strings]
 
-# strings = [[1,'bbb'], [2,'aba'], [3,'baa']]
-# n = 3
-# m = 3
-# k = 3
-# print(strings_sort(m, n, k, strings))
 
-
-n = 10**4
-m = 5*10**7 // n
-k = m
-alf = string.ascii_lowercase
-strings = [[] for i in range(n)]
-
-for i in range(n):
-    s = ''.join([choice(alf) for j in range(m)])
-    strings[i] = [i+1, s]
-
-start = time.time()
-strings_sort(n, m, k, strings)
-print("Время работы: %s секунд" % (time.time() - start))
-print(f"Память: {psutil.Process().memory_info().rss / 1024 ** 2:.2f} МБ")
+if __name__ == "__main__":
+    strings_sort_txt()
