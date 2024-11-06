@@ -24,13 +24,13 @@ def radix_sort(k: int, strings: tp.List[tp.List[str]]):
 
 
 def strings_sort_txt():
-    arguments = read_txt(task_number=7)
+    arguments = read_txt(__file__)
     n, m, k = list(map(int, arguments[0].split()))
     strings = []
     for s in range(n):
         strings.append(arguments[s+1])
     res = ' '.join(map(str, strings_sort(n, m, k, strings)))
-    write_txt(task_number=7, result=res)
+    write_txt(__file__, result=res)
 
 if __name__ == "__main__":
     strings_sort_txt()

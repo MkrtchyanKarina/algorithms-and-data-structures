@@ -1,7 +1,8 @@
 import pathlib
 
 
-def read_txt(task_number: int):
+def read_txt(file: str):
+    task_number = file.split('\\')[-1][4:-3]
     folder = f'task{task_number}'
     input_file = f'input{task_number}.txt'
     path = pathlib.Path(pathlib.Path(__file__).parent.parent, folder, 'txtf', input_file)
@@ -10,7 +11,8 @@ def read_txt(task_number: int):
     return arguments
 
 
-def write_txt(task_number: int, result:str):
+def write_txt(file: str, result:str):
+    task_number = file.split('\\')[-1][4:-3]
     folder = f'task{task_number}'
     output_file = f'output{task_number}.txt'
     path = pathlib.Path(pathlib.Path(__file__).parent.parent, folder, 'txtf', output_file)
