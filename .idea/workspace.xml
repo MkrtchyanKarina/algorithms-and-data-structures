@@ -6,9 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f721ea97-be28-463d-90db-e8984220e982" name="Changes" comment="add new files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/src/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/src/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/task5/src/task5.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/task5/src/task5.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab3/task7/src/task7.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/task7/src/task7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/task7/tests/test7.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/task7/tests/test7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/task9/src/task9.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/task9/src/task9.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/task9/tests/test9.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/task9/tests/test9.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,8 +114,13 @@
     "Python tests.Python tests in test_fib_matrix.py.executor": "Run",
     "Python tests.pytest for test7.MergeSortTest.executor": "Run",
     "Python tests.pytest for test7.MergeSortTest.test_merge_sort1.executor": "Run",
+    "Python tests.pytest for test7.MergeSortTest.test_str_sort0.executor": "Run",
+    "Python tests.pytest for test7.MergeSortTest.test_str_sort1.executor": "Run",
+    "Python tests.pytest for test7.MergeSortTest.test_str_sort2.executor": "Run",
+    "Python tests.pytest for test7.StringsSortTest.executor": "Run",
     "Python tests.pytest for test9.test_shortest_distance.executor": "Run",
     "Python tests.pytest in test7.py.executor": "Run",
+    "Python tests.pytest in test9.py.executor": "Run",
     "Python.fib.executor": "Run",
     "Python.fib_matrix.executor": "Run",
     "Python.h-index.executor": "Run",
@@ -167,29 +173,7 @@
       <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab1\task2\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.task5 (1)">
-    <configuration name="task5 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="algorithms-and-data-structures" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab3/task5/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab3/task5/src/task5.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.pytest for test7.MergeSortTest">
     <configuration name="task5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
@@ -212,74 +196,98 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="task5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="algorithms-and-data-structures" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab3/task5/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab3\task5\src\task5.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="task7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="algorithms-and-data-structures" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab3/task7/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab3/task7/src/task7.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test9.test_shortest_distance" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test7.MergeSortTest" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab3/task9/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab3/task7/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test9.test_shortest_distance&quot;" />
+      <option name="_new_target" value="&quot;test7.MergeSortTest&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test7.MergeSortTest.test_str_sort0" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="algorithms-and-data-structures" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab3/task7/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test7.MergeSortTest.test_str_sort0&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test7.MergeSortTest.test_str_sort1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="algorithms-and-data-structures" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab3/task7/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test7.MergeSortTest.test_str_sort1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test7.StringsSortTest" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="algorithms-and-data-structures" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab3/task7/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test7.StringsSortTest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test7.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="algorithms-and-data-structures" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab3/task7/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/lab3/task7/tests/test7.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.task5 (1)" />
-        <item itemvalue="Python.task7" />
-        <item itemvalue="Python.task52 (1)" />
-        <item itemvalue="Python.task52" />
-        <item itemvalue="Python tests.pytest for test9.test_shortest_distance" />
+        <item itemvalue="Python tests.pytest for test7.MergeSortTest" />
+        <item itemvalue="Python tests.pytest for test7.MergeSortTest.test_str_sort1" />
+        <item itemvalue="Python tests.pytest for test7.MergeSortTest.test_str_sort0" />
+        <item itemvalue="Python tests.pytest for test7.StringsSortTest" />
+        <item itemvalue="Python tests.pytest in test7.py" />
       </list>
     </recent_temporary>
   </component>
@@ -635,7 +643,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730888319047</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="add new files">
+      <option name="closed" value="true" />
+      <created>1730890007216</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1730890007216</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

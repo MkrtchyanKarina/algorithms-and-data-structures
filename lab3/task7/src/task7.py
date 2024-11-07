@@ -2,6 +2,13 @@ from lab3.src.utils import *
 import typing as tp
 
 
+def limits(n:int, m: int, k:int, strings: tp.List[str]):
+    if (1 <= n <= 10**6) and (1 <= k <= m <= 10**6) and (n*m <= 5*10**7) and (len(strings) == n) and all(len(s) == m for s in strings):
+        return True
+    else:
+        return False
+
+
 def strings_sort(n: int, m: int, k: int, strings: tp.List[str]):
     strings = reformat(n, strings)
     for ind in range(m-1, m-k-1, -1):
@@ -29,8 +36,9 @@ def strings_sort_txt():
     strings = []
     for s in range(n):
         strings.append(arguments[s+1])
-    res = ' '.join(map(str, strings_sort(n, m, k, strings)))
-    write_txt(__file__, result=res)
+    if limits(n, m, k, strings):
+        res = ' '.join(map(str, strings_sort(n, m, k, strings)))
+        write_txt(__file__, result=res)
 
 if __name__ == "__main__":
     strings_sort_txt()
