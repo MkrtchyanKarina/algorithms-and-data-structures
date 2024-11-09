@@ -3,6 +3,8 @@
 
 Навигация по репозиторию:
 
+  ------------------------------------------------------------------------------------------------
+
 [lab0](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab0)
 
 1. [task1](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab0/task1)
@@ -34,7 +36,8 @@
 9. [task9](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab1/task9)
   
 10. [task10](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab1/task10)
-  
+
+  ------------------------------------------------------------------------------------------------
 
 [lab2](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab2)
 
@@ -50,6 +53,8 @@
   
 8. [task8](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab2/task8)
 
+  ------------------------------------------------------------------------------------------------
+
 [lab3](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab3)
 
 1. [task1](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab3/task1)
@@ -63,4 +68,6 @@
 7. [task7](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab3/task7)
   
 9. [task9](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab3/task9)
+
+  ------------------------------------------------------------------------------------------------
 
