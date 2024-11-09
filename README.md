@@ -1,5 +1,6 @@
 # algorithms-and-data-structures
 Репозиторий для лабораторных работ по АиСД cтудентки ИТМО - Мкртчян Карины (id: 466745).
+
 Навигация по репозиторию:
 
 [lab0](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab0)
@@ -9,8 +10,9 @@
 2. [task2](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab0/task2)
   
 3. [task3](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab0/task3)
-  
 
+  ------------------------------------------------------------------------------------------------
+  
 [lab1](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab1)
 
 1. [task1](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab1/task1)
