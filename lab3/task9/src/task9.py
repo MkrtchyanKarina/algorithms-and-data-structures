@@ -1,4 +1,4 @@
-from random import randint
+from lab3.src.utils import File
 
 
 class Dot:
@@ -7,25 +7,18 @@ class Dot:
         self.y = y
 
 
-def create_new_dots(count, start, end):
-    dots = []
-    for i in range(count):
-        dots.append(Dot(randint(start, end), randint(start, end)))
-    return dots
-
-
-def shortest_distance(dots, n):
+def shortest_distance(n: int, dots: list[Dot]) -> float:
     dots = sorted(dots, key=lambda point: point.x)
-    return separation(dots, n)
+    return separation(n, dots)
 
 
-def separation(dots, n):
+def separation(n: int, dots: list[Dot]):
     if n <= 3:
-        return slow_shortest_distance(dots, n)
+        return slow_shortest_distance(n, dots)
     middle = n // 2
     mid_dot = dots[middle]
-    dl = separation(dots[:middle], middle)
-    dr = separation(dots[middle:], n - middle)
+    dl = separation(middle, dots[:middle])
+    dr = separation(middle, dots[middle:])
     d = min(dl, dr)
     strip = []
     for i in range(n):
@@ -37,7 +30,6 @@ def separation(dots, n):
 def centre_dots(strip, size, d):
     min_dist = d
     strip = sorted(strip, key=lambda dot: dot.y)
-
     for i in range(size):
         for j in range(i + 1, size):
             if (strip[j].y - strip[i].y) >= min_dist:
@@ -46,11 +38,14 @@ def centre_dots(strip, size, d):
     return min_dist
 
 
-def euclidean_dist(dot1, dot2):
-    return ((dot1.x - dot2.x) ** 2 + (dot1.y - dot2.y) ** 2)**0.5
+def euclidean_dist(dot1: Dot, dot2: Dot) -> float:
+    return round(((dot1.x - dot2.x) ** 2 + (dot1.y - dot2.y) ** 2)**0.5, 4)
 
 
-def slow_shortest_distance(dots, n):
+
+
+
+def slow_shortest_distance(n, dots):
     min_dist = float("inf")
     for i in range(n):
         for j in range(i + 1, n):
@@ -58,8 +53,25 @@ def slow_shortest_distance(dots, n):
     return min_dist
 
 
+def limits(n: int, dots: list[Dot]) -> bool:
+    if 1 <= n <= 10**5 and len(dots) == n and all(abs(d.x) <= 10**9 and abs(d.y) <= 10**9 for d in dots):
+        return True
+    else:
+        return False
+
+
+def quick_sort_txt():
+    f = File(__file__)
+    arguments = f.read()
+    n = int(arguments[0])
+    dots = []
+    for i in range(1, n+1):
+        x, y = map(int, arguments[i].split(" "))
+        dots.append(Dot(x, y))
+    if limits(n, dots):
+        res = str(shortest_distance(n, dots))
+        f.write(res)
+
+
 if __name__ == "__main__":
-    dots = [Dot(x=2, y=3), Dot(x=12, y=30),
-            Dot(x=40, y=50), Dot(x=5, y=1), Dot(x=12, y=10), Dot(x=3, y=4)]
-    n = len(dots)
-    print(shortest_distance(dots, n))
+    quick_sort_txt()
