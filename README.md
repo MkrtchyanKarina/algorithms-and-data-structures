@@ -4,11 +4,11 @@
 
 [lab0](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab0)
 
-    [task1](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab0/task1)
+1. [task1](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab0/task1)
   
-    [task2](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab0/task2)
+2. [task2](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab0/task2)
   
-    [task3](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab0/task3)
+3. [task3](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab0/task3)
   
 
 [lab1](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab1)
