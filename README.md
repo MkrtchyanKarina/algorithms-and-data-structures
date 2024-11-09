@@ -4,7 +4,7 @@
 
 [lab0](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab0)
 
-1. [task1](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab0/task1)
+a. [task1](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab0/task1)
   
 2. [task2](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab0/task2)
   
