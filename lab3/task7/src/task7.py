@@ -31,14 +31,15 @@ def radix_sort(k: int, strings: tp.List[tp.List[str]]):
 
 
 def strings_sort_txt():
-    arguments = read_txt(__file__)
+    f = File(__file__)
+    arguments = f.read()
     n, m, k = list(map(int, arguments[0].split()))
     strings = []
     for s in range(n):
         strings.append(arguments[s+1])
     if limits(n, m, k, strings):
         res = ' '.join(map(str, strings_sort(n, m, k, strings)))
-        write_txt(__file__, result=res)
+        f.write(res)
 
 if __name__ == "__main__":
     strings_sort_txt()

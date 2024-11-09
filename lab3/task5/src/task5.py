@@ -2,19 +2,16 @@ import re
 from lab3.src.utils import *
 
 
-def h_index(citations: list) -> int:
-    if limits(citations):
-        res = 0
-        citations = sorted(citations)[::-1]
-        for i in range(len(citations)):
-            if citations[i] >= i + 1:
-                res += 1
-        return res
-    else:
-        return -1
+def h_index(citations: list[int]) -> int:
+    res = 0
+    citations = sorted(citations)[::-1]
+    for i in range(len(citations)):
+        if citations[i] >= i + 1:
+            res += 1
+    return res
 
 
-def limits(citations: list):
+def limits(citations: list[int]) -> bool:
     n = len(citations)
     if 1 <= n <= 5000 and all(0 <= i <= 1000 for i in citations):
         return True
@@ -23,11 +20,11 @@ def limits(citations: list):
 
 
 def h_index_txt():
-    args = list(map(int, re.split('[, ]', read_txt(__file__)[0])))
-    result = str(h_index(args))
-    write_txt(__file__, result)
-
-
+    f = File(__file__)
+    args = list(map(int, re.split('[, ]', f.read()[0])))
+    if limits(args):
+        result = str(h_index(args))
+        f.write(result)
 
 if __name__ == "__main__":
     h_index_txt()

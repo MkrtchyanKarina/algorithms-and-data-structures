@@ -5,7 +5,6 @@ import time
 from random import *
 from prettytable import PrettyTable
 from lab3.task7.src.task7 import *
-import typing as tp
 
 
 def create_array(n: int, m: int):
@@ -28,7 +27,8 @@ table = PrettyTable()
 table.field_names = [' ', "данные", "время, сек.", "память, МБ", "результат"]
 table.hrules = 1
 
-class MergeSortTest(unittest.TestCase):
+
+class StringsSortTest(unittest.TestCase):
 
     def test_str_sort0(self):
         global table
@@ -43,7 +43,7 @@ class MergeSortTest(unittest.TestCase):
 
         self.assertEqual(result, check(n, m, k, strings))
 
-        table.add_row(["Минимальные данные", f'{n} {m} {k}\n{arr_to_str(strings)}', t_end, memory, arr_to_str(result)])
+        table.add_row(["Минимальные значения", f'{n} {m} {k}\n{arr_to_str(strings)}', t_end, memory, arr_to_str(result)])
 
 
     def test_str_sort1(self):
@@ -59,7 +59,7 @@ class MergeSortTest(unittest.TestCase):
 
         self.assertEqual(result, check(n, m, k, strings))
 
-        table.add_row(["Данные из примера", f'{n} {m} {k}\n{arr_to_str(strings)}', t_end, memory, arr_to_str(result)])
+        table.add_row(["Значения из примера", f'{n} {m} {k}\n{arr_to_str(strings)}', t_end, memory, arr_to_str(result)])
 
 
     def test_str_sort2(self):
@@ -75,6 +75,6 @@ class MergeSortTest(unittest.TestCase):
         self.assertEqual(result, check(n, m, k, strings))
 
 
-        table.add_row(["Данные из примера", f'{n} {m} {k}\n{arr_to_str([x[:3] for x in strings[:3]])}', t_end, memory, arr_to_str(result)])
+        table.add_row(["Максимальные значения", f'{n} {m} {k}\n{arr_to_str([x[:3] for x in strings[:3]])}', t_end, memory, arr_to_str(result)])
         print()
         print(table)

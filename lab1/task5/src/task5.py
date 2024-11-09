@@ -15,7 +15,7 @@ def selection_sort(n, m):
     return m
 
 
-# file = open("input5.txt")
+# file = open("input3.txt")
 # test_n = int(file.readline())
 # test_m = list(map(int, file.readline().split(" ")))
 # open("output5.txt", "w").write(" ".join(map(str, selection_sort(test_n, test_m))))

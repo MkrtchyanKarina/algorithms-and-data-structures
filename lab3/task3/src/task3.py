@@ -1,4 +1,4 @@
-from random import shuffle, randint
+from lab3.src.utils import File
 
 
 def scarecrow_sort(n: int, k: int, array: list) -> str:
@@ -11,14 +11,20 @@ def scarecrow_sort(n: int, k: int, array: list) -> str:
         return "ДА"
     else:
         return "НЕТ"
+def limits(n: int, k: int, array: list[int]) -> bool:
+    if 1 <= k < n <= 10**5 and all(abs(x) <= 10**9 for x in array):
+        return True
+    else:
+        return False
+
+def scarecrow_sort_txt():
+    f = File(__file__)
+    data = f.read()
+    n, k = list(map(int, data[0].split(" ")))
+    array = list(map(int, data[1].split(" ")))
+    if limits(n, k, array):
+        f.write(scarecrow_sort(n, k, array))
 
 
-l = [1, 5, 3, 4, 1]
-print(scarecrow_sort(5, 3, l))
-
-
-l = [1, 5, 3, 4, 1, 7, 6, 8, 2]
-print(scarecrow_sort(9, 4, l))
-
-l = [randint(-10**9, 10**9) for i in range(10**5)]
-print(scarecrow_sort(10**5, 10**3, l))
+if __name__ == "__main__":
+    scarecrow_sort_txt()

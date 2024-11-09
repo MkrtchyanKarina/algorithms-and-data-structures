@@ -1,20 +1,21 @@
 import pathlib
 
 
-def read_txt(file: str):
-    task_number = file.split('\\')[-1][4:-3]
-    folder = f'task{task_number}'
-    input_file = f'input{task_number}.txt'
-    path = pathlib.Path(pathlib.Path(__file__).parent.parent, folder, 'txtf', input_file)
-    file = open(path)
-    arguments = file.read().split("\n")
-    return arguments
+class File:
+    def __init__(self, file):
+        self.file = file
+        self.task_number = self.file.split('\\')[-1][4:-3]
+        self.folder = f'task{self.task_number}'
 
+    def read(self):
+        input_file = f'input{self.task_number}.txt'
+        path = pathlib.Path(pathlib.Path(__file__).parent.parent, self.folder, 'txtf', input_file)
+        file = open(path, 'r', encoding="utf-8")
+        arguments = file.read().split("\n")
+        return arguments
 
-def write_txt(file: str, result:str):
-    task_number = file.split('\\')[-1][4:-3]
-    folder = f'task{task_number}'
-    output_file = f'output{task_number}.txt'
-    path = pathlib.Path(pathlib.Path(__file__).parent.parent, folder, 'txtf', output_file)
-    file = open(path, 'w')
-    file.write(result)
+    def write(self, result: str):
+        output_file = f'output{self.task_number}.txt'
+        path = pathlib.Path(pathlib.Path(__file__).parent.parent, self.folder, 'txtf', output_file)
+        file = open(path, 'w', encoding="utf-8")
+        file.write(result)
