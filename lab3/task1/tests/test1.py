@@ -11,7 +11,7 @@ table.field_names = [' ', "данные", "время, сек.", "память, 
 table.hrules = 1
 
 
-class ScarecrowSortTest(unittest.TestCase):
+class QuickSortTest(unittest.TestCase):
     def test_quick_sort0(self):
         global table
         t_start = time.time()

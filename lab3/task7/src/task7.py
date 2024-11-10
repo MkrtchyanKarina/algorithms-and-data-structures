@@ -2,13 +2,6 @@ from lab3.src.utils import *
 import typing as tp
 
 
-def limits(n:int, m: int, k:int, strings: tp.List[str]):
-    if (1 <= n <= 10**6) and (1 <= k <= m <= 10**6) and (n*m <= 5*10**7) and (len(strings) == n) and all(len(s) == m for s in strings):
-        return True
-    else:
-        return False
-
-
 def strings_sort(n: int, m: int, k: int, strings: tp.List[str]):
     strings = reformat(n, strings)
     for ind in range(m-1, m-k-1, -1):
@@ -16,18 +9,25 @@ def strings_sort(n: int, m: int, k: int, strings: tp.List[str]):
     return [s[0] for s in strings]
 
 
+def radix_sort(k: int, strings: list[tp.List[str]]) -> list[int]:
+    alf = {i:[] for i in range(97, 123)}
+    for s in strings:
+        alf[ord(s[1][k])] += [s]
+    return sum(alf.values(), [])
+
+
+def limits(n:int, m: int, k:int, strings: tp.List[str]):
+    if (1 <= n <= 10**6) and (1 <= k <= m <= 10**6) and (n*m <= 5*10**7) and (len(strings) == n) and all(len(s) == m for s in strings):
+        return True
+    else:
+        return False
+
+
 def reformat(n, strings):
     strings_indexes = []
     for s in range(n):
         strings_indexes.append([s+1, strings[s]])
     return strings_indexes
-
-
-def radix_sort(k: int, strings: tp.List[tp.List[str]]):
-    alf = {i:[] for i in range(97, 123)}
-    for s in strings:
-        alf[ord(s[1][k])] += [s]
-    return sum(alf.values(), [])
 
 
 def strings_sort_txt():

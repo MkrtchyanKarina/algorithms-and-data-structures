@@ -11,11 +11,14 @@ def scarecrow_sort(n: int, k: int, array: list) -> str:
         return "ДА"
     else:
         return "НЕТ"
+
+
 def limits(n: int, k: int, array: list[int]) -> bool:
     if 1 <= k < n <= 10**5 and all(abs(x) <= 10**9 for x in array):
         return True
     else:
         return False
+
 
 def scarecrow_sort_txt():
     f = File(__file__)

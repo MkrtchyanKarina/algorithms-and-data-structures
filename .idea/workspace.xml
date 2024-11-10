@@ -6,11 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f721ea97-be28-463d-90db-e8984220e982" name="Changes" comment="add new files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/task1/src/task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/task1/src/task1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/task2/src/task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/task2/src/task2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/task9/src/task9.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/task9/src/task9.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/task9/tests/test9.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/task9/tests/test9.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/task9/txtf/task9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/task9/txtf/input9.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/task1/tests/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/task1/tests/test1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/task3/src/task3.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/task3/src/task3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/task7/src/task7.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/task7/src/task7.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +46,7 @@
     "Python tests.Python tests for test1.MergeSortTest.test_merge_sort3.executor": "Run",
     "Python tests.Python tests for test1.MergeSortTest.test_merge_sort4.executor": "Run",
     "Python tests.Python tests for test1.MergeSortTest.test_merge_sort5.executor": "Run",
+    "Python tests.Python tests for test1.QuickSortTest.executor": "Run",
     "Python tests.Python tests for test1.ScarecrowSortTest.executor": "Run",
     "Python tests.Python tests for test1.Sum_ab_test.executor": "Run",
     "Python tests.Python tests for test1.Sum_ab_test.test_sum_ab.executor": "Run",
@@ -100,6 +99,7 @@
     "Python tests.Python tests for test7.InsertionSortTestCase.test_insertion_sort3.executor": "Run",
     "Python tests.Python tests for test7.MaxSubarrayTest.executor": "Run",
     "Python tests.Python tests for test7.MaxSubarrayTest.test_max_subarray2.executor": "Run",
+    "Python tests.Python tests for test7.StringsSortTest.executor": "Run",
     "Python tests.Python tests for test8.PolyMultiplyTest.executor": "Run",
     "Python tests.Python tests for test8.PolyMultiplyTest.test_multiply1.executor": "Run",
     "Python tests.Python tests for test8.PolyMultiplyTest.test_multiply2.executor": "Run",
@@ -111,9 +111,11 @@
     "Python tests.Python tests for test9.InsertionSortTestCase.test_insertion_sort3.executor": "Run",
     "Python tests.Python tests for test9.ScarecrowSortTest.executor": "Run",
     "Python tests.Python tests for test9.ScarecrowSortTest.test_quick_sort0.executor": "Run",
+    "Python tests.Python tests for test9.ShortestDistanceTest.executor": "Run",
     "Python tests.Python tests for test9.ShortestDistanceTest.test_shortest_distance0.executor": "Run",
     "Python tests.Python tests for test9.ShortestDistanceTest.test_shortest_distance1.executor": "Run",
     "Python tests.Python tests for test9.ShortestDistanceTest.test_shortest_distance2.executor": "Run",
+    "Python tests.Python tests for test9.ShortestDistanceTest.test_shortest_distance3.executor": "Run",
     "Python tests.Python tests for test9.test_shortest_distance.executor": "Run",
     "Python tests.Python tests for test_fib.fib_number_test.test_fib_number (1).executor": "Run",
     "Python tests.Python tests for test_fib.fib_number_test.test_fib_number.executor": "Run",
@@ -189,68 +191,68 @@
       <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab1\task2\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test9.ShortestDistanceTest.test_shortest_distance2">
-    <configuration name="Python tests for test9.ScarecrowSortTest" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test5.HIndexTest">
+    <configuration name="Python tests for test2.ScarecrowSortTest" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab3/task9/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab3/task2/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test9.ScarecrowSortTest&quot;" />
+      <option name="_new_target" value="&quot;test2.ScarecrowSortTest&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test9.ScarecrowSortTest.test_quick_sort0" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test3.ScarecrowSortTest" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab3/task9/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab3/task3/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test9.ScarecrowSortTest.test_quick_sort0&quot;" />
+      <option name="_new_target" value="&quot;test3.ScarecrowSortTest&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test9.ShortestDistanceTest.test_shortest_distance0" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test5.HIndexTest" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab3/task9/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab3/task5/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test9.ShortestDistanceTest.test_shortest_distance0&quot;" />
+      <option name="_new_target" value="&quot;test5.HIndexTest&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test9.ShortestDistanceTest.test_shortest_distance1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test7.StringsSortTest" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab3/task9/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab3/task7/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test9.ShortestDistanceTest.test_shortest_distance1&quot;" />
+      <option name="_new_target" value="&quot;test7.StringsSortTest&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test9.ShortestDistanceTest.test_shortest_distance2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test9.ShortestDistanceTest" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -261,17 +263,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test9.ShortestDistanceTest.test_shortest_distance2&quot;" />
+      <option name="_new_target" value="&quot;test9.ShortestDistanceTest&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test9.ShortestDistanceTest.test_shortest_distance2" />
-        <item itemvalue="Python tests.Python tests for test9.ShortestDistanceTest.test_shortest_distance1" />
-        <item itemvalue="Python tests.Python tests for test9.ShortestDistanceTest.test_shortest_distance0" />
-        <item itemvalue="Python tests.Python tests for test9.ScarecrowSortTest" />
-        <item itemvalue="Python tests.Python tests for test9.ScarecrowSortTest.test_quick_sort0" />
+        <item itemvalue="Python tests.Python tests for test5.HIndexTest" />
+        <item itemvalue="Python tests.Python tests for test3.ScarecrowSortTest" />
+        <item itemvalue="Python tests.Python tests for test2.ScarecrowSortTest" />
+        <item itemvalue="Python tests.Python tests for test9.ShortestDistanceTest" />
+        <item itemvalue="Python tests.Python tests for test7.StringsSortTest" />
       </list>
     </recent_temporary>
   </component>
@@ -651,7 +653,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731174211134</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="add new files">
+      <option name="closed" value="true" />
+      <created>1731183359308</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1731183359308</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
