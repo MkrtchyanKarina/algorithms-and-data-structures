@@ -74,14 +74,24 @@
 Запуск проекта
 
   Клонируйте репозиторий:
+  
     git clone https://github.com/username/repository-name.git
+    
   Перейдите в папку с проектом:
+  
     cd repository-name/lab1
+    
   Запуску всех задач
+  
     команда
+    
   Запуску всех тестов задач
+  
     python -m unittest discover
+
     
 Тестирование
+
 Для запуска тестов выполните:
+
     python -m unittest discover
