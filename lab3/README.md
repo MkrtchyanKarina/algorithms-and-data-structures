@@ -13,7 +13,7 @@
 [lab3](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab3)
 
   |---- [task1](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab3/task1)
-  |
+  
   |---- [task2](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab3/task2)
   |
   |---- [task3](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab3/task3)
