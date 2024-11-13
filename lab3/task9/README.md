@@ -8,7 +8,7 @@ Input / Output
 
   ![image](https://github.com/user-attachments/assets/47656423-3152-46c0-bd10-6489e8d9c45c)
 
-  ![image](https://github.com/user-attachments/assets/c05ad09e-f285-483f-8a3f-3fe4bda57329)
+  ![image](https://github.com/user-attachments/assets/ed646f39-de04-4489-8b7c-e11388fe3e83)
 
   ![image](https://github.com/user-attachments/assets/46bb31e3-cd5c-4ed2-9948-05dc13e3289c)
 
@@ -16,7 +16,7 @@ Input / Output
   
 Ограничения по времени и памяти
 
-    Ограничение по времени. 3 сек.
+    Ограничение по времени. 10 сек.
   
     Ограничение по памяти. 256 мб.
   
