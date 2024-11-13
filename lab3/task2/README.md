@@ -6,7 +6,8 @@
 
 Input / Output
 
-  ![image](https://github.com/user-attachments/assets/214dc051-fcc4-4d9a-bd4a-9ce577d64108)
+  ![image](https://github.com/user-attachments/assets/b50e001d-da5e-4a5d-ac08-6969ad865640)
+
 
 
   
