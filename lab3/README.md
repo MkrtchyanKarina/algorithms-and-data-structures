@@ -12,17 +12,17 @@
 
 [lab3](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab3)
 
----- [task1](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab3/task1)
-
----- [task2](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab3/task2)
-
----- [task3](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab3/task3)
-
----- [task5](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab3/task5)
-
----- [task7](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab3/task7)
-
----- [task9](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab3/task9)
+  |---- [task1](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab3/task1)
+  |
+  |---- [task2](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab3/task2)
+  |
+  |---- [task3](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab3/task3)
+  |
+  |---- [task5](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab3/task5)
+  |
+  |---- [task7](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab3/task7)
+  |
+  |---- [task9](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab3/task9)
 
 
     
