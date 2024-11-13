@@ -48,5 +48,5 @@ class ScarecrowSortTest(unittest.TestCase):
         t_end = round(time.time() - t_start, 2)
         memory = round(psutil.Process().memory_info().rss / 1024 ** 2, 2)
         table.add_row(["Минимальные значения", n, t_end, memory,f'{" ".join(map(str, result[:10]))}...'])
-        print()
+        print(f'\n{__file__}')
         print(table)

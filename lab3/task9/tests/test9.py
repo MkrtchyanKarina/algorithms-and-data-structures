@@ -58,5 +58,5 @@ class ShortestDistanceTest(unittest.TestCase):
         t_end = round(time.time() - t_start, 2)
         memory = round(psutil.Process().memory_info().rss / 1024 ** 2, 2)
         table.add_row(["Максимальные значения", f'{n}\n{" ".join(map(str, array[:2]))}...', t_end, memory,result])
-        print()
+        print(f'\n{__file__}')
         print(table)

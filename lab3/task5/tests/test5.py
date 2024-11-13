@@ -57,5 +57,5 @@ class HIndexTest(unittest.TestCase):
         memory = round(psutil.Process().memory_info().rss / 1024 ** 2, 2)
         self.assertEqual(result, hindex(citations))
         table.add_row(["Максимальные значения", f'{' '.join(map(str, citations[:4]))}...', t_end, memory,result])
-        print()
+        print(f'\n{__file__}')
         print(table)

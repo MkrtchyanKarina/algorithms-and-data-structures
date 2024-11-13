@@ -55,6 +55,6 @@ class QuickSortTest(unittest.TestCase):
         memory = round(psutil.Process().memory_info().rss / 1024 ** 2, 2)
         self.assertEqual(result, sorted(m))
         table.add_row(["Максимальные значения", f'{n}\n{" ".join(map(str, m[:3]))}...', t_end, memory, f'{" ".join(map(str, result[:3]))}...'])
-        print()
+        print(f'\n{__file__}')
         print(table)
 

@@ -24,7 +24,7 @@ def worst_case_txt():
         res = " ".join(map(str, worst_case(n)))
         f.write(res)
 
-print(worst_case(10))
+
 
 if __name__ == "__main__":
     worst_case_txt()

@@ -76,5 +76,5 @@ class StringsSortTest(unittest.TestCase):
 
 
         table.add_row(["Максимальные значения", f'{n} {m} {k}\n{arr_to_str([x[:3] for x in strings[:3]])}', t_end, memory, arr_to_str(result)])
-        print()
+        print(f'\n{__file__}')
         print(table)
