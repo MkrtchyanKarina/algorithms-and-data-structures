@@ -5,15 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f721ea97-be28-463d-90db-e8984220e982" name="Changes" comment="add new files">
+      <change afterPath="$PROJECT_DIR$/lab4/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/task2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/task2/src/task2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/task2/tests/test2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/task2/txtf/input2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/task2/txtf/output2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/task4/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/task4/src/task4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/task4/tests/test4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/task4/txtf/input3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/task4/txtf/output3.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/task1/tests/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/task1/tests/test1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/task2/src/task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/task2/src/task2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/task2/tests/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/task2/tests/test2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/task3/tests/test3.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/task3/tests/test3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/task5/tests/test5.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/task5/tests/test5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/task7/tests/test7.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/task7/tests/test7.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/task9/tests/test9.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/task9/tests/test9.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/task9/txtf/output9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/task9/txtf/output9.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task2/tests/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/src/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task4/tests/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/task1/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/task2/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/task3/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/task5/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/task7/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/task9/__init__.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,6 +158,7 @@
     "Python tests.pytest for test9.test_shortest_distance.executor": "Run",
     "Python tests.pytest in test7.py.executor": "Run",
     "Python tests.pytest in test9.py.executor": "Run",
+    "Python.algorithms-and-data-structures.executor": "Run",
     "Python.fib.executor": "Run",
     "Python.fib_matrix.executor": "Run",
     "Python.h-index.executor": "Run",
@@ -177,17 +192,17 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/User/PycharmProjects/algorithms-and-data-structures/lab3/src",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "last_opened_file_path": "C:/Users/User/PycharmProjects/algorithms-and-data-structures/lab4",
+    "settings.editor.selected.configurable": "configurable.group.tools"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab4" />
+      <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures" />
       <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab3\src" />
       <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab3\task9\tests" />
       <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab3\task7\tests" />
-      <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab3\task5\tests" />
-      <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab3\task3\tests" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab2\task7\src" />
@@ -197,8 +212,77 @@
       <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab1\task2\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test2.ScarecrowSortTest.test_worst_case0">
+    <configuration name="algorithms-and-data-structures" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab3/task9/src" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="algorithms-and-data-structures" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab3/task9/src" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="algorithms-and-data-structures" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -207,11 +291,55 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab3/src" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4/task2/src" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab3/src/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab4/task2/src/task2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithms-and-data-structures" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4/task4/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab4/task4/src/task4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithms-and-data-structures" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4/task6/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab4\task6\src\task6.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -226,7 +354,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab3/task2/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4/task2/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -235,58 +363,28 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test3.ScarecrowSortTest" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test2.ScarecrowSortTest.test_worst_case0" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab3/task3/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4/task2/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test3.ScarecrowSortTest&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test5.HIndexTest" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="algorithms-and-data-structures" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab3/task5/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test5.HIndexTest&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test9.ShortestDistanceTest" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="algorithms-and-data-structures" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab3/task9/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test9.ShortestDistanceTest&quot;" />
+      <option name="_new_target" value="&quot;test2.ScarecrowSortTest.test_worst_case0&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python tests.Python tests for test5.HIndexTest" />
-        <item itemvalue="Python tests.Python tests for test3.ScarecrowSortTest" />
+        <item itemvalue="Python tests.Python tests for test2.ScarecrowSortTest.test_worst_case0" />
         <item itemvalue="Python tests.Python tests for test2.ScarecrowSortTest" />
-        <item itemvalue="Python tests.Python tests for test9.ShortestDistanceTest" />
+        <item itemvalue="Python.task2" />
+        <item itemvalue="Python.task6" />
+        <item itemvalue="Python.task4" />
       </list>
     </recent_temporary>
   </component>
