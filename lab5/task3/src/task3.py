@@ -2,34 +2,37 @@ from lab4.src.utils import File
 
 
 
-def pack(buffer_size, packages_count, packages):
+def net_packet_processing(buffer_size, packages_count, packages):
+    if packages_count == 0:
+        return None
     deque = []
+    result = []
     head = 0
     buffer_time = packages[0][0]
     for p in packages:
         start_time, duration = p
         head = max([head] + [index for index in range(len(deque)) if deque[index] <= start_time])
         if len(deque[head+1:]) < buffer_size:
-            print(max(buffer_time, start_time))
+            result += [max(buffer_time, start_time)]
             buffer_time += duration
             deque.append(buffer_time)
         else:
-            print(-1)
+            result += [-1]
+    # print(result)
+    return result
 
 
 
 
 
-pack(3, 6 ,[(0, 2), (1, 2), (2, 2), (3, 2), (4, 2), (5, 2)])
-print()
-pack(2, 3, [(0, 1), (3, 1), (10, 1)])
-print()
-pack(1, 2, [(0, 1), (2, 1)])
-# def limits(n: int) -> bool:
-#     if 1 <= n <= 10**6:
-#         return True
-#     else:
-#         return False
+net_packet_processing(1, 1, [(0, 0)])
+
+
+def limits(buffer_size, packages_count, packages) -> bool:
+    if (1 <= buffer_size <= 10**5) and (1 <= packages_count <= 10**5) and all(0 <= a <= 10**6 and 0 <= p <= 10**3 for a, p in packages):
+        return True
+    else:
+        return False
 #
 #
 # def worst_case_txt():
