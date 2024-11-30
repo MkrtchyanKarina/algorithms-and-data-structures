@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f721ea97-be28-463d-90db-e8984220e982" name="Changes" comment="add new files">
-      <change afterPath="$PROJECT_DIR$/lab4/task11/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task11/src/task11.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task11/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task11/tests/test4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task11/txtf/input3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task11/txtf/output3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task8/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task8/src/task8.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task8/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task8/tests/test4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task8/txtf/input3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task8/txtf/output3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/src/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5/src/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -182,18 +173,19 @@
     "Python.test_fib.executor": "Run",
     "Python.test_fib_matrix.executor": "Run",
     "Python.utils.executor": "Run",
+    "Python.var.executor": "Run",
     "Python.verifications.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/User/PycharmProjects/algorithms-and-data-structures/lab4",
+    "last_opened_file_path": "C:/Users/User/PycharmProjects/algorithms-and-data-structures",
     "settings.editor.selected.configurable": "configurable.group.tools"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab4" />
       <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures" />
+      <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab4" />
       <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab3\src" />
       <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab3\task9\tests" />
       <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab3\task7\tests" />
@@ -206,7 +198,7 @@
       <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab2\task1\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.task11">
+  <component name="RunManager" selected="Python.task3">
     <configuration name="task11" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
@@ -229,7 +221,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="task13.1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="task3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -238,11 +230,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4/task13/src" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab5/task3/src" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab4/task13/src/task13.1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab5/task3/src/task3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -251,7 +243,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="task13.3 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="task4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -260,33 +252,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4/task13/src" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab5/task4/src" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab4/task13/src/task13.3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="task13.3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="algorithms-and-data-structures" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4/task13/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab4\task13\src\task13.3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab5/task4/src/task4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -317,13 +287,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="var" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithms-and-data-structures" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/var.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.task3" />
+        <item itemvalue="Python.var" />
+        <item itemvalue="Python.task4" />
         <item itemvalue="Python.task11" />
         <item itemvalue="Python.task8" />
-        <item itemvalue="Python.task13.3 (1)" />
-        <item itemvalue="Python.task13.1" />
-        <item itemvalue="Python.task13.3" />
       </list>
     </recent_temporary>
   </component>
@@ -342,14 +334,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726664580045</updated>
-    </task>
-    <task id="LOCAL-00003" summary="add new files">
-      <option name="closed" value="true" />
-      <created>1726667833200</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1726667833200</updated>
     </task>
     <task id="LOCAL-00004" summary="add new files">
       <option name="closed" value="true" />
@@ -735,7 +719,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732528622825</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="add new files">
+      <option name="closed" value="true" />
+      <created>1732535732543</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1732535732543</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
