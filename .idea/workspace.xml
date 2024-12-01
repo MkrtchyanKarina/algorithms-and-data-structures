@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f721ea97-be28-463d-90db-e8984220e982" name="Changes" comment="add new files">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/task3/tests/test3.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/task3/tests/test3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/task4/src/task4.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/task4/src/task4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/task4/tests/test4.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/task4/tests/test4.py" afterDir="false" />
-    </list>
+    <list default="true" id="f721ea97-be28-463d-90db-e8984220e982" name="Changes" comment="add new files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -205,7 +200,7 @@
       <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab2\task1\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test4.TestHeapSortSwaps.test_should_heap_sort2">
+  <component name="RunManager" selected="Python tests.Python tests for test4.TestHeapSortSwaps">
     <configuration name="task4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
@@ -297,8 +292,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test4.TestHeapSortSwaps.test_should_heap_sort2" />
         <item itemvalue="Python tests.Python tests for test4.TestHeapSortSwaps" />
+        <item itemvalue="Python tests.Python tests for test4.TestHeapSortSwaps.test_should_heap_sort2" />
         <item itemvalue="Python.task4" />
         <item itemvalue="Python tests.Python tests for test4.TestHeapSortSwaps.test_should_heap_sort0" />
         <item itemvalue="Python.test" />
@@ -320,14 +315,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726664580045</updated>
-    </task>
-    <task id="LOCAL-00006" summary="added new tests">
-      <option name="closed" value="true" />
-      <created>1726859638471</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1726859638471</updated>
     </task>
     <task id="LOCAL-00007" summary="added new tests">
       <option name="closed" value="true" />
@@ -713,7 +700,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733005310667</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="add new files">
+      <option name="closed" value="true" />
+      <created>1733055824142</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1733055824142</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

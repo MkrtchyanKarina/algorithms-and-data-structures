@@ -1,4 +1,4 @@
-from lab4.src.utils import File
+
 
 
 
@@ -18,14 +18,13 @@ def net_packet_processing(buffer_size, packages_count, packages):
             deque.append(buffer_time)
         else:
             result += [-1]
-    # print(result)
     return result
 
 
 
 
 
-net_packet_processing(1, 1, [(0, 0)])
+
 
 
 def limits(buffer_size, packages_count, packages) -> bool:
@@ -33,18 +32,3 @@ def limits(buffer_size, packages_count, packages) -> bool:
         return True
     else:
         return False
-#
-#
-# def worst_case_txt():
-#     f = File(__file__)
-#     arguments = f.read()
-#     n = int(arguments[0])
-#
-#     if limits(n):
-#         res = " ".join(map(str, worst_case(n)))
-#         f.write(res)
-#
-#
-#
-# if __name__ == "__main__":
-#     worst_case_txt()
