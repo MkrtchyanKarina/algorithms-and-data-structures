@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f721ea97-be28-463d-90db-e8984220e982" name="Changes" comment="add new files" />
+    <list default="true" id="f721ea97-be28-463d-90db-e8984220e982" name="Changes" comment="add new files">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/task2/src/task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/task2/src/task2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/task2/src/task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task2/src/task2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5/task3/src/task3.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/task3/src/task3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5/task3/txtf/input2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/task3/txtf/input3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5/task3/txtf/output2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/task3/txtf/output3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5/task4/src/task4.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/task4/src/task4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5/task4/txtf/input3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5/task4/txtf/output3.txt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -200,7 +210,29 @@
       <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab2\task1\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test4.TestHeapSortSwaps">
+  <component name="RunManager" selected="Python.task3">
+    <configuration name="task3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithms-and-data-structures" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab5/task3/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab5/task3/src/task3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="task4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
@@ -215,28 +247,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab5/task4/src/task4.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="algorithms-and-data-structures" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab5/task4/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab5/task4/src/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -292,11 +302,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.task3" />
         <item itemvalue="Python tests.Python tests for test4.TestHeapSortSwaps" />
         <item itemvalue="Python tests.Python tests for test4.TestHeapSortSwaps.test_should_heap_sort2" />
         <item itemvalue="Python.task4" />
         <item itemvalue="Python tests.Python tests for test4.TestHeapSortSwaps.test_should_heap_sort0" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -315,14 +325,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726664580045</updated>
-    </task>
-    <task id="LOCAL-00007" summary="added new tests">
-      <option name="closed" value="true" />
-      <created>1726860206839</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1726860206839</updated>
     </task>
     <task id="LOCAL-00008" summary="added new files">
       <option name="closed" value="true" />
@@ -708,7 +710,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733055824142</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="add new files">
+      <option name="closed" value="true" />
+      <created>1733056095819</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1733056095819</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
