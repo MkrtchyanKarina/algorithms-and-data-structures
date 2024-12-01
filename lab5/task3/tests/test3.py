@@ -106,13 +106,11 @@ class TestNetworkPacketProcessing(unittest.TestCase):
 
         # then
 
-        table.add_row(["Значения из примера",f'{size}\n{count}\n{packages[count-5:]}', t_end, memory, " ".join(map(str, result[count-5:]))])
+        table.add_row(["Максимальные значения",f'{size}\n{count}\n{packages[count-5:]}', t_end, memory, " ".join(map(str, result[count-5:]))])
+        print()
         print(table)
+        table.clear_rows()
 
-    # def test_should_processing_table(self):
-    #     print()
-    #     print(table)
-        # table.clear_rows()
 
 if __name__ == '__main__':
     unittest.main()

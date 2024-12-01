@@ -1,48 +1,42 @@
+import typing as tp
+
+
 class MinHeap:
-    def __init__(self):
-        self.heap = []
+    def __init__(self, array_len: int, array: tp.List[int]) -> None:
+        self.heap = array
+        self.high = array_len
+        self.swaps = []
 
-    def insert(self, val):
-        self.heap.append(val)  # Добавляем новый элемент в конец
-        self.bubble_up(len(self.heap) - 1)  # Поднимаем элемент до правильной позиции
+    def heap_sort(self) -> (int, tp.List[tp.Tuple[int]]):
+        for i in range(self.high // 2 - 1, -1, -1):
+            self.swap(i)
+        return len(self.swaps), self.swaps
 
-    def bubble_up(self, index):
-        parent_index = (index - 1) // 2
-        if index > 0 and self.heap[index] < self.heap[parent_index]:
-            # Обмен значений между дочерним и родительским узлом
-            self.heap[index], self.heap[parent_index] = self.heap[parent_index], self.heap[index]
-            self.bubble_up(parent_index)  # Продолжаем подъем для родительского узла
-
-    def build_heap(self, elements):
-        self.heap = elements[:]  # Копируем элементы в кучу
-        for i in range(len(self.heap) // 2 - 1, -1, -1):
-            self.heapify(i)
-
-    def heapify(self, index):
+    def swap(self, index: int) -> None:
         smallest = index
         left = 2 * index + 1
         right = 2 * index + 2
 
-        # Находим меньший из текущего, левого и правого дочерних узлов
-        if left < len(self.heap) and self.heap[left] < self.heap[smallest]:
+        if left < self.high and self.heap[left] < self.heap[smallest]:
             smallest = left
-        if right < len(self.heap) and self.heap[right] < self.heap[smallest]:
+
+        if right < self.high and self.heap[right] < self.heap[smallest]:
             smallest = right
 
-        # Если самый маленький элемент не является родительским
         if smallest != index:
+            self.swaps += [(index, smallest)]
             self.heap[index], self.heap[smallest] = self.heap[smallest], self.heap[index]
-            self.heapify(smallest)  # Продолжаем обрабатывать
+            self.swap(smallest)
 
-    def __str__(self):
-        return str(self.heap)
+    @staticmethod
+    def limits(array_len: int, array: tp.List[int]) -> bool:
+        if 1 <= array_len <= 10**5 and len(array) == array_len and all(0 <= a <= 10**9 for a in array):
+            return True
+        else:
+            return False
 
 
-# Пример использования
 if __name__ == "__main__":
     elements = [5, 4, 3, 2, 1]
-
-    # Создаем пирамиду
-    heap = MinHeap()
-    heap.build_heap(elements)
-    print("Неубывающая пирамида:", heap)
+    heap = MinHeap(5, elements).heap_sort()
+    print(heap)
