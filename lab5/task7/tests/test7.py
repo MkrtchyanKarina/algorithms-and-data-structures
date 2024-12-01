@@ -12,6 +12,7 @@ class TestHeapSort(unittest.TestCase):
         # given
         n = 10**3
         array = [randint(-10**9, 10**9) for _ in range(n)]
+        expected_result = sorted(array.copy())[::-1]
 
         # when
         t_start = time.perf_counter()
@@ -20,7 +21,7 @@ class TestHeapSort(unittest.TestCase):
         memory = round(psutil.Process().memory_info().rss / 1024 ** 2, 2)
 
         # then
-        self.assertEqual(result, sorted(array)[::-1])
+        self.assertEqual(result, expected_result)
         table.add_row(["Минимальные значения", f'{n}\n{array[:4]}', t_end, memory, f'{result[:4]}'])
 
         print()
@@ -33,6 +34,7 @@ class TestHeapSort(unittest.TestCase):
         # given
         n = 10**4
         array = [randint(-10**9, 10**9) for _ in range(n)]
+        expected_result = sorted(array.copy())[::-1]
 
         # when
         t_start = time.perf_counter()
@@ -41,7 +43,7 @@ class TestHeapSort(unittest.TestCase):
         memory = round(psutil.Process().memory_info().rss / 1024 ** 2, 2)
 
         # then
-        self.assertEqual(result, sorted(array)[::-1])
+        self.assertEqual(result, expected_result)
         table.add_row(["Средние значения", f'{n}\n{array[:4]}', t_end, memory, f'{result[:4]}'])
 
         print()
@@ -53,6 +55,7 @@ class TestHeapSort(unittest.TestCase):
         # given
         n = 10**5
         array = [randint(-10**9, 10**9) for _ in range(n)]
+        expected_result = sorted(array.copy())[::-1]
 
         # when
         t_start = time.perf_counter()
@@ -61,7 +64,7 @@ class TestHeapSort(unittest.TestCase):
         memory = round(psutil.Process().memory_info().rss / 1024 ** 2, 2)
 
         # then
-        self.assertEqual(result, sorted(array)[::-1])
+        self.assertEqual(result, expected_result)
         table.add_row(["Максимальные значения", f'{n}\n{array[:4]}', t_end, memory, f'{result[:4]}'])
 
         print()
@@ -75,6 +78,7 @@ class TestHeapSort(unittest.TestCase):
         n = 10**5
         x, y = randint(-10**9, 10**9), randint(10**9, 10**9)
         array = [[x, y][i % 2] for i in range(n)]
+        expected_result = sorted(array.copy())[::-1]
 
         # when
         t_start = time.perf_counter()
@@ -83,7 +87,7 @@ class TestHeapSort(unittest.TestCase):
         memory = round(psutil.Process().memory_info().rss / 1024 ** 2, 2)
 
         # then
-        self.assertEqual(result, sorted(array)[::-1])
+        self.assertEqual(result, expected_result)
         table.add_row(["Повторяющиеся значения", f'{n}\n{array[:4]}', t_end, memory, f'{result[:4]}'])
 
         print()

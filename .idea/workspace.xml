@@ -240,7 +240,7 @@
       <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab2\task1\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test1.TestIsHeap.test_should_is_heap_args2">
+  <component name="RunManager" selected="Python tests.Python tests in test1.py">
     <configuration name="task1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
@@ -261,21 +261,6 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test1.TestIsHeap" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="algorithms-and-data-structures" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab5/task1/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test1.TestIsHeap&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests for test1.TestIsHeap.test_should_is_heap_args1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -308,28 +293,43 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test7.TestHeapSort" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test1.TestIsHeap.test_should_is_heap_max" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab5/task7/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab5/task1/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test7.TestHeapSort&quot;" />
+      <option name="_new_target" value="&quot;test1.TestIsHeap.test_should_is_heap_max&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test1.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="algorithms-and-data-structures" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab5/task1/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/lab5/task1/tests/test1.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests in test1.py" />
+        <item itemvalue="Python tests.Python tests for test1.TestIsHeap.test_should_is_heap_max" />
         <item itemvalue="Python tests.Python tests for test1.TestIsHeap.test_should_is_heap_args2" />
         <item itemvalue="Python tests.Python tests for test1.TestIsHeap.test_should_is_heap_args1" />
         <item itemvalue="Python.task1" />
-        <item itemvalue="Python tests.Python tests for test1.TestIsHeap" />
-        <item itemvalue="Python tests.Python tests for test7.TestHeapSort" />
       </list>
     </recent_temporary>
   </component>
