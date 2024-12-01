@@ -24,5 +24,5 @@ def matrix_multiply_2x2(A, B, m):
 
 # file_input = open("input.txt")
 # file_output = open("output.txt", "w")
-# n = int(file_input.readline())
-# file_output.write(str(last_digit(n)))
+# high = int(file_input.readline())
+# file_output.write(str(last_digit(high)))

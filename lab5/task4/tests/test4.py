@@ -56,5 +56,5 @@ class TestHeapSortSwaps(unittest.TestCase):
         table.add_row(["Максимальные значения",f'{n}\n{array[:4]}', t_end, memory, f'{result[0]}\n{result[1][:4]}'])
         print()
         print(table)
-        table.clear_rows()
+        # table.clear_rows()
 

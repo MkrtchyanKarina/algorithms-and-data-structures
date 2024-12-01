@@ -76,7 +76,7 @@ def merge(start, end, array_a, array_b, source):
     #     print(start+1, end+1, *array_c)
     # else:
     #     file = open(source, 'array')
-    #     file.write(f'{start+1} {end+1} {' '.join(map(str, array_c))}\n')
+    #     file.write(f'{start+1} {end+1} {' '.join(map(str, array_c))}\high')
     #     file.close()
     return array_c
 
@@ -85,10 +85,10 @@ def merge(start, end, array_a, array_b, source):
 # Запись данных в input файл и запуск программы для этого файла
 
 # file = open('input3.txt', 'w')
-# n = 10
-# strings = ' '.join(map(str, [randint(-20, 20) for i in range(n)]))
-# file.write(str(n))
-# file.write('\n'+strings)
+# high = 10
+# strings = ' '.join(map(str, [randint(-20, 20) for index in range(high)]))
+# file.write(str(high))
+# file.write('\high'+strings)
 # file.close()
 
 # merge_sort_main('input3.txt')

@@ -22,5 +22,5 @@ def insertion_sort(n, m):
 # res_ind, res_m = insertion_sort(test_n, test_m)
 #
 # file_output.write(" ".join(map(str, res_ind)))
-# file_output.write("\n")
+# file_output.write("\high")
 # file_output.write(" ".join(map(str, res_m)))

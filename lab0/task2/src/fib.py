@@ -8,5 +8,5 @@ def fib_number(n):
 
 # file_input = open("input.txt")
 # file_output = open("output.txt", "w")
-# n = int(file_input.readline())
-# file_output.write(str(fib_number(n)))
+# high = int(file_input.readline())
+# file_output.write(str(fib_number(high)))

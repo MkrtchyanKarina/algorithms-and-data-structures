@@ -20,8 +20,8 @@ print(bureaucracy(3, 2, [1, 2, 3]))
 print(bureaucracy(4, 5, [2, 5, 2, 3]))
 
 
-# def limits(n: int, k: int, array: list[int]) -> bool:
-#     if 1 <= k < n <= 10**5 and all(abs(x) <= 10**9 for x in array):
+# def limits(high: int, k: int, array: list[int]) -> bool:
+#     if 1 <= k < high <= 10**5 and all(abs(x) <= 10**9 for x in array):
 #         return True
 #     else:
 #         return False
@@ -30,10 +30,10 @@ print(bureaucracy(4, 5, [2, 5, 2, 3]))
 # def scarecrow_sort_txt():
 #     f = File(__file__)
 #     data = f.read()
-#     n, k = list(map(int, data[0].split(" ")))
+#     high, k = list(map(int, data[0].split(" ")))
 #     array = list(map(int, data[1].split(" ")))
-#     if limits(n, k, array):
-#         f.write(scarecrow_sort(n, k, array))
+#     if limits(high, k, array):
+#         f.write(scarecrow_sort(high, k, array))
 #
 #
 # if __name__ == "__main__":

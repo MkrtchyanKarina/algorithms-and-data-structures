@@ -17,7 +17,7 @@ table.hrules = 1
 # { 1
 # {[} 3
 # foo(bar); Success
-# foo(bar[i); 10
+# foo(bar[index); 10
 
 class ScarecrowSortTest(unittest.TestCase):
     # def test_scr_sort0(self):

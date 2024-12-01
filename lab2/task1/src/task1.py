@@ -75,7 +75,7 @@ def merge(len_a, len_b, array_a, array_b):
 def merge(len_a, len_b, array_a, array_b):
     array_c = []
     index_a, index_b = 0, 0
-    for i in range(len_a + len_b):
+    for index in range(len_a + len_b):
         if index_b == len_b:
             array_c.extend(array_a[index_a:])
             break
@@ -97,10 +97,10 @@ def merge(len_a, len_b, array_a, array_b):
 # Запись данных в input файл и запуск программы для этого файла
 
 # file = open('input1.txt', 'w')
-# n = 10
-# strings = ' '.join(map(str, [randint(-20, 20) for i in range(n)]))
-# file.write(str(n))
-# file.write('\n'+strings)
+# high = 10
+# strings = ' '.join(map(str, [randint(-20, 20) for index in range(high)]))
+# file.write(str(high))
+# file.write('\high'+strings)
 #
 # file.close()
 # merge_sort_main('input1.txt')

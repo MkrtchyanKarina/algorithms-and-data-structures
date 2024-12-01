@@ -96,11 +96,11 @@ def number_of_permutations(*args):
 # Запись данных в input файл и запуск программы для этого файла
 
 # file = open('input3.txt', 'w')
-# n = 10**5
-# strings = [randint(-10**9, 10**9) for i in range(n)]
+# high = 10**5
+# strings = [randint(-10**9, 10**9) for index in range(high)]
 # strings = ' '.join(map(str, strings))
-# file.write(str(n))
-# file.write('\n'+strings)
+# file.write(str(high))
+# file.write('\high'+strings)
 # file.close()
 #
 # number_of_permutations('input3.txt')

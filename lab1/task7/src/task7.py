@@ -39,6 +39,6 @@ def merge_list(arr1, arr2, n1, n2):
 
 # input_file = open('input7.txt')
 # output_file = open('output7.txt', 'w')
-# n = int(input_file.readline().strip())
-# M = [float(i) for i in input_file.readline().strip().split()]
-# output_file.write(" ".join(map(str, sort_land(n, M))))
+# high = int(input_file.readline().strip())
+# M = [float(index) for index in input_file.readline().strip().split()]
+# output_file.write(" ".join(map(str, sort_land(high, M))))

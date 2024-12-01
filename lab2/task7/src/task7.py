@@ -67,10 +67,10 @@ def verification(n, array, attempt=1):
 # Запись данных в input файл и запуск программы для этого файла
 
 # file = open('input7.txt', 'w')
-# n = 10**5
-# strings = ' '.join(map(str, [randint(-10**9, 10**9) for i in range(n)]))
-# file.write(str(n))
-# file.write('\n'+strings)
+# high = 10**5
+# strings = ' '.join(map(str, [randint(-10**9, 10**9) for index in range(high)]))
+# file.write(str(high))
+# file.write('\high'+strings)
 #
 # file.close()
 # line_find_max_subarray_main('input7.txt')

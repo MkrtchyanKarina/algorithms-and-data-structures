@@ -18,8 +18,8 @@ print(queue_actions(s))
 
 
 
-# def limits(n: int) -> bool:
-#     if 1 <= n <= 10**6:
+# def limits(high: int) -> bool:
+#     if 1 <= high <= 10**6:
 #         return True
 #     else:
 #         return False
@@ -28,10 +28,10 @@ print(queue_actions(s))
 # def worst_case_txt():
 #     f = File(__file__)
 #     arguments = f.read()
-#     n = int(arguments[0])
+#     high = int(arguments[0])
 #
-#     if limits(n):
-#         res = " ".join(map(str, worst_case(n)))
+#     if limits(high):
+#         res = " ".join(map(str, worst_case(high)))
 #         f.write(res)
 #
 #

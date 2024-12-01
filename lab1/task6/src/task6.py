@@ -4,7 +4,7 @@ from lab1.src.verifications import data_verification1
 @data_verification1
 def bubble_sort(n, m):
     for i in range(n):
-        # print(strings[i], strings)
+        # print(strings[index], strings)
         for j in range(0, n-i-1):
 
             if m[j] > m[j+1]:
