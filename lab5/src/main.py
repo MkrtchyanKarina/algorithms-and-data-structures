@@ -17,3 +17,4 @@ for i in range(2, 6): # в цикле от первой до последней 
 if __name__ == "__main__":
     for f in src_path:
         subprocess.run(['python', str(f)])
+        print(f'{f}  ran')

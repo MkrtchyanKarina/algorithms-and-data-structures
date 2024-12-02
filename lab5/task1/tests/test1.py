@@ -58,6 +58,7 @@ class TestIsHeap(unittest.TestCase):
         table.add_row(["Максимальные значения", f'{n}\n{array[:3]}', t_end, memory, result])
 
         print()
+        print("Task #1 test result")
         print(table)
         table.clear_rows()
 

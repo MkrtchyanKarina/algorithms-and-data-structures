@@ -108,6 +108,7 @@ class TestNetworkPacketProcessing(unittest.TestCase):
 
         table.add_row(["Максимальные значения",f'{size}\n{count}\n{packages[count-5:]}', t_end, memory, " ".join(map(str, result[count-5:]))])
         print()
+        print("Task #3 test result")
         print(table)
         table.clear_rows()
 
