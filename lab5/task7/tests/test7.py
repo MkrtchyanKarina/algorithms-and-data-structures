@@ -8,7 +8,7 @@ from lab5.src.utils import table
 
 
 class TestHeapSort(unittest.TestCase):
-    def test_should_heapsort_small_arr(self):
+    def test_should_heapsort_0(self):
         # given
         n = 10**3
         array = [randint(-10**9, 10**9) for _ in range(n)]
@@ -24,13 +24,10 @@ class TestHeapSort(unittest.TestCase):
         self.assertEqual(result, expected_result)
         table.add_row(["Минимальные значения", f'{n}\n{array[:4]}', t_end, memory, f'{result[:4]}'])
 
-        print()
-        print(table)
-        table.clear_rows()
 
 
 
-    def test_should_heapsort_middle_arr(self):
+    def test_should_heapsort_1(self):
         # given
         n = 10**4
         array = [randint(-10**9, 10**9) for _ in range(n)]
@@ -46,12 +43,9 @@ class TestHeapSort(unittest.TestCase):
         self.assertEqual(result, expected_result)
         table.add_row(["Средние значения", f'{n}\n{array[:4]}', t_end, memory, f'{result[:4]}'])
 
-        print()
-        print(table)
-        table.clear_rows()
 
 
-    def test_should_heapsort_big_arr(self):
+    def test_should_heapsort_2(self):
         # given
         n = 10**5
         array = [randint(-10**9, 10**9) for _ in range(n)]
@@ -67,13 +61,9 @@ class TestHeapSort(unittest.TestCase):
         self.assertEqual(result, expected_result)
         table.add_row(["Максимальные значения", f'{n}\n{array[:4]}', t_end, memory, f'{result[:4]}'])
 
-        print()
-        print(table)
-        table.clear_rows()
 
 
-
-    def test_should_heapsort_repeat(self):
+    def test_should_heapsort_3(self):
         # given
         n = 10**5
         x, y = randint(-10**9, 10**9), randint(10**9, 10**9)

@@ -7,7 +7,7 @@ project_path = pathlib.Path(__file__).parent.parent
 array = os.listdir(project_path)
 src_path = []
 
-for i in range(2, len(array)-3): # в цикле от первой до последней папки
+for i in range(2, 6): # в цикле от первой до последней папки
     task = array[i]
 
     dir_path = pathlib.Path(project_path, task) # получаем директорию index-ой папки

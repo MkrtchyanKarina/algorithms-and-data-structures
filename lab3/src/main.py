@@ -3,6 +3,7 @@ import pathlib
 import subprocess
 import sys
 sys.path.append('C:\\Users\\User\\PycharmProjects\\algorithms-and-data-structures')
+sys.path.append('C:\\Users\\User\\PycharmProjects\\algorithms-and-data-structures\\lab3')
 project_path = pathlib.Path(__file__).parent.parent
 array = os.listdir(project_path)
 src_path = []
