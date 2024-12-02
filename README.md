@@ -35,18 +35,17 @@
 
 ### Инструкция по запуску
 
-1. Клонируйте репозиторий:
+1. **Клонируйте репозиторий**
    ```bash
    git clone https://github.com/MkrtchyanKarina/algorithms-and-data-structures.git
    ```
-2. Перейдите в папку с проектом:
+2. **Перейдите в папку с проектом**
    ```bash
    cd algorithms-and-data-structures/lab1
    ```
 3. **Запуску всех лабораторных**
     ```bash
    python src/main.py
-
 
 4. **Запуску всех тестов**
     ```bash

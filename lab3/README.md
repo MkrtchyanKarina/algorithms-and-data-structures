@@ -1,92 +1,44 @@
-Лабораторная №3: 
+# Лабораторная работа №5: Деревья. Пирамида, пирамидальная сортировка. Очередь с приоритетами
 
-                Быстрая сортировка, сортировки за линейное время
+**Студентка ИТМО,  Мкртчян Карина Геворговна  466745**  
+## Вариант 12
+### Навигация
 
-Цель лабораторной: 
-
-                Научиться применять алгоритм быстрой сортировки, а также алгоритмы линейной сортировки
-
-Задачи лабораторной:
-
-                1.Научиться реализовывать и применять алгоритм быстрой сортировки
-                2.Научиться применять линейные сортировки для специфических задач - например поразрядную сортировку
-        
-Навигация:
-
-[lab3](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab3)
-
-  |---- [task1](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab3/task1)
-  
-  |---- [task2](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab3/task2)
-  
-  |---- [task3](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab3/task3)
-  
-  |---- [task5](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab3/task5)
-  
-  |---- [task7](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab3/task7)
-  
-  |---- [task9](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab3/task9)
+- [ ] [Задача 1 - Улучшение Quick sort](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab3/task1)
+- [ ] [Задача 2 - Анти-quick sort](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab3/task2)
+- [ ] [Задача 3 - Сортировка пугалом](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab3/task3)
+- [ ] [Задача 5 - Индекс Хирша](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab3/task5)
+- [ ] [Задача 7 - Цифровая сортировка](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab3/task7)
+- [ ] [Задача 9 - Ближайшие точки](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab3/task9)
 
 
-    
-Структура проекта: 
+## Описание
+В этой лабораторной работе студенты ознакомятся с алгоритмом быстрой сортировки и сортировками за линейное время. 
+Основные задачи включают изучение более эффективных относительно изученных ранее сортировок, их реализация 
+и практика в применении для решения варианта, и при желании 3 дополнительных заданий по выбору, написание тестов к ним, создание директории лабораторной согласно
+требуемой структуре, написание документации к каждой задаче, а также одной единой для всей лабораторной.
 
-        src/ - общие файлы.
-                main.py - для запуска всех задач.
-                utils.py - для работы с файлами.
+## Запуск проекта
 
-        task1/ - первое задание.
-                src/ — исходные коды.
-                tests/ — тесты.
-                txtf/ - текстовые файлы.
+1. **Клонируйте репозиторий**
+   ```bash
+   git clone https://github.com/MkrtchyanKarina/algorithms-and-data-structures.git
+   ```
+2. **Перейдите в папку с проектом**
+   ```bash
+   cd algorithms-and-data-structures/lab3
+   ```
+3. **Запуску всех лабораторных**
+    ```bash
+   python src/main.py
+   ```
+4. **Запуску всех тестов**
+    ```bash
+   python -m unittest discover -v
+   ```
 
-        task2/ - второе задание
-                src/ — исходные коды.
-                tests/ — тесты.
-                txtf/ - текстовые файлы.
-
-        task3/ - третье задание.
-                src/ — исходные коды.
-                tests/ — тесты.
-                txtf/ - текстовые файлы.
-
-        task5/ - седьмое задание.
-                src/ — исходные коды.
-                tests/ — тесты.
-                txtf/ - текстовые файлы.
-
-        task7/ - восьмое задание
-                src/ — исходные коды.
-                tests/ — тесты.
-                txtf/ - текстовые файлы.
-
-        task9/ - восьмое задание
-                src/ — исходные коды.
-                tests/ — тесты.
-                txtf/ - текстовые файлы.
-
-
-Запуск проекта
-
-  Клонируйте репозиторий:
-  
-    git clone https://github.com/username/repository-name.git
-    
-  Перейдите в папку с проектом:
-  
-    cd repository-name/lab1
-    
-  Запуску всех задач
-  
-    команда
-    
-  Запуску всех тестов задач
-  
-    python -m unittest discover
-
-    
-Тестирование
-
-Для запуска тестов выполните:
-
-    python -m unittest discover
+## Тестирование
+   Для запуска тестов выполните:
+```bash
+    python -m unittest discover -v
+```
