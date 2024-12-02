@@ -2,9 +2,13 @@ import time
 import unittest
 from random import randint
 import psutil
-
 from lab5.task7.src.task7 import heap_sort_max
 from lab5.src.utils import table
+
+
+expected_time = 0.6  #  CPython выполняет около 10^7 операций в минуту => 
+                    # при сложности O(n) программа должна выполняться менее 60/100 = 0.6 секунд
+expected_memory = 256
 
 
 class TestHeapSort(unittest.TestCase):
@@ -22,6 +26,8 @@ class TestHeapSort(unittest.TestCase):
 
         # then
         self.assertEqual(result, expected_result)
+        self.assertLessEqual(t_end, expected_time)
+        self.assertLessEqual(memory, expected_memory)
         table.add_row(["Минимальные значения", f'{n}\n{array[:4]}', t_end, memory, f'{result[:4]}'])
 
 
@@ -41,6 +47,8 @@ class TestHeapSort(unittest.TestCase):
 
         # then
         self.assertEqual(result, expected_result)
+        self.assertLessEqual(t_end, expected_time)
+        self.assertLessEqual(memory, expected_memory)
         table.add_row(["Средние значения", f'{n}\n{array[:4]}', t_end, memory, f'{result[:4]}'])
 
 
@@ -59,6 +67,8 @@ class TestHeapSort(unittest.TestCase):
 
         # then
         self.assertEqual(result, expected_result)
+        self.assertLessEqual(t_end, expected_time)
+        self.assertLessEqual(memory, expected_memory)
         table.add_row(["Максимальные значения", f'{n}\n{array[:4]}', t_end, memory, f'{result[:4]}'])
 
 
@@ -78,6 +88,8 @@ class TestHeapSort(unittest.TestCase):
 
         # then
         self.assertEqual(result, expected_result)
+        self.assertLessEqual(t_end, expected_time)
+        self.assertLessEqual(memory, expected_memory)
         table.add_row(["Повторяющиеся значения", f'{n}\n{array[:4]}', t_end, memory, f'{result[:4]}'])
 
         print()

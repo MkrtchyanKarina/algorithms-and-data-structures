@@ -5,6 +5,7 @@ table = PrettyTable()
 table.field_names = [' ', "данные", "время, сек.", "память, МБ", "результат"]
 table.hrules = 1
 
+
 class File:
     def __init__(self, file):
         self.file = file

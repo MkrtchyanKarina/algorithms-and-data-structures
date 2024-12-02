@@ -6,6 +6,8 @@ from lab5.task3.src.task3 import net_packet_processing
 from random import randint
 
 
+expected_time = 10
+expected_memory = 512
 
 
 class TestNetworkPacketProcessing(unittest.TestCase):
@@ -24,6 +26,8 @@ class TestNetworkPacketProcessing(unittest.TestCase):
 
         # then
         self.assertEqual(result, expected_result)
+        self.assertLessEqual(t_end, expected_time)
+        self.assertLessEqual(memory, expected_memory)
         table.add_row(["Значения из примера","\n".join(str(d) for d in data), t_end, memory," ".join(map(str, result))])
 
 
@@ -44,6 +48,8 @@ class TestNetworkPacketProcessing(unittest.TestCase):
 
         # then
         self.assertEqual(result, expected_result)
+        self.assertLessEqual(t_end, expected_time)
+        self.assertLessEqual(memory, expected_memory)
         table.add_row(["Значения из примера","\n".join(str(d) for d in data), t_end, memory," ".join(map(str, result))])
 
 
@@ -63,6 +69,8 @@ class TestNetworkPacketProcessing(unittest.TestCase):
 
         # then
         self.assertEqual(result, expected_result)
+        self.assertLessEqual(t_end, expected_time)
+        self.assertLessEqual(memory, expected_memory)
         table.add_row(["Значения из примера","\n".join(str(d) for d in data), t_end, memory," ".join(map(str, result))])
 
 
@@ -82,6 +90,8 @@ class TestNetworkPacketProcessing(unittest.TestCase):
 
         # then
         self.assertEqual(result, expected_result)
+        self.assertLessEqual(t_end, expected_time)
+        self.assertLessEqual(memory, expected_memory)
         table.add_row(["Значения из примера","\n".join(str(d) for d in data), t_end, memory," ".join(map(str, result))])
 
 
@@ -105,7 +115,8 @@ class TestNetworkPacketProcessing(unittest.TestCase):
         memory = round(psutil.Process().memory_info().rss / 1024 ** 2, 2)
 
         # then
-
+        self.assertLessEqual(t_end, expected_time)
+        self.assertLessEqual(memory, expected_memory)
         table.add_row(["Максимальные значения",f'{size}\n{count}\n{packages[count-5:]}', t_end, memory, " ".join(map(str, result[count-5:]))])
         print()
         print("Task #3 test result")

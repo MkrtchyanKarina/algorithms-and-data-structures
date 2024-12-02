@@ -27,17 +27,11 @@
    ```bash
    cd algorithms-and-data-structures/lab5
    ```
-3. **Запуску всех лабораторных**
+3. **Запустить все лабораторные**
     ```bash
    python src/main.py
    ```
-4. **Запуску всех тестов**
+4. **Запустить все тесты**
     ```bash
    python -m unittest discover -v
    ```
-
-## Тестирование
-   Для запуска тестов выполните:
-```bash
-    python -m unittest discover -v
-```

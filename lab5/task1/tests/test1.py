@@ -6,6 +6,11 @@ from lab5.src.utils import table
 from random import randint
 
 
+expected_time = 2
+expected_memory = 256
+
+
+
 class TestIsHeap(unittest.TestCase):
     def test_should_is_heap_args1(self):
         # given
@@ -21,6 +26,8 @@ class TestIsHeap(unittest.TestCase):
 
         # then
         self.assertEqual(result, expected_result)
+        self.assertLessEqual(t_end, expected_time)
+        self.assertLessEqual(memory, expected_memory)
         table.add_row(["Значения из примера", f'{n}\n{array}', t_end, memory, result])
 
 
@@ -38,6 +45,8 @@ class TestIsHeap(unittest.TestCase):
 
         # then
         self.assertEqual(result, expected_result)
+        self.assertLessEqual(t_end, expected_time)
+        self.assertLessEqual(memory, expected_memory)
         table.add_row(["Значения из примера", f'{n}\n{array}', t_end, memory, result])
 
 
@@ -55,6 +64,8 @@ class TestIsHeap(unittest.TestCase):
 
         # then
         self.assertEqual(result, expected_result)
+        self.assertLessEqual(t_end, expected_time)
+        self.assertLessEqual(memory, expected_memory)
         table.add_row(["Максимальные значения", f'{n}\n{array[:3]}', t_end, memory, result])
 
         print()

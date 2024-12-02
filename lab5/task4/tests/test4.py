@@ -6,12 +6,17 @@ from lab5.task4.src.task4 import MinHeap
 from random import randint
 
 
+expected_time = 3
+expected_memory = 512
+
 
 class TestHeapSortSwaps(unittest.TestCase):
+
     def test_should_heap_sort0(self):
         # given
         expected_result = (0, [])
         data = (5, [1, 2, 3, 4, 5])
+
 
         # when
         t_start = time.time()
@@ -21,6 +26,8 @@ class TestHeapSortSwaps(unittest.TestCase):
 
         # then
         self.assertEqual(result, expected_result)
+        self.assertLessEqual(t_end, expected_time)
+        self.assertLessEqual(memory, expected_memory)
         table.add_row(["Минимальные значения","\n".join(str(d) for d in data), t_end, memory," ".join(map(str, result))])
 
     def test_should_heap_sort1(self):
@@ -36,6 +43,8 @@ class TestHeapSortSwaps(unittest.TestCase):
 
         # then
         self.assertEqual(result, expected_result)
+        self.assertLessEqual(t_end, expected_time)
+        self.assertLessEqual(memory, expected_memory)
         table.add_row(["Значения из примера","\n".join(str(d) for d in data), t_end, memory," ".join(map(str, result))])
 
     def test_should_heap_sort2(self):
@@ -53,6 +62,8 @@ class TestHeapSortSwaps(unittest.TestCase):
         memory = round(psutil.Process().memory_info().rss / 1024 ** 2, 2)
 
         # then
+        self.assertLessEqual(t_end, expected_time)
+        self.assertLessEqual(memory, expected_memory)
         table.add_row(["Максимальные значения",f'{n}\n{array[:4]}', t_end, memory, f'{result[0]}\n{result[1][:4]}'])
         print()
         print("Task #4 test result")

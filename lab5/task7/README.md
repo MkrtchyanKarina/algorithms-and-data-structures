@@ -38,27 +38,19 @@
 - Ограничение по памяти. 256 мб.
 
 ## Запуск проекта
-1. Клонируйте репозиторий:
+1. **Клонируйте репозиторий**
    ```bash
    git clone https://github.com/MkrtchyanKarina/algorithms-and-data-structures.git
    ```
-2. Перейдите в папку с проектом:
+2. **Перейдите в папку с проектом**
    ```bash
    cd algorithms-and-data-structures/lab5
    ```
-3. Запустите программу:
-   ```bash
-   python -m lab5.task7.src.task7
+3. **Запустить все лабораторные**
+    ```bash
+   python src/main.py
    ```
-
-4. Запуск тестов:
-   ```bash
-   python -m unittest lab5.task7.tests.test7
+4. **Запустить все тесты**
+    ```bash
+   python -m unittest discover -v
    ```
-
-
-## Тестирование
-Для запуска тестов выполните:
-```bash
-   python -m unittest lab5.task7.tests.test7
-```

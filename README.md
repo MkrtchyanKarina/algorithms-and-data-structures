@@ -41,13 +41,14 @@
    ```
 2. **Перейдите в папку с проектом**
    ```bash
-   cd algorithms-and-data-structures/lab1
+   cd algorithms-and-data-structures/lab<№ лабы>
    ```
-3. **Запуску всех лабораторных**
+3. **Запустить все лабораторные**
     ```bash
    python src/main.py
-
-4. **Запуску всех тестов**
+   ```
+4. **Запустить все тесты**
     ```bash
    python -m unittest discover -v
+   ```
    
