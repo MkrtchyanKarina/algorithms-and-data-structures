@@ -50,5 +50,5 @@
 
 4. **Запуску всех тестов**
     ```bash
-        python -m unittest discover -v
+   python -m unittest discover -v
    
