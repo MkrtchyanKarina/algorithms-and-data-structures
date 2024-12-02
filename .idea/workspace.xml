@@ -6,33 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f721ea97-be28-463d-90db-e8984220e982" name="Changes" comment="add new files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab0/task2/src/fib.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab0/task2/src/fib.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab0/task2/src/fib_matrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab0/task2/src/fib_matrix.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab0/task3/src/fib.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab0/task3/src/fib.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab0/task3/src/fib_matrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab0/task3/src/fib_matrix.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/task2/src/task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/task2/src/task2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/task6/src/task6.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/task6/src/task6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/task7/src/task7.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/task7/src/task7.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/task8/src/task8.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/task8/src/task8.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/task1/src/task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task1/src/task1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/task2/src/task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task2/src/task2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/task3/src/task3.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task3/src/task3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/task5/src/task5.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task5/src/task5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/task7/src/task7.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task7/src/task7.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/src/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/src/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/task11/src/task11.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task11/src/task11.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/task11/tests/test4.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task11/tests/test4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/task13/tests/test6.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task13/tests/test6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/task2/src/task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task2/src/task2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/task4/src/task4.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task4/src/task4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/task4/tests/test4.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task4/tests/test4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/task6/src/task6.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task6/src/task6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/task6/tests/test6.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task6/tests/test6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/task8/src/task8.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task8/src/task8.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/task8/tests/test4.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task8/tests/test4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/src/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/task4/tests/test4.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/task4/tests/test4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,169 +34,171 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for test1.InsertionSortTestCase.executor": "Run",
-    "Python tests.Python tests for test1.InsertionSortTestCase.test_insertion_sort.executor": "Run",
-    "Python tests.Python tests for test1.InsertionSortTestCase.test_insertion_sort1.executor": "Run",
-    "Python tests.Python tests for test1.MergeSortTest.executor": "Run",
-    "Python tests.Python tests for test1.MergeSortTest.test_merge_sort3.executor": "Run",
-    "Python tests.Python tests for test1.MergeSortTest.test_merge_sort4.executor": "Run",
-    "Python tests.Python tests for test1.MergeSortTest.test_merge_sort5.executor": "Run",
-    "Python tests.Python tests for test1.QuickSortTest.executor": "Run",
-    "Python tests.Python tests for test1.ScarecrowSortTest.executor": "Run",
-    "Python tests.Python tests for test1.Sum_ab_test.executor": "Run",
-    "Python tests.Python tests for test1.Sum_ab_test.test_sum_ab.executor": "Run",
-    "Python tests.Python tests for test1.TestIsHeap.executor": "Run",
-    "Python tests.Python tests for test1.TestIsHeap.test_should_is_heap_args1.executor": "Run",
-    "Python tests.Python tests for test10.InsertionSortTestCase.executor": "Run",
-    "Python tests.Python tests for test10.InsertionSortTestCase.test_palindrome1.executor": "Run",
-    "Python tests.Python tests for test10.InsertionSortTestCase.test_palindrome2.executor": "Run",
-    "Python tests.Python tests for test10.InsertionSortTestCase.test_palindrome3.executor": "Run",
-    "Python tests.Python tests for test10.InsertionSortTestCase.test_palindrome5.executor": "Run",
-    "Python tests.Python tests for test10.InsertionSortTestCase.test_palindrome6.executor": "Run",
-    "Python tests.Python tests for test2.InsertionSortTestCase.executor": "Run",
-    "Python tests.Python tests for test2.InsertionSortTestCase.test_insertion_sort.executor": "Run",
-    "Python tests.Python tests for test2.InsertionSortTestCase.test_insertion_sort1.executor": "Run",
-    "Python tests.Python tests for test2.InsertionSortTestCase.test_insertion_sort2.executor": "Run",
-    "Python tests.Python tests for test2.InsertionSortTestCase.test_insertion_sort3.executor": "Run",
-    "Python tests.Python tests for test2.MergeSortTest.executor": "Run",
-    "Python tests.Python tests for test2.ScarecrowSortTest.executor": "Run",
-    "Python tests.Python tests for test2.ScarecrowSortTest.test_worst_case0.executor": "Run",
-    "Python tests.Python tests for test2.Sum_ab2_test.test_sum_ab2.executor": "Run",
-    "Python tests.Python tests for test3.InsertionSortTestCase.executor": "Run",
-    "Python tests.Python tests for test3.InsertionSortTestCase.test_insertion_sort.executor": "Run",
-    "Python tests.Python tests for test3.InsertionSortTestCase.test_insertion_sort2.executor": "Run",
-    "Python tests.Python tests for test3.MergeSortTest.executor": "Run",
-    "Python tests.Python tests for test3.MergeSortTest.test_merge_sort1.executor": "Run",
-    "Python tests.Python tests for test3.MergeSortTest.test_merge_sort2.executor": "Run",
-    "Python tests.Python tests for test3.MergeSortTest.test_merge_sort3.executor": "Run",
-    "Python tests.Python tests for test3.PermutationsTest.executor": "Run",
-    "Python tests.Python tests for test3.ScarecrowSortTest.executor": "Run",
-    "Python tests.Python tests for test3.ScarecrowSortTest.test_scr_sort0.executor": "Run",
-    "Python tests.Python tests for test3.ScarecrowSortTest.test_scr_sort4.executor": "Run",
-    "Python tests.Python tests for test3.TestNetworkPacketProcessing.executor": "Run",
-    "Python tests.Python tests for test3.TestNetworkPacketProcessing.test_should_processing_0.executor": "Run",
-    "Python tests.Python tests for test3.TestNetworkPacketProcessing.test_should_processing_4.executor": "Run",
-    "Python tests.Python tests for test3.TestNetworkPacketProcessing.test_should_processing_time_test.executor": "Run",
-    "Python tests.Python tests for test4.InsertionSortTestCase.executor": "Run",
-    "Python tests.Python tests for test4.InsertionSortTestCase.test_insertion_sort1.executor": "Run",
-    "Python tests.Python tests for test4.InsertionSortTestCase.test_lineal_search1.executor": "Run",
-    "Python tests.Python tests for test4.InsertionSortTestCase.test_lineal_search2.executor": "Run",
-    "Python tests.Python tests for test4.InsertionSortTestCase.test_lineal_search3.executor": "Run",
-    "Python tests.Python tests for test4.MergeSortTest.executor": "Run",
-    "Python tests.Python tests for test4.MergeSortTest.test_merge_sort1.executor": "Run",
-    "Python tests.Python tests for test4.MergeSortTest.test_merge_sort3.executor": "Run",
-    "Python tests.Python tests for test4.TestHeapSortSwaps.executor": "Run",
-    "Python tests.Python tests for test4.TestHeapSortSwaps.test_should_heap_sort0.executor": "Run",
-    "Python tests.Python tests for test4.TestHeapSortSwaps.test_should_heap_sort2.executor": "Run",
-    "Python tests.Python tests for test5.HIndexTest.executor": "Run",
-    "Python tests.Python tests for test5.HIndexTest.test_str_sort0.executor": "Run",
-    "Python tests.Python tests for test5.HIndexTest.test_str_sort2.executor": "Run",
-    "Python tests.Python tests for test5.HIndexTest.test_str_sort3.executor": "Run",
-    "Python tests.Python tests for test5.InsertionSortTestCase.executor": "Debug",
-    "Python tests.Python tests for test5.InsertionSortTestCase.test_max_count1.executor": "Run",
-    "Python tests.Python tests for test5.InsertionSortTestCase.test_selection_sort1.executor": "Run",
-    "Python tests.Python tests for test5.InsertionSortTestCase.test_selection_sort3.executor": "Run",
-    "Python tests.Python tests for test6.InsertionSortTestCase.executor": "Debug",
-    "Python tests.Python tests for test7.InsertionSortTestCase.executor": "Run",
-    "Python tests.Python tests for test7.InsertionSortTestCase.test_insertion_sort1.executor": "Run",
-    "Python tests.Python tests for test7.InsertionSortTestCase.test_insertion_sort2.executor": "Run",
-    "Python tests.Python tests for test7.InsertionSortTestCase.test_insertion_sort3.executor": "Run",
-    "Python tests.Python tests for test7.MaxSubarrayTest.executor": "Run",
-    "Python tests.Python tests for test7.MaxSubarrayTest.test_max_subarray2.executor": "Run",
-    "Python tests.Python tests for test7.StringsSortTest.executor": "Run",
-    "Python tests.Python tests for test7.TestHeaSort.executor": "Run",
-    "Python tests.Python tests for test7.TestHeaSort.test_should_heapsort_middle_arr.executor": "Run",
-    "Python tests.Python tests for test7.TestHeaSort.test_should_heapsort_small_arr.executor": "Run",
-    "Python tests.Python tests for test7.TestHeapSort.executor": "Run",
-    "Python tests.Python tests for test7.TestHeapSort.test_should_heapsort.executor": "Run",
-    "Python tests.Python tests for test7.TestHeapSort.test_should_heapsort_big_arr.executor": "Run",
-    "Python tests.Python tests for test7.TestHeapSort.test_should_heapsort_repeat.executor": "Run",
-    "Python tests.Python tests for test7.TestHeapSort.test_should_heapsort_small_arr.executor": "Run",
-    "Python tests.Python tests for test8.PolyMultiplyTest.executor": "Run",
-    "Python tests.Python tests for test8.PolyMultiplyTest.test_multiply1.executor": "Run",
-    "Python tests.Python tests for test8.PolyMultiplyTest.test_multiply2.executor": "Run",
-    "Python tests.Python tests for test8.PolyMultiplyTest.test_multiply3.executor": "Run",
-    "Python tests.Python tests for test9.InsertionSortTestCase.executor": "Run",
-    "Python tests.Python tests for test9.InsertionSortTestCase.test_insertion_sort.executor": "Run",
-    "Python tests.Python tests for test9.InsertionSortTestCase.test_insertion_sort1.executor": "Run",
-    "Python tests.Python tests for test9.InsertionSortTestCase.test_insertion_sort2.executor": "Run",
-    "Python tests.Python tests for test9.InsertionSortTestCase.test_insertion_sort3.executor": "Run",
-    "Python tests.Python tests for test9.ScarecrowSortTest.executor": "Run",
-    "Python tests.Python tests for test9.ScarecrowSortTest.test_quick_sort0.executor": "Run",
-    "Python tests.Python tests for test9.ShortestDistanceTest.executor": "Run",
-    "Python tests.Python tests for test9.ShortestDistanceTest.test_shortest_distance0.executor": "Run",
-    "Python tests.Python tests for test9.ShortestDistanceTest.test_shortest_distance1.executor": "Run",
-    "Python tests.Python tests for test9.ShortestDistanceTest.test_shortest_distance2.executor": "Run",
-    "Python tests.Python tests for test9.ShortestDistanceTest.test_shortest_distance3.executor": "Run",
-    "Python tests.Python tests for test9.test_shortest_distance.executor": "Run",
-    "Python tests.Python tests for test_fib.fib_number_test.test_fib_number (1).executor": "Run",
-    "Python tests.Python tests for test_fib.fib_number_test.test_fib_number.executor": "Run",
-    "Python tests.Python tests for test_fib_matrix.fib_number_test.executor": "Run",
-    "Python tests.Python tests for test_fib_matrix.fib_number_test.test_fib_number (1).executor": "Run",
-    "Python tests.Python tests for test_fib_matrix.fib_number_test.test_fib_number.executor": "Run",
-    "Python tests.Python tests in test1.py.executor": "Run",
-    "Python tests.Python tests in test10.py.executor": "Run",
-    "Python tests.Python tests in test2.py.executor": "Run",
-    "Python tests.Python tests in test3.py.executor": "Run",
-    "Python tests.Python tests in test4.py.executor": "Run",
-    "Python tests.Python tests in test7.py.executor": "Run",
-    "Python tests.Python tests in test8.py.executor": "Run",
-    "Python tests.Python tests in test9.py.executor": "Run",
-    "Python tests.Python tests in test_fib_matrix.py.executor": "Run",
-    "Python tests.pytest for test7.MergeSortTest.executor": "Run",
-    "Python tests.pytest for test7.MergeSortTest.test_merge_sort1.executor": "Run",
-    "Python tests.pytest for test7.MergeSortTest.test_str_sort0.executor": "Run",
-    "Python tests.pytest for test7.MergeSortTest.test_str_sort1.executor": "Run",
-    "Python tests.pytest for test7.MergeSortTest.test_str_sort2.executor": "Run",
-    "Python tests.pytest for test7.StringsSortTest.executor": "Run",
-    "Python tests.pytest for test9.test_shortest_distance.executor": "Run",
-    "Python tests.pytest in test7.py.executor": "Run",
-    "Python tests.pytest in test9.py.executor": "Run",
-    "Python.13.3.executor": "Run",
-    "Python.algorithms-and-data-structures.executor": "Run",
-    "Python.fib.executor": "Run",
-    "Python.fib_matrix.executor": "Run",
-    "Python.h-index.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.task1.executor": "Run",
-    "Python.task10.executor": "Run",
-    "Python.task11.executor": "Run",
-    "Python.task13.1.executor": "Run",
-    "Python.task13.3 (1).executor": "Run",
-    "Python.task2.executor": "Run",
-    "Python.task3.executor": "Run",
-    "Python.task3_recursion.executor": "Run",
-    "Python.task4 (1).executor": "Run",
-    "Python.task4.executor": "Run",
-    "Python.task5 (1).executor": "Run",
-    "Python.task5.executor": "Run",
-    "Python.task52 (1).executor": "Run",
-    "Python.task6.executor": "Run",
-    "Python.task7 (1).executor": "Run",
-    "Python.task7.executor": "Run",
-    "Python.task8 (1).executor": "Run",
-    "Python.task8.executor": "Run",
-    "Python.task9.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.test1.executor": "Run",
-    "Python.test2.executor": "Run",
-    "Python.test3.executor": "Run",
-    "Python.test8.executor": "Run",
-    "Python.test9.executor": "Run",
-    "Python.test_fib.executor": "Run",
-    "Python.test_fib_matrix.executor": "Run",
-    "Python.utils.executor": "Run",
-    "Python.var.executor": "Run",
-    "Python.verifications.executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/User/PycharmProjects/algorithms-and-data-structures",
-    "settings.editor.selected.configurable": "configurable.group.tools"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test1.InsertionSortTestCase.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test1.InsertionSortTestCase.test_insertion_sort.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test1.InsertionSortTestCase.test_insertion_sort1.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test1.MergeSortTest.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test1.MergeSortTest.test_merge_sort3.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test1.MergeSortTest.test_merge_sort4.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test1.MergeSortTest.test_merge_sort5.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test1.QuickSortTest.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test1.ScarecrowSortTest.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test1.Sum_ab_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test1.Sum_ab_test.test_sum_ab.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test1.TestIsHeap.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test1.TestIsHeap.test_should_is_heap_args1.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test1.TestIsHeap.test_should_is_heap_args2.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test1.TestIsHeap.test_should_is_heap_max.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test10.InsertionSortTestCase.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test10.InsertionSortTestCase.test_palindrome1.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test10.InsertionSortTestCase.test_palindrome2.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test10.InsertionSortTestCase.test_palindrome3.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test10.InsertionSortTestCase.test_palindrome5.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test10.InsertionSortTestCase.test_palindrome6.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test2.InsertionSortTestCase.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test2.InsertionSortTestCase.test_insertion_sort.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test2.InsertionSortTestCase.test_insertion_sort1.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test2.InsertionSortTestCase.test_insertion_sort2.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test2.InsertionSortTestCase.test_insertion_sort3.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test2.MergeSortTest.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test2.ScarecrowSortTest.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test2.ScarecrowSortTest.test_worst_case0.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test2.Sum_ab2_test.test_sum_ab2.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test3.InsertionSortTestCase.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test3.InsertionSortTestCase.test_insertion_sort.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test3.InsertionSortTestCase.test_insertion_sort2.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test3.MergeSortTest.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test3.MergeSortTest.test_merge_sort1.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test3.MergeSortTest.test_merge_sort2.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test3.MergeSortTest.test_merge_sort3.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test3.PermutationsTest.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test3.ScarecrowSortTest.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test3.ScarecrowSortTest.test_scr_sort0.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test3.ScarecrowSortTest.test_scr_sort4.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test3.TestNetworkPacketProcessing.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test3.TestNetworkPacketProcessing.test_should_processing_0.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test3.TestNetworkPacketProcessing.test_should_processing_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test3.TestNetworkPacketProcessing.test_should_processing_time_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test4.InsertionSortTestCase.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test4.InsertionSortTestCase.test_insertion_sort1.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test4.InsertionSortTestCase.test_lineal_search1.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test4.InsertionSortTestCase.test_lineal_search2.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test4.InsertionSortTestCase.test_lineal_search3.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test4.MergeSortTest.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test4.MergeSortTest.test_merge_sort1.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test4.MergeSortTest.test_merge_sort3.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test4.TestHeapSortSwaps.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test4.TestHeapSortSwaps.test_should_heap_sort0.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test4.TestHeapSortSwaps.test_should_heap_sort2.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test5.HIndexTest.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test5.HIndexTest.test_str_sort0.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test5.HIndexTest.test_str_sort2.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test5.HIndexTest.test_str_sort3.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test5.InsertionSortTestCase.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.Python tests for test5.InsertionSortTestCase.test_max_count1.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test5.InsertionSortTestCase.test_selection_sort1.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test5.InsertionSortTestCase.test_selection_sort3.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test6.InsertionSortTestCase.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.Python tests for test7.InsertionSortTestCase.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test7.InsertionSortTestCase.test_insertion_sort1.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test7.InsertionSortTestCase.test_insertion_sort2.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test7.InsertionSortTestCase.test_insertion_sort3.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test7.MaxSubarrayTest.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test7.MaxSubarrayTest.test_max_subarray2.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test7.StringsSortTest.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test7.TestHeaSort.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test7.TestHeaSort.test_should_heapsort_middle_arr.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test7.TestHeaSort.test_should_heapsort_small_arr.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test7.TestHeapSort.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test7.TestHeapSort.test_should_heapsort.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test7.TestHeapSort.test_should_heapsort_big_arr.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test7.TestHeapSort.test_should_heapsort_repeat.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test7.TestHeapSort.test_should_heapsort_small_arr.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test8.PolyMultiplyTest.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test8.PolyMultiplyTest.test_multiply1.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test8.PolyMultiplyTest.test_multiply2.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test8.PolyMultiplyTest.test_multiply3.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test9.InsertionSortTestCase.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test9.InsertionSortTestCase.test_insertion_sort.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test9.InsertionSortTestCase.test_insertion_sort1.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test9.InsertionSortTestCase.test_insertion_sort2.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test9.InsertionSortTestCase.test_insertion_sort3.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test9.ScarecrowSortTest.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test9.ScarecrowSortTest.test_quick_sort0.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test9.ShortestDistanceTest.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test9.ShortestDistanceTest.test_shortest_distance0.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test9.ShortestDistanceTest.test_shortest_distance1.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test9.ShortestDistanceTest.test_shortest_distance2.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test9.ShortestDistanceTest.test_shortest_distance3.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test9.test_shortest_distance.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_fib.fib_number_test.test_fib_number (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_fib.fib_number_test.test_fib_number.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_fib_matrix.fib_number_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_fib_matrix.fib_number_test.test_fib_number (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_fib_matrix.fib_number_test.test_fib_number.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test1.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test10.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test2.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test3.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test4.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test7.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test8.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test9.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_fib_matrix.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test7.MergeSortTest.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test7.MergeSortTest.test_merge_sort1.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test7.MergeSortTest.test_str_sort0.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test7.MergeSortTest.test_str_sort1.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test7.MergeSortTest.test_str_sort2.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test7.StringsSortTest.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test9.test_shortest_distance.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test7.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test9.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.13.3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.algorithms-and-data-structures.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fib.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fib_matrix.executor&quot;: &quot;Run&quot;,
+    &quot;Python.h-index.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task10.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task11.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task13.1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task13.3 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.task2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task3_recursion.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task4 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.task4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task5 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.task5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task52 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.task6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task7 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.task7.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task8 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.task8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task9.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test9.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_fib.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_fib_matrix.executor&quot;: &quot;Run&quot;,
+    &quot;Python.utils.executor&quot;: &quot;Run&quot;,
+    &quot;Python.var.executor&quot;: &quot;Run&quot;,
+    &quot;Python.verifications.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/PycharmProjects/algorithms-and-data-structures&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures" />
@@ -240,29 +215,7 @@
       <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab2\task1\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in test1.py">
-    <configuration name="task1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="algorithms-and-data-structures" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab5/task1/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab5/task1/src/task1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Python tests for test7.TestHeapSort">
     <configuration name="Python tests for test1.TestIsHeap.test_should_is_heap_args1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
@@ -308,6 +261,21 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test7.TestHeapSort" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="algorithms-and-data-structures" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab5/task7/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test7.TestHeapSort&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests in test1.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
@@ -325,11 +293,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test7.TestHeapSort" />
         <item itemvalue="Python tests.Python tests in test1.py" />
         <item itemvalue="Python tests.Python tests for test1.TestIsHeap.test_should_is_heap_max" />
         <item itemvalue="Python tests.Python tests for test1.TestIsHeap.test_should_is_heap_args2" />
         <item itemvalue="Python tests.Python tests for test1.TestIsHeap.test_should_is_heap_args1" />
-        <item itemvalue="Python.task1" />
       </list>
     </recent_temporary>
   </component>
@@ -348,22 +316,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726664580045</updated>
-    </task>
-    <task id="LOCAL-00009" summary="added new file">
-      <option name="closed" value="true" />
-      <created>1727212765851</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1727212765851</updated>
-    </task>
-    <task id="LOCAL-00010" summary="added new file">
-      <option name="closed" value="true" />
-      <created>1727285918387</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1727285918387</updated>
     </task>
     <task id="LOCAL-00011" summary="added new tests">
       <option name="closed" value="true" />
@@ -741,7 +693,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733059241685</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="add new files">
+      <option name="closed" value="true" />
+      <created>1733088038784</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1733088038785</updated>
+    </task>
+    <task id="LOCAL-00059" summary="add new files">
+      <option name="closed" value="true" />
+      <created>1733088191144</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1733088191144</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
