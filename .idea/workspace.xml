@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f721ea97-be28-463d-90db-e8984220e982" name="Changes" comment="add new files">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/task1/tests/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/task1/tests/test1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/task3/tests/test3.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/task3/tests/test3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/task4/tests/test4.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/task4/tests/test4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/task7/tests/test7.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/task7/tests/test7.py" afterDir="false" />
-    </list>
+    <list default="true" id="f721ea97-be28-463d-90db-e8984220e982" name="Changes" comment="add new files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -323,14 +317,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726664580045</updated>
-    </task>
-    <task id="LOCAL-00018" summary="added new tests">
-      <option name="closed" value="true" />
-      <created>1727622517992</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1727622517992</updated>
     </task>
     <task id="LOCAL-00019" summary="added new tests">
       <option name="closed" value="true" />
@@ -716,7 +702,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733159893947</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="add new files">
+      <option name="closed" value="true" />
+      <created>1733174165603</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1733174165603</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
