@@ -17,7 +17,7 @@ class TestHeapSort(unittest.TestCase):
         # when
         t_start = time.perf_counter()
         result = heap_sort_max(n, array)
-        t_end = time.perf_counter() - t_start
+        t_end = round(time.perf_counter() - t_start, 2)
         memory = round(psutil.Process().memory_info().rss / 1024 ** 2, 2)
 
         # then
@@ -36,7 +36,7 @@ class TestHeapSort(unittest.TestCase):
         # when
         t_start = time.perf_counter()
         result = heap_sort_max(n, array)
-        t_end = time.perf_counter() - t_start
+        t_end = round(time.perf_counter() - t_start, 2)
         memory = round(psutil.Process().memory_info().rss / 1024 ** 2, 2)
 
         # then
@@ -54,7 +54,7 @@ class TestHeapSort(unittest.TestCase):
         # when
         t_start = time.perf_counter()
         result = heap_sort_max(n, array)
-        t_end = time.perf_counter() - t_start
+        t_end = round(time.perf_counter() - t_start, 2)
         memory = round(psutil.Process().memory_info().rss / 1024 ** 2, 2)
 
         # then
@@ -73,7 +73,7 @@ class TestHeapSort(unittest.TestCase):
         # when
         t_start = time.perf_counter()
         result = heap_sort_max(n, array)
-        t_end = time.perf_counter() - t_start
+        t_end = round(time.perf_counter() - t_start, 2)
         memory = round(psutil.Process().memory_info().rss / 1024 ** 2, 2)
 
         # then
