@@ -5,4 +5,4 @@ def sum_ab_file(path1, path2):
     if -10 ** 9 <= a <= 10 ** 9 and -10 ** 9 <= b <= 10 ** 9:
         open(path2, "w").write(str(a + b))
 
-sum_ab_file("input3.txt", "output3.txt")
+sum_ab_file("input4.txt", "output4.txt")

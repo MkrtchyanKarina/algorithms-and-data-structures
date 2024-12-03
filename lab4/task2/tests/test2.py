@@ -1,28 +1,69 @@
 import unittest
 import psutil
 import time
-from prettytable import PrettyTable
-from lab4.task2.src.task2 import *
-import random
-table = PrettyTable()
-table.field_names = [' ', "данные", "время, сек.", "память, МБ", "результат"]
-table.hrules = 1
+from lab4.src.utils import table
+from lab4.task2.src.task2 import queue_actions
+from random import randint
+
+expected_time = 2
+expected_memory = 256
 
 
-class ScarecrowSortTest(unittest.TestCase):
-    def test_worst_case0(self):
-        global table
-        n = 10**4
-        array = ["+ 2", "+ 9"]
-        for i in range(n-2):
-            if random.randint(0, 1) or array.count("-") > len(array)//3:
-                array += ["+ " + str(random.randint(-10**9, 10**9))]
-            else:
-                array += ["-"]
-        t_start = time.time()
-        result = queue_actions(array)
-        t_end = round(time.time() - t_start, 2)
+class QueueActionsTest(unittest.TestCase):
+
+    def test_queue_actions_0(self):
+        # given
+        actions_count = 5
+        actions = ['+ 2', '-', '+ 5', '+ 9', '-']
+        expected_result = ['2', '5']
+
+        # when
+        t_start = time.perf_counter()
+        result = queue_actions(actions)
+        t_end = round(time.perf_counter() - t_start, 2)
         memory = round(psutil.Process().memory_info().rss / 1024 ** 2, 2)
-        table.add_row(["Минимальные значения", n, t_end, memory," ".join(map(str, result[:2]))])
 
+        # then
+        self.assertEqual(result, expected_result)
+        self.assertLessEqual(t_end, expected_time)
+        self.assertLessEqual(memory, expected_memory)
+        table.add_row(["Значения из примера", f'{actions_count}\n{'\n'.join(actions)}', t_end, memory, '\n'.join(result)])
+
+    def test_queue_actions_1(self):
+        # given
+        actions_count = 4
+        actions = ['+ 1', '+ 10', '-', '-']
+        expected_result = ['1', '10']
+
+        # when
+        t_start = time.perf_counter()
+        result = queue_actions(actions)
+        t_end = round(time.perf_counter() - t_start, 2)
+        memory = round(psutil.Process().memory_info().rss / 1024 ** 2, 2)
+
+        # then
+        self.assertEqual(result, expected_result)
+        self.assertLessEqual(t_end, expected_time)
+        self.assertLessEqual(memory, expected_memory)
+        table.add_row(["Значения из примера", f'{actions_count}\n{'\n'.join(actions)}', t_end, memory, '\n'.join(result)])
+
+    def test_queue_actions_2(self):
+        # given
+        actions_count = 10**6
+        actions = ([f'+ {randint(-10**9, 10**9)}' for _ in range(10**6//2)] +
+                   [f'+ {randint(-10**9, 10**9)}' if randint(0, 1) else '-' for _ in range(10**6//2)])
+
+        # when
+        t_start = time.perf_counter()
+        result = queue_actions(actions)
+        t_end = round(time.perf_counter() - t_start, 2)
+        memory = round(psutil.Process().memory_info().rss / 1024 ** 2, 2)
+
+        # then
+        self.assertLessEqual(t_end, expected_time)
+        self.assertLessEqual(memory, expected_memory)
+        table.add_row(["Максимальные значения", f'{actions_count}\n{'\n'.join(actions[-5:])}',
+                       t_end, memory, '\n'.join(result[-5:])])
+        print()
         print(table)
+        table.clear_rows()

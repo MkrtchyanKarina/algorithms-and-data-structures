@@ -95,7 +95,7 @@ def number_of_permutations(*args):
 
 # Запись данных в input файл и запуск программы для этого файла
 
-# file = open('input3.txt', 'w')
+# file = open('input4.txt', 'w')
 # high = 10**5
 # strings = [randint(-10**9, 10**9) for index in range(high)]
 # strings = ' '.join(map(str, strings))
@@ -103,4 +103,4 @@ def number_of_permutations(*args):
 # file.write('\high'+strings)
 # file.close()
 #
-# number_of_permutations('input3.txt')
+# number_of_permutations('input4.txt')

@@ -1,72 +1,177 @@
 import unittest
 import psutil
 import time
-from prettytable import PrettyTable
-from lab3.task3.src.task3 import *
-from random import randint
+from lab4.src.utils import table
+from lab4.task4.src.task4 import bracket_sequence
+from random import choice, randint
 
-table = PrettyTable()
-table.field_names = [' ', "данные", "время, сек.", "память, МБ", "результат"]
-table.hrules = 1
+expected_time = 5
+expected_memory = 256
 
 
-# [] Success
-# {}[] Success
-# [()] Success
-# (()) Success
-# { 1
-# {[} 3
-# foo(bar); Success
-# foo(bar[index); 10
+class BracketSequenceTest(unittest.TestCase):
+    def test_bracket_sequence_0(self):
+        # given
+        brackets = '[]'
+        expected_result = 'Success'
 
-class ScarecrowSortTest(unittest.TestCase):
-    # def test_scr_sort0(self):
-    #     global table
-    #     l = [2]
-    #     t_start = time.time()
-    #     result = scarecrow_sort(1, 1, l)
-    #     t_end = round(time.time() - t_start, 2)
-    #     memory = round(psutil.Process().memory_info().rss / 1024 ** 2, 2)
-    #     self.assertEqual(result, 'ДА')
-    #     table.add_row(["Минимальные значения", f'{' '.join(map(str, l))}', t_end, memory,result])
 
-    def test_scr_sort1(self):
-        global table
-        l = [2, 1, 3]
-        t_start = time.time()
-        result = scarecrow_sort(3, 2, l)
-        t_end = round(time.time() - t_start, 2)
+        # when
+        t_start = time.perf_counter()
+        result = bracket_sequence(brackets)
+        t_end = round(time.perf_counter() - t_start, 2)
         memory = round(psutil.Process().memory_info().rss / 1024 ** 2, 2)
-        self.assertEqual(result, 'НЕТ')
-        table.add_row(["Значения из примера", f'{' '.join(map(str, l))}', t_end, memory,result])
 
-    def test_scr_sort2(self):
-        global table
-        l = [1, 5, 3, 4, 1, 7, 6, 8, 2]
-        t_start = time.time()
-        result = scarecrow_sort(9, 4, l)
-        t_end = round(time.time() - t_start, 2)
-        memory = round(psutil.Process().memory_info().rss / 1024 ** 2, 2)
-        self.assertEqual(result, 'НЕТ')
-        table.add_row(["Значения из примера", f'{' '.join(map(str, l))}', t_end, memory,result])
+        # then
+        self.assertEqual(result, expected_result)
+        self.assertLessEqual(t_end, expected_time)
+        self.assertLessEqual(memory, expected_memory)
+        table.add_row(["Значения из примера", brackets, t_end, memory, result])
 
-    def test_scr_sort3(self):
-        global table
-        l = [1, 5, 3, 4, 1]
-        t_start = time.time()
-        result = scarecrow_sort(5, 3, l)
-        t_end = round(time.time() - t_start, 2)
-        memory = round(psutil.Process().memory_info().rss / 1024 ** 2, 2)
-        self.assertEqual(result, 'ДА')
-        table.add_row(["Значения из примера", f'{' '.join(map(str, l))}', t_end, memory,result])
+    def test_bracket_sequence_1(self):
+        # given
+        brackets = '{}[]'
+        expected_result = 'Success'
 
-    def test_scr_sort4(self):
-        global table
-        l = [randint(-10**9, 10**9) for i in range(10**5)]
-        t_start = time.time()
-        result = scarecrow_sort(10**5, 10, l)
-        t_end = round(time.time() - t_start, 2)
+
+        # when
+        t_start = time.perf_counter()
+        result = bracket_sequence(brackets)
+        t_end = round(time.perf_counter() - t_start, 2)
         memory = round(psutil.Process().memory_info().rss / 1024 ** 2, 2)
-        table.add_row(["Максимальные значения", f'{' '.join(map(str, l[:4]))}', t_end, memory,result])
-        print(f'\n{__file__}')
+
+        # then
+        self.assertEqual(result, expected_result)
+        self.assertLessEqual(t_end, expected_time)
+        self.assertLessEqual(memory, expected_memory)
+        table.add_row(["Значения из примера", brackets, t_end, memory, result])
+
+    def test_bracket_sequence_2(self):
+        # given
+        brackets = '[()]'
+        expected_result = 'Success'
+
+
+        # when
+        t_start = time.perf_counter()
+        result = bracket_sequence(brackets)
+        t_end = round(time.perf_counter() - t_start, 2)
+        memory = round(psutil.Process().memory_info().rss / 1024 ** 2, 2)
+
+        # then
+        self.assertEqual(result, expected_result)
+        self.assertLessEqual(t_end, expected_time)
+        self.assertLessEqual(memory, expected_memory)
+        table.add_row(["Значения из примера", brackets, t_end, memory, result])
+
+    def test_bracket_sequence_3(self):
+        # given
+        brackets = '(())'
+        expected_result = 'Success'
+
+
+        # when
+        t_start = time.perf_counter()
+        result = bracket_sequence(brackets)
+        t_end = round(time.perf_counter() - t_start, 2)
+        memory = round(psutil.Process().memory_info().rss / 1024 ** 2, 2)
+
+        # then
+        self.assertEqual(result, expected_result)
+        self.assertLessEqual(t_end, expected_time)
+        self.assertLessEqual(memory, expected_memory)
+        table.add_row(["Значения из примера", brackets, t_end, memory, result])
+
+    def test_bracket_sequence_4(self):
+        # given
+        brackets = '{'
+        expected_result = '1'
+
+
+        # when
+        t_start = time.perf_counter()
+        result = bracket_sequence(brackets)
+        t_end = round(time.perf_counter() - t_start, 2)
+        memory = round(psutil.Process().memory_info().rss / 1024 ** 2, 2)
+
+        # then
+        self.assertEqual(result, expected_result)
+        self.assertLessEqual(t_end, expected_time)
+        self.assertLessEqual(memory, expected_memory)
+        table.add_row(["Значения из примера", brackets, t_end, memory, result])
+
+    def test_bracket_sequence_5(self):
+        # given
+        brackets = '{[}'
+        expected_result = '3'
+
+
+        # when
+        t_start = time.perf_counter()
+        result = bracket_sequence(brackets)
+        t_end = round(time.perf_counter() - t_start, 2)
+        memory = round(psutil.Process().memory_info().rss / 1024 ** 2, 2)
+
+        # then
+        self.assertEqual(result, expected_result)
+        self.assertLessEqual(t_end, expected_time)
+        self.assertLessEqual(memory, expected_memory)
+        table.add_row(["Значения из примера", brackets, t_end, memory, result])
+
+    def test_bracket_sequence_6(self):
+        # given
+        brackets = 'foo(bar);'
+        expected_result = 'Success'
+
+
+        # when
+        t_start = time.perf_counter()
+        result = bracket_sequence(brackets)
+        t_end = round(time.perf_counter() - t_start, 2)
+        memory = round(psutil.Process().memory_info().rss / 1024 ** 2, 2)
+
+        # then
+        self.assertEqual(result, expected_result)
+        self.assertLessEqual(t_end, expected_time)
+        self.assertLessEqual(memory, expected_memory)
+        table.add_row(["Значения из примера", brackets, t_end, memory, result])
+
+    def test_bracket_sequence_7(self):
+        # given
+        brackets = 'foo(bar[index);'
+        expected_result = '14'
+
+
+        # when
+        t_start = time.perf_counter()
+        result = bracket_sequence(brackets)
+        t_end = round(time.perf_counter() - t_start, 2)
+        memory = round(psutil.Process().memory_info().rss / 1024 ** 2, 2)
+
+        # then
+        self.assertEqual(result, expected_result)
+        self.assertLessEqual(t_end, expected_time)
+        self.assertLessEqual(memory, expected_memory)
+        table.add_row(["Значения из примера", brackets, t_end, memory, result])
+
+    def test_bracket_sequence_8(self):
+        # given
+        brackets = ([choice(['{', '[', '(']) for _ in range(10**5//2)] +
+                    [chr(randint(0, 127)) for _ in range(10**5//2)])
+        brackets = "".join(brackets)
+
+
+
+        # when
+        t_start = time.perf_counter()
+        result = bracket_sequence(brackets)
+        t_end = round(time.perf_counter() - t_start, 2)
+        memory = round(psutil.Process().memory_info().rss / 1024 ** 2, 2)
+
+        # then
+        self.assertLessEqual(t_end, expected_time)
+        self.assertLessEqual(memory, expected_memory)
+        table.add_row(["Значения из примера", brackets[:4], t_end, memory, result])
+        print()
         print(table)
+        table.clear_rows()

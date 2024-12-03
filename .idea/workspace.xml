@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f721ea97-be28-463d-90db-e8984220e982" name="Changes" comment="add new files" />
+    <list default="true" id="f721ea97-be28-463d-90db-e8984220e982" name="Changes" comment="add new files">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab0/task1/src/task3.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab0/task1/src/task3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/task2/src/task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/task2/src/task2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/task3/src/task3.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/task3/src/task3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/task5/src/task5.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/task5/src/task5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/task2/src/task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task2/src/task2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/task3/src/task3.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task3/src/task3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/src/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/src/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/task2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task2/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/task2/src/task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task2/src/task2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/task2/tests/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task2/tests/test2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/task2/txtf/input2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task2/txtf/input2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/task2/txtf/output2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task2/txtf/output2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/task4/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task4/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/task4/src/task4.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task4/src/task4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/task4/tests/test4.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task4/tests/test4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/task4/txtf/input3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task4/txtf/input4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/task4/txtf/output3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task4/txtf/output4.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,6 +81,9 @@
     "Python tests.Python tests for test2.InsertionSortTestCase.test_insertion_sort3.executor": "Run",
     "Python tests.Python tests for test2.MergeSortTest.executor": "Run",
     "Python tests.Python tests for test2.ScarecrowSortTest.executor": "Run",
+    "Python tests.Python tests for test2.ScarecrowSortTest.test_queue_actions_0.executor": "Run",
+    "Python tests.Python tests for test2.ScarecrowSortTest.test_queue_actions_1.executor": "Run",
+    "Python tests.Python tests for test2.ScarecrowSortTest.test_queue_actions_3.executor": "Run",
     "Python tests.Python tests for test2.ScarecrowSortTest.test_worst_case0.executor": "Run",
     "Python tests.Python tests for test2.Sum_ab2_test.test_sum_ab2.executor": "Run",
     "Python tests.Python tests for test3.InsertionSortTestCase.executor": "Run",
@@ -79,6 +101,10 @@
     "Python tests.Python tests for test3.TestNetworkPacketProcessing.test_should_processing_0.executor": "Run",
     "Python tests.Python tests for test3.TestNetworkPacketProcessing.test_should_processing_4.executor": "Run",
     "Python tests.Python tests for test3.TestNetworkPacketProcessing.test_should_processing_time_test.executor": "Run",
+    "Python tests.Python tests for test4.BracketSequenceTest.executor": "Run",
+    "Python tests.Python tests for test4.BracketSequenceTest.test_bracket_sequence_3.executor": "Run",
+    "Python tests.Python tests for test4.BracketSequenceTest.test_bracket_sequence_7.executor": "Run",
+    "Python tests.Python tests for test4.BracketSequenceTest.test_bracket_sequence_8.executor": "Run",
     "Python tests.Python tests for test4.InsertionSortTestCase.executor": "Run",
     "Python tests.Python tests for test4.InsertionSortTestCase.test_insertion_sort1.executor": "Run",
     "Python tests.Python tests for test4.InsertionSortTestCase.test_lineal_search1.executor": "Run",
@@ -216,89 +242,96 @@
       <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab2\task4\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test7.TestHeapSort">
-    <configuration name="Python tests for test1.TestIsHeap" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test4.BracketSequenceTest">
+    <configuration name="task4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithms-and-data-structures" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4/task4/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab4/task4/src/task4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test4.BracketSequenceTest" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab5/task1/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4/task4/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test1.TestIsHeap&quot;" />
+      <option name="_new_target" value="&quot;test4.BracketSequenceTest&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test3.TestNetworkPacketProcessing" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test4.BracketSequenceTest.test_bracket_sequence_3" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab5/task3/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4/task4/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test3.TestNetworkPacketProcessing&quot;" />
+      <option name="_new_target" value="&quot;test4.BracketSequenceTest.test_bracket_sequence_3&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test4.TestHeapSortSwaps" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test4.BracketSequenceTest.test_bracket_sequence_7" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab5/task4/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4/task4/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test4.TestHeapSortSwaps&quot;" />
+      <option name="_new_target" value="&quot;test4.BracketSequenceTest.test_bracket_sequence_7&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test4.TestHeapSortSwaps.test_should_heap_sort0" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test4.BracketSequenceTest.test_bracket_sequence_8" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab5/task4/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4/task4/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test4.TestHeapSortSwaps.test_should_heap_sort0&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test7.TestHeapSort" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="algorithms-and-data-structures" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab5/task7/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test7.TestHeapSort&quot;" />
+      <option name="_new_target" value="&quot;test4.BracketSequenceTest.test_bracket_sequence_8&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test7.TestHeapSort" />
-        <item itemvalue="Python tests.Python tests for test1.TestIsHeap" />
-        <item itemvalue="Python tests.Python tests for test3.TestNetworkPacketProcessing" />
-        <item itemvalue="Python tests.Python tests for test4.TestHeapSortSwaps" />
-        <item itemvalue="Python tests.Python tests for test4.TestHeapSortSwaps.test_should_heap_sort0" />
+        <item itemvalue="Python tests.Python tests for test4.BracketSequenceTest" />
+        <item itemvalue="Python tests.Python tests for test4.BracketSequenceTest.test_bracket_sequence_8" />
+        <item itemvalue="Python.task4" />
+        <item itemvalue="Python tests.Python tests for test4.BracketSequenceTest.test_bracket_sequence_7" />
+        <item itemvalue="Python tests.Python tests for test4.BracketSequenceTest.test_bracket_sequence_3" />
       </list>
     </recent_temporary>
   </component>
@@ -317,14 +350,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726664580045</updated>
-    </task>
-    <task id="LOCAL-00019" summary="added new tests">
-      <option name="closed" value="true" />
-      <created>1727624758135</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1727624758135</updated>
     </task>
     <task id="LOCAL-00020" summary="added new tests">
       <option name="closed" value="true" />
@@ -710,7 +735,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733174165603</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="add new files">
+      <option name="closed" value="true" />
+      <created>1733174198411</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1733174198411</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

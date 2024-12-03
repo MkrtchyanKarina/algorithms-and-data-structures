@@ -1,7 +1,8 @@
 from lab4.src.utils import File
+import typing as tp
 
 
-def queue_actions(actions: list[str]):
+def queue_actions(actions: list[str]) -> tp.List[str]:
     queue = []
     head = 0
     deleted_elements = []
@@ -10,31 +11,29 @@ def queue_actions(actions: list[str]):
             deleted_elements += [queue[head]]
             head += 1
         else:
-            elem = int(a[1:])
+            elem = a[2:]
             queue += [elem]
     return deleted_elements
-s = ['+ 1', '+ 10', '-', '-', '+ -3', '+ 4', '-']
-print(queue_actions(s))
 
 
 
-# def limits(high: int) -> bool:
-#     if 1 <= high <= 10**6:
-#         return True
-#     else:
-#         return False
-#
-#
-# def worst_case_txt():
-#     f = File(__file__)
-#     arguments = f.read()
-#     high = int(arguments[0])
-#
-#     if limits(high):
-#         res = " ".join(map(str, worst_case(high)))
-#         f.write(res)
-#
-#
-#
-# if __name__ == "__main__":
-#     worst_case_txt()
+def limits(actions_count: int, actions: tp.List[str]) -> bool:
+    if (1 <= actions_count <= 10**6) and (len(actions) == actions_count):
+        return True
+    else:
+        return False
+
+
+def queue_actions_txt():
+    f = File(__file__)
+    arguments = f.read()
+    actions_count = int(arguments[0])
+    actions = arguments[1:]
+    if limits(actions_count, actions):
+        res = queue_actions(actions)
+        f.write('\n'.join(res))
+
+
+
+if __name__ == "__main__":
+    queue_actions_txt()

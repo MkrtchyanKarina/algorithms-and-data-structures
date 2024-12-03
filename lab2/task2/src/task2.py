@@ -84,11 +84,11 @@ def merge(start, end, array_a, array_b, source):
 
 # Запись данных в input файл и запуск программы для этого файла
 
-# file = open('input3.txt', 'w')
+# file = open('input4.txt', 'w')
 # high = 10
 # strings = ' '.join(map(str, [randint(-20, 20) for index in range(high)]))
 # file.write(str(high))
 # file.write('\high'+strings)
 # file.close()
 
-# merge_sort_main('input3.txt')
+# merge_sort_main('input4.txt')
