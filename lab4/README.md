@@ -1,4 +1,4 @@
-# Лабораторная работа №5: Деревья. Пирамида, пирамидальная сортировка. Очередь с приоритетами
+# Лабораторная работа №4: Стек, очередь, связанный список.
 
 **Студентка ИТМО,  Мкртчян Карина Геворговна  466745**  
 ## Вариант 12
@@ -9,7 +9,8 @@
 - [ ] [Задача 6 - Очередь с минимумом](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab4/task6)
 - [ ] [Задача 8 - Постфиксная запись](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab4/task8)
 - [ ] [Задача 11 - Бюрократия](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab4/task11)
-- [ ] [Задача 13 - Реализация стека, очереди и связанных списков](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab4/task13)
+- [ ] [Задача 13.1 - Реализация стека](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab4/task13_1)
+- [ ] [Задача 13.3 - Реализация односвязного списка](https://github.com/MkrtchyanKarina/algorithms-and-data-structures/tree/master/lab4/task13_3)
 
 ## Описание
 В этой лабораторной работе студенты ознакомятся со структурами данных являющимися производными от массивов, такие как стеки и очереди.
@@ -26,19 +27,14 @@
    ```
 2. **Перейдите в папку с проектом**
    ```bash
-   cd algorithms-and-data-structures/lab4
+   cd algorithms-and-data-structures/lab5
    ```
-3. **Запуску всех лабораторных**
+3. **Запустить все лабораторные**
     ```bash
    python src/main.py
    ```
-4. **Запуску всех тестов**
+4. **Запустить все тесты**
     ```bash
    python -m unittest discover -v
    ```
-
-## Тестирование
-   Для запуска тестов выполните:
-```bash
-    python -m unittest discover -v
 ```
