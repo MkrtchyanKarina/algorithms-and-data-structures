@@ -14,7 +14,7 @@ class LinkedList:
         new_node.next = tmp  # Сделаем новый узел первым
         self.root = new_node  # Обновляем корень списка
 
-    def pop_begin(self) -> None:
+    def popleft(self) -> None:
         tmp = self.root
         tmp = tmp.next
         self.root = tmp
@@ -38,8 +38,8 @@ class LinkedList:
         while tmp:
             if tmp.val == key:
                 new_node = Node(value)
-                new_node.next = tmp.next  # Новый узел указывает на следующий узел
-                tmp.next = new_node  # Узел `prev_val` указывает на новый узел
+                new_node.next = tmp.next
+                tmp.next = new_node
                 break
             tmp = tmp.next
 
@@ -66,8 +66,8 @@ ll.prepend('hello')
 ll.output()
 print(ll.search('hello'))
 print()
-ll.pop_begin()
-ll.pop_begin()
+ll.popleft()
+ll.popleft()
 ll.output()
 print(ll.search('hello'))
 ll.insert_after(1, 2)

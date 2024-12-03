@@ -156,8 +156,9 @@ class BracketSequenceTest(unittest.TestCase):
 
     def test_bracket_sequence_8(self):
         # given
-        brackets = ([choice(['{', '[', '(']) for _ in range(10**5//2)] +
-                    [chr(randint(0, 127)) for _ in range(10**5//2)])
+        brackets_len = 10**5
+        brackets = ([choice(['{', '[', '(']) for _ in range(brackets_len//2)] +
+                    [chr(randint(0, 127)) for _ in range(brackets_len//2)])
         brackets = "".join(brackets)
 
 

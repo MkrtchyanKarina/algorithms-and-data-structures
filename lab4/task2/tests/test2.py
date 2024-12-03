@@ -50,8 +50,8 @@ class QueueActionsTest(unittest.TestCase):
     def test_queue_actions_2(self):
         # given
         actions_count = 10**6
-        actions = ([f'+ {randint(-10**9, 10**9)}' for _ in range(10**6//2)] +
-                   [f'+ {randint(-10**9, 10**9)}' if randint(0, 1) else '-' for _ in range(10**6//2)])
+        actions = ([f'+ {randint(-10**9, 10**9)}' for _ in range(actions_count//2)] +
+                   [f'+ {randint(-10**9, 10**9)}' if randint(0, 1) else '-' for _ in range(actions_count//2)])
 
         # when
         t_start = time.perf_counter()

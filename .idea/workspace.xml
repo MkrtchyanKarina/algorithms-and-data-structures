@@ -4,25 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f721ea97-be28-463d-90db-e8984220e982" name="Changes" comment="add new files">
+    <list default="true" id="f721ea97-be28-463d-90db-e8984220e982" name="Changes" comment="updated readme files and test files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab0/task1/src/task3.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab0/task1/src/task3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/task2/src/task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/task2/src/task2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/task3/src/task3.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/task3/src/task3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/task5/src/task5.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/task5/src/task5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/task2/src/task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task2/src/task2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/task3/src/task3.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task3/src/task3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/src/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/src/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/task2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task2/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/task2/src/task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task2/src/task2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/task13.1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task13_1/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/task13.1/src/task13.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task13_1/src/task13_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/task13.1/tests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task13_1/tests/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/task13.1/tests/test6.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task13_1/tests/test6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/task13.1/txtf/input3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task13_1/txtf/input3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/task13.1/txtf/output3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task13_1/txtf/output3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/task13.3/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task13_3/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/task13.3/src/task13.3.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task13_3/src/task13_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/task13.3/tests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task13_3/tests/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/task13.3/tests/test6.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task13_3/tests/test6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/task13.3/txtf/input3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task13_3/txtf/input3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/task13.3/txtf/output3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task13_3/txtf/output3.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab4/task2/tests/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task2/tests/test2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/task2/txtf/input2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task2/txtf/input2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/task2/txtf/output2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task2/txtf/output2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/task4/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task4/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/task4/src/task4.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task4/src/task4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab4/task4/tests/test4.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task4/tests/test4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/task4/txtf/input3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task4/txtf/input4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/task4/txtf/output3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task4/txtf/output4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/task6/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task6/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/task6/src/task6.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task6/src/task6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/task6/tests/test6.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task6/tests/test6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/task6/txtf/input3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task6/txtf/input6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/task6/txtf/output3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task6/txtf/output6.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,6 +126,10 @@
     "Python tests.Python tests for test5.InsertionSortTestCase.test_max_count1.executor": "Run",
     "Python tests.Python tests for test5.InsertionSortTestCase.test_selection_sort1.executor": "Run",
     "Python tests.Python tests for test5.InsertionSortTestCase.test_selection_sort3.executor": "Run",
+    "Python tests.Python tests for test6.BracketSequenceTest.executor": "Run",
+    "Python tests.Python tests for test6.BracketSequenceTest.test_queue_actions_0.executor": "Run",
+    "Python tests.Python tests for test6.BracketSequenceTest.test_queue_actions_1.executor": "Run",
+    "Python tests.Python tests for test6.BracketSequenceTest.test_queue_actions_2.executor": "Run",
     "Python tests.Python tests for test6.InsertionSortTestCase.executor": "Debug",
     "Python tests.Python tests for test7.InsertionSortTestCase.executor": "Run",
     "Python tests.Python tests for test7.InsertionSortTestCase.test_insertion_sort1.executor": "Run",
@@ -242,8 +248,8 @@
       <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab2\task4\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test4.BracketSequenceTest">
-    <configuration name="task4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test6.BracketSequenceTest">
+    <configuration name="task6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -252,11 +258,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4/task4/src" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4/task6/src" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab4/task4/src/task4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab4/task6/src/task6.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -265,73 +271,73 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test4.BracketSequenceTest" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test6.BracketSequenceTest" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4/task4/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4/task6/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test4.BracketSequenceTest&quot;" />
+      <option name="_new_target" value="&quot;test6.BracketSequenceTest&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test4.BracketSequenceTest.test_bracket_sequence_3" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test6.BracketSequenceTest.test_queue_actions_0" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4/task4/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4/task6/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test4.BracketSequenceTest.test_bracket_sequence_3&quot;" />
+      <option name="_new_target" value="&quot;test6.BracketSequenceTest.test_queue_actions_0&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test4.BracketSequenceTest.test_bracket_sequence_7" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test6.BracketSequenceTest.test_queue_actions_1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4/task4/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4/task6/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test4.BracketSequenceTest.test_bracket_sequence_7&quot;" />
+      <option name="_new_target" value="&quot;test6.BracketSequenceTest.test_queue_actions_1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test4.BracketSequenceTest.test_bracket_sequence_8" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test6.BracketSequenceTest.test_queue_actions_2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4/task4/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4/task6/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test4.BracketSequenceTest.test_bracket_sequence_8&quot;" />
+      <option name="_new_target" value="&quot;test6.BracketSequenceTest.test_queue_actions_2&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test4.BracketSequenceTest" />
-        <item itemvalue="Python tests.Python tests for test4.BracketSequenceTest.test_bracket_sequence_8" />
-        <item itemvalue="Python.task4" />
-        <item itemvalue="Python tests.Python tests for test4.BracketSequenceTest.test_bracket_sequence_7" />
-        <item itemvalue="Python tests.Python tests for test4.BracketSequenceTest.test_bracket_sequence_3" />
+        <item itemvalue="Python tests.Python tests for test6.BracketSequenceTest" />
+        <item itemvalue="Python tests.Python tests for test6.BracketSequenceTest.test_queue_actions_2" />
+        <item itemvalue="Python tests.Python tests for test6.BracketSequenceTest.test_queue_actions_1" />
+        <item itemvalue="Python tests.Python tests for test6.BracketSequenceTest.test_queue_actions_0" />
+        <item itemvalue="Python.task6" />
       </list>
     </recent_temporary>
   </component>
@@ -350,14 +356,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726664580045</updated>
-    </task>
-    <task id="LOCAL-00020" summary="added new tests">
-      <option name="closed" value="true" />
-      <created>1727637876060</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1727637876060</updated>
     </task>
     <task id="LOCAL-00021" summary="added new tests">
       <option name="closed" value="true" />
@@ -743,7 +741,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733174198411</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="updated readme files and test files">
+      <option name="closed" value="true" />
+      <created>1733245253872</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1733245253873</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -765,6 +771,7 @@
     <MESSAGE value="change files" />
     <MESSAGE value="add new tests" />
     <MESSAGE value="add new files" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new files" />
+    <MESSAGE value="updated readme files and test files" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated readme files and test files" />
   </component>
 </project>
