@@ -4,43 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f721ea97-be28-463d-90db-e8984220e982" name="Changes" comment="updated files">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/src/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/src/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/src/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/task1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/task1/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/task1/src/task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/task1/src/task1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/task1/tests/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/task1/tests/test1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/task2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/task2/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/task2/tests/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/task2/tests/test2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/task3/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/task3/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/task3/tests/test3.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/task3/tests/test3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/task5/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/task5/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/task5/tests/test5.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/task5/tests/test5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/task7/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/task7/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/task9/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/task9/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/src/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/task11/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task11/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/task11/src/task11.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task11/src/task11.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/task11/tests/test11.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task11/tests/test11.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/task11/txtf/input11.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task11/txtf/input11.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/task2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task2/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/task2/tests/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task2/tests/test2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/task4/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task4/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/task4/tests/test4.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task4/tests/test4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/task6/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task6/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/task6/tests/test6.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task6/tests/test6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/task8/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task8/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/task1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/task1/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/task3/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/task3/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/task4/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/task4/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/task7/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/task7/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/task7/tests/test7.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/task7/tests/test7.py" afterDir="false" />
-    </list>
+    <list default="true" id="f721ea97-be28-463d-90db-e8984220e982" name="Changes" comment="updated files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -198,6 +162,7 @@
     "Python tests.Python tests in test2.py.executor": "Run",
     "Python tests.Python tests in test3.py.executor": "Run",
     "Python tests.Python tests in test4.py.executor": "Run",
+    "Python tests.Python tests in test5.py.executor": "Run",
     "Python tests.Python tests in test7.py.executor": "Run",
     "Python tests.Python tests in test8.py.executor": "Run",
     "Python tests.Python tests in test9.py.executor": "Run",
@@ -274,37 +239,7 @@
       <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab2\task4\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in test5.py">
-    <configuration name="Python tests for test3.ScarecrowSortTest.test_scr_sort0" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="algorithms-and-data-structures" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab3/task3/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test3.ScarecrowSortTest.test_scr_sort0&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test5.HIndexTest" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="algorithms-and-data-structures" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab3/task5/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test5.HIndexTest&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Python tests in test9.py">
     <configuration name="Python tests for test5.HIndexTest.test_str_sort0" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
@@ -350,13 +285,43 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in test7.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="algorithms-and-data-structures" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab3/task7/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/lab3/task7/tests/test7.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test9.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="algorithms-and-data-structures" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab3/task9/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/lab3/task9/tests/test9.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests in test9.py" />
+        <item itemvalue="Python tests.Python tests in test7.py" />
         <item itemvalue="Python tests.Python tests in test5.py" />
         <item itemvalue="Python tests.Python tests for test5.HIndexTest.test_str_sort0" />
         <item itemvalue="Python tests.Python tests in test3.py" />
-        <item itemvalue="Python tests.Python tests for test3.ScarecrowSortTest.test_scr_sort0" />
-        <item itemvalue="Python tests.Python tests for test5.HIndexTest" />
       </list>
     </recent_temporary>
   </component>
@@ -375,14 +340,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726664580045</updated>
-    </task>
-    <task id="LOCAL-00025" summary="add new tests">
-      <option name="closed" value="true" />
-      <created>1727708728951</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1727708728951</updated>
     </task>
     <task id="LOCAL-00026" summary="add new tests">
       <option name="closed" value="true" />
@@ -768,7 +725,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733303511314</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="updated files">
+      <option name="closed" value="true" />
+      <created>1733350536182</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1733350536182</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
