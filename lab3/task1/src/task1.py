@@ -2,7 +2,8 @@ from random import randint
 from lab3.src.utils import File
 
 
-def quick_sort(m: list[int]) -> list[int]:
+def quick_sort(l: list[int]) -> list[int]:
+    m = l.copy()
     if len(m) > 1:
         pivot = m[randint(0, len(m) - 1)]
         start = [i for i in m if i < pivot]

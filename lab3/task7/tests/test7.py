@@ -2,9 +2,12 @@ import string
 import unittest
 import psutil
 import time
-from random import *
-from prettytable import PrettyTable
-from lab3.task7.src.task7 import *
+from random import randint, choice
+from lab3.src.utils import table
+from lab3.task7.src.task7 import strings_sort, reformat
+
+expected_time = 3
+expected_memory = 256
 
 
 def create_array(n: int, m: int):
@@ -23,58 +26,72 @@ def check(n, m, k, strings):
 def arr_to_str(arr):
     return ' '.join(str(x) for x in arr[:3])
 
-table = PrettyTable()
-table.field_names = [' ', "данные", "время, сек.", "память, МБ", "результат"]
-table.hrules = 1
 
 
 class StringsSortTest(unittest.TestCase):
 
     def test_str_sort0(self):
-        global table
+        # given
         n = 1
         m = 1
         k = 1
         strings = create_array(n, m)
-        t_start = time.time()
+        expected_result = check(n, m, k, strings)
+
+        # when
+        t_start = time.perf_counter()
         result = strings_sort(n, m, k, strings)
-        t_end = round(time.time() - t_start, 2)
+        t_end = round(time.perf_counter() - t_start, 2)
         memory = round(psutil.Process().memory_info().rss / 1024 ** 2, 2)
 
-        self.assertEqual(result, check(n, m, k, strings))
-
+        # then
+        self.assertEqual(result, expected_result)
+        self.assertLessEqual(t_end, expected_time)
+        self.assertLessEqual(memory, expected_memory)
         table.add_row(["Минимальные значения", f'{n} {m} {k}\n{arr_to_str(strings)}', t_end, memory, arr_to_str(result)])
 
-
     def test_str_sort1(self):
-        global table
+        # given
         n = 3
         m = 3
         k = 2
         strings = ['bbb', 'aba', 'baa']
-        t_start = time.time()
+        expected_result = check(n, m, k, strings)
+
+        # when
+        t_start = time.perf_counter()
         result = strings_sort(n, m, k, strings)
-        t_end = round(time.time() - t_start, 2)
+        t_end = round(time.perf_counter() - t_start, 2)
         memory = round(psutil.Process().memory_info().rss / 1024 ** 2, 2)
 
-        self.assertEqual(result, check(n, m, k, strings))
-
-        table.add_row(["Значения из примера", f'{n} {m} {k}\n{arr_to_str(strings)}', t_end, memory, arr_to_str(result)])
+        # then
+        self.assertEqual(result, expected_result)
+        self.assertLessEqual(t_end, expected_time)
+        self.assertLessEqual(memory, expected_memory)
+        table.add_row(["Минимальные значения", f'{n} {m} {k}\n{arr_to_str(strings)}', t_end, memory, arr_to_str(result)])
 
 
     def test_str_sort2(self):
+        # given
         n = 5*10**3
         m = 10**4
         k = 1000
         strings = create_array(n, m)
-        t_start = time.time()
+
+        # when
+        t_start = time.perf_counter()
         result = strings_sort(n, m, k, strings)
-        t_end = round(time.time() - t_start, 2)
+        t_end = round(time.perf_counter() - t_start, 2)
         memory = round(psutil.Process().memory_info().rss / 1024 ** 2, 2)
 
-        self.assertEqual(result, check(n, m, k, strings))
-
-
-        table.add_row(["Максимальные значения", f'{n} {m} {k}\n{arr_to_str([x[:3] for x in strings[:3]])}', t_end, memory, arr_to_str(result)])
-        print(f'\n{__file__}')
+        # then
+        self.assertLessEqual(t_end, expected_time)
+        self.assertLessEqual(memory, expected_memory)
+        table.add_row(["Максимальные значения", f'{n} {m} {k}\n{arr_to_str([x[:3] for x in strings[:3]])}', t_end,
+                       memory, arr_to_str(result)])
+        print()
         print(table)
+        table.clear_rows()
+
+if __name__ == "__main__":
+    unittest.main()

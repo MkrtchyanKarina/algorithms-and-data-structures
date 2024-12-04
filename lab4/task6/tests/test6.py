@@ -69,3 +69,6 @@ class BracketSequenceTest(unittest.TestCase):
         print()
         print(table)
         table.clear_rows()
+
+if __name__ == "__main__":
+    unittest.main()

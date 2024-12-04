@@ -18,3 +18,4 @@ for i in range(2, len(array)-3): # в цикле от первой до посл
 if __name__ == "__main__":
     for f in src_path:
         subprocess.run(['python', str(f)])
+        print(f'{f}  ran')

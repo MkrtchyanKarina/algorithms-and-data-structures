@@ -1,63 +1,117 @@
 import unittest
 import psutil
 import time
-from prettytable import PrettyTable
-from lab3.task3.src.task3 import *
+from lab3.src.utils import table
+from lab3.task3.src.task3 import scarecrow_sort
 from random import randint
 
-table = PrettyTable()
-table.field_names = [' ', "данные", "время, сек.", "память, МБ", "результат"]
-table.hrules = 1
+expected_time = 2
+expected_memory = 256
 
 
 class ScarecrowSortTest(unittest.TestCase):
     def test_scr_sort0(self):
-        global table
+        # given
+        n = 1
+        k = 1
         l = [2]
-        t_start = time.time()
-        result = scarecrow_sort(1, 1, l)
-        t_end = round(time.time() - t_start, 2)
+        expected_result = 'ДА'
+
+        # when
+        t_start = time.perf_counter()
+        result = scarecrow_sort(n, k, l)
+        t_end = round(time.perf_counter() - t_start, 2)
         memory = round(psutil.Process().memory_info().rss / 1024 ** 2, 2)
-        self.assertEqual(result, 'ДА')
-        table.add_row(["Минимальные значения", f'{' '.join(map(str, l))}', t_end, memory,result])
+
+        # then
+        self.assertEqual(result, expected_result)
+        self.assertLessEqual(t_end, expected_time)
+        self.assertLessEqual(memory, expected_memory)
+        table.add_row(["Минимальные значения", f'{n} {k}\n{' '.join(map(str, l))}', t_end, memory,result])
+
+
+
 
     def test_scr_sort1(self):
-        global table
+        # given
+        n = 3
+        k = 2
         l = [2, 1, 3]
-        t_start = time.time()
-        result = scarecrow_sort(3, 2, l)
-        t_end = round(time.time() - t_start, 2)
+        expected_result = 'НЕТ'
+
+        # when
+        t_start = time.perf_counter()
+        result = scarecrow_sort(n, k, l)
+        t_end = round(time.perf_counter() - t_start, 2)
         memory = round(psutil.Process().memory_info().rss / 1024 ** 2, 2)
-        self.assertEqual(result, 'НЕТ')
-        table.add_row(["Значения из примера", f'{' '.join(map(str, l))}', t_end, memory,result])
+
+        # then
+        self.assertEqual(result, expected_result)
+        self.assertLessEqual(t_end, expected_time)
+        self.assertLessEqual(memory, expected_memory)
+        table.add_row(["Минимальные значения", f'{n} {k}\n{' '.join(map(str, l))}', t_end, memory, result])
 
     def test_scr_sort2(self):
-        global table
+        # given
+        n = 9
+        k = 4
         l = [1, 5, 3, 4, 1, 7, 6, 8, 2]
-        t_start = time.time()
-        result = scarecrow_sort(9, 4, l)
-        t_end = round(time.time() - t_start, 2)
+        expected_result = 'НЕТ'
+
+        # when
+        t_start = time.perf_counter()
+        result = scarecrow_sort(n, k, l)
+        t_end = round(time.perf_counter() - t_start, 2)
         memory = round(psutil.Process().memory_info().rss / 1024 ** 2, 2)
-        self.assertEqual(result, 'НЕТ')
-        table.add_row(["Значения из примера", f'{' '.join(map(str, l))}', t_end, memory,result])
+
+        # then
+        self.assertEqual(result, expected_result)
+        self.assertLessEqual(t_end, expected_time)
+        self.assertLessEqual(memory, expected_memory)
+        table.add_row(["Минимальные значения", f'{n} {k}\n{' '.join(map(str, l))}', t_end, memory, result])
+
+
 
     def test_scr_sort3(self):
-        global table
+        # given
+        n = 5
+        k = 3
         l = [1, 5, 3, 4, 1]
-        t_start = time.time()
-        result = scarecrow_sort(5, 3, l)
-        t_end = round(time.time() - t_start, 2)
+        expected_result = 'ДА'
+
+        # when
+        t_start = time.perf_counter()
+        result = scarecrow_sort(n, k, l)
+        t_end = round(time.perf_counter() - t_start, 2)
         memory = round(psutil.Process().memory_info().rss / 1024 ** 2, 2)
-        self.assertEqual(result, 'ДА')
-        table.add_row(["Значения из примера", f'{' '.join(map(str, l))}', t_end, memory,result])
+
+        # then
+        self.assertEqual(result, expected_result)
+        self.assertLessEqual(t_end, expected_time)
+        self.assertLessEqual(memory, expected_memory)
+        table.add_row(["Минимальные значения", f'{n} {k}\n{' '.join(map(str, l))}', t_end, memory, result])
 
     def test_scr_sort4(self):
-        global table
+        # given
+        n = 10**5
+        k = 10
         l = [randint(-10**9, 10**9) for i in range(10**5)]
-        t_start = time.time()
-        result = scarecrow_sort(10**5, 10, l)
-        t_end = round(time.time() - t_start, 2)
+        expected_result = 'НЕТ'
+
+        # when
+        t_start = time.perf_counter()
+        result = scarecrow_sort(n, k, l)
+        t_end = round(time.perf_counter() - t_start, 2)
         memory = round(psutil.Process().memory_info().rss / 1024 ** 2, 2)
-        table.add_row(["Максимальные значения", f'{' '.join(map(str, l[:4]))}', t_end, memory,result])
-        print(f'\n{__file__}')
+
+        # then
+        self.assertEqual(result, expected_result)
+        self.assertLessEqual(t_end, expected_time)
+        self.assertLessEqual(memory, expected_memory)
+        table.add_row(["Минимальные значения", f'{n} {k}\n{' '.join(map(str, l[:4]))}', t_end, memory, result])
+        print()
         print(table)
+        table.clear_rows()
+
+if __name__ == "__main__":
+    unittest.main()

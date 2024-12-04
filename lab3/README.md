@@ -34,11 +34,11 @@
    ```
 4. **Запуску всех тестов**
     ```bash
-   python -m unittest discover -v
+   python -documents_count unittest discover -v
    ```
 
 ## Тестирование
    Для запуска тестов выполните:
 ```bash
-    python -m unittest discover -v
+    python -documents_count unittest discover -v
 ```

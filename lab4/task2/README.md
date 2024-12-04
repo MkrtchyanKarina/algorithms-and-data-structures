@@ -48,5 +48,5 @@ M ≤ 10^6) - число команд. В последующих строках 
    ```
 4. **Запустить все тесты**
     ```bash
-   python -m unittest discover -v
+   python -documents_count unittest discover -v
    ```
