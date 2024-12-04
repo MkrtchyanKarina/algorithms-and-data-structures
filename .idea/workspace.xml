@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f721ea97-be28-463d-90db-e8984220e982" name="Changes" comment="updated files and written tests">
-      <change beforePath="$PROJECT_DIR$/lab4/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/README.md" afterDir="false" />
+    <list default="true" id="f721ea97-be28-463d-90db-e8984220e982" name="Changes" comment="updated files">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/task8/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task8/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/task8/src/task8.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task8/src/task8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/task8/tests/test4.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task8/tests/test8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/task8/txtf/input3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/task8/txtf/output3.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,6 +132,9 @@
     "Python tests.Python tests for test7.TestHeapSort.test_should_heapsort_big_arr.executor": "Run",
     "Python tests.Python tests for test7.TestHeapSort.test_should_heapsort_repeat.executor": "Run",
     "Python tests.Python tests for test7.TestHeapSort.test_should_heapsort_small_arr.executor": "Run",
+    "Python tests.Python tests for test8.BracketSequenceTest.test_queue_actions_0.executor": "Run",
+    "Python tests.Python tests for test8.EqualTest.executor": "Run",
+    "Python tests.Python tests for test8.EqualTest.test_equal_3.executor": "Run",
     "Python tests.Python tests for test8.PolyMultiplyTest.executor": "Run",
     "Python tests.Python tests for test8.PolyMultiplyTest.test_multiply1.executor": "Run",
     "Python tests.Python tests for test8.PolyMultiplyTest.test_multiply2.executor": "Run",
@@ -229,8 +237,8 @@
       <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab2\task4\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test6.BracketSequenceTest.test_queue_actions_2">
-    <configuration name="task6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test8.EqualTest">
+    <configuration name="task8" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -239,62 +247,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4/task6/src" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4/task8/src" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab4/task6/src/task6.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab4/task8/src/task8.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test6.BracketSequenceTest" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="algorithms-and-data-structures" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4/task6/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test6.BracketSequenceTest&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test6.BracketSequenceTest.test_queue_actions_0" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="algorithms-and-data-structures" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4/task6/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test6.BracketSequenceTest.test_queue_actions_0&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test6.BracketSequenceTest.test_queue_actions_1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="algorithms-and-data-structures" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4/task6/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test6.BracketSequenceTest.test_queue_actions_1&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests for test6.BracketSequenceTest.test_queue_actions_2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -312,13 +275,58 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test8.BracketSequenceTest.test_queue_actions_0" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="algorithms-and-data-structures" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4/task8/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test8.BracketSequenceTest.test_queue_actions_0&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test8.EqualTest" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="algorithms-and-data-structures" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4/task8/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test8.EqualTest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test8.EqualTest.test_equal_3" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="algorithms-and-data-structures" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4/task8/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test8.EqualTest.test_equal_3&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test8.EqualTest" />
+        <item itemvalue="Python tests.Python tests for test8.EqualTest.test_equal_3" />
+        <item itemvalue="Python.task8" />
+        <item itemvalue="Python tests.Python tests for test8.BracketSequenceTest.test_queue_actions_0" />
         <item itemvalue="Python tests.Python tests for test6.BracketSequenceTest.test_queue_actions_2" />
-        <item itemvalue="Python tests.Python tests for test6.BracketSequenceTest" />
-        <item itemvalue="Python tests.Python tests for test6.BracketSequenceTest.test_queue_actions_1" />
-        <item itemvalue="Python tests.Python tests for test6.BracketSequenceTest.test_queue_actions_0" />
-        <item itemvalue="Python.task6" />
       </list>
     </recent_temporary>
   </component>
@@ -337,14 +345,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726664580045</updated>
-    </task>
-    <task id="LOCAL-00022" summary="change files">
-      <option name="closed" value="true" />
-      <created>1727704674525</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1727704674527</updated>
     </task>
     <task id="LOCAL-00023" summary="add new tests">
       <option name="closed" value="true" />
@@ -730,7 +730,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733257337996</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="updated files">
+      <option name="closed" value="true" />
+      <created>1733258575120</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1733258575120</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -754,6 +762,7 @@
     <MESSAGE value="add new files" />
     <MESSAGE value="updated readme files and test files" />
     <MESSAGE value="updated files and written tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated files and written tests" />
+    <MESSAGE value="updated files" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated files" />
   </component>
 </project>

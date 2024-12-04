@@ -24,6 +24,8 @@ def equal(expression: str) -> tp.Union[int, str]:
     for e in expression:
         if e.isnumeric():
             stack += [int(e)]
+        elif len(e) > 1 and e[1:].isnumeric():
+            stack += [int(e)]
         else:
             stack[-2] = calc(stack[-2], stack[-1], e)
             stack.pop()
@@ -33,28 +35,21 @@ def equal(expression: str) -> tp.Union[int, str]:
         return "error"
 
 
+def limits(actions_count: int, expression: str) -> bool:
+    if (1 <= actions_count <= 10**6) and (len(expression.split(" ")) == actions_count):
+        return True
+    else:
+        return False
 
 
-print(equal("8 9 + 1 7 - *"))
-print(equal("5 15 + 4 7 + 1 - /"))
-print(equal("5 15 + 4 7 + 1 -"))
+def equal_txt():
+    f = File(__file__)
+    data = f.read()
+    actions_count = int(data[0])
+    expression = data[1]
+    if limits(actions_count, expression):
+        f.write(str(equal(expression)))
 
 
-# def limits(high: int, k: int, array: list[int]) -> bool:
-#     if 1 <= k < high <= 10**5 and all(abs(x) <= 10**9 for x in array):
-#         return True
-#     else:
-#         return False
-#
-#
-# def scarecrow_sort_txt():
-#     f = File(__file__)
-#     data = f.read()
-#     high, k = list(map(int, data[0].split(" ")))
-#     array = list(map(int, data[1].split(" ")))
-#     if limits(high, k, array):
-#         f.write(scarecrow_sort(high, k, array))
-#
-#
-# if __name__ == "__main__":
-#     scarecrow_sort_txt()
+if __name__ == "__main__":
+    equal_txt()
