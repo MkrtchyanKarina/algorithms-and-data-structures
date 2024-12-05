@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f721ea97-be28-463d-90db-e8984220e982" name="Changes" comment="updated files" />
+    <list default="true" id="f721ea97-be28-463d-90db-e8984220e982" name="Changes" comment="updated files">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/task13_1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task13_1/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/task13_1/src/task13_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task13_1/src/task13_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/task13_1/tests/test6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/task13_1/txtf/input3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/task13_1/txtf/output3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/task13_3/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task13_3/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/task13_3/src/task13_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/task13_3/src/task13_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/task13_3/tests/test6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/task13_3/txtf/input3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/task13_3/txtf/output3.txt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,6 +74,15 @@
     "Python tests.Python tests for test11.BureaucracyTest.test_bureaucracy_2.executor": "Run",
     "Python tests.Python tests for test11.BureaucracyTest.test_bureaucracy_3.executor": "Run",
     "Python tests.Python tests for test11.EqualTest.test_equal_0.executor": "Run",
+    "Python tests.Python tests for test13_1.LinkedListTest.executor": "Run",
+    "Python tests.Python tests for test13_1.LinkedListTest.test_LL_1.executor": "Run",
+    "Python tests.Python tests for test13_1.LinkedListTest.test_LL_3.executor": "Run",
+    "Python tests.Python tests for test13_1.LinkedListTest.test_LL_4.executor": "Run",
+    "Python tests.Python tests for test13_3.LinkedListTest.test_LL_0.executor": "Run",
+    "Python tests.Python tests for test13_3.LinkedListTest.test_LL_1.executor": "Run",
+    "Python tests.Python tests for test13_3.LinkedListTest.test_LL_2.executor": "Run",
+    "Python tests.Python tests for test13_3.LinkedListTest.test_LL_3.executor": "Run",
+    "Python tests.Python tests for test13_3.LinkedListTest.test_LL_4.executor": "Run",
     "Python tests.Python tests for test2.InsertionSortTestCase.executor": "Run",
     "Python tests.Python tests for test2.InsertionSortTestCase.test_insertion_sort.executor": "Run",
     "Python tests.Python tests for test2.InsertionSortTestCase.test_insertion_sort1.executor": "Run",
@@ -159,6 +180,7 @@
     "Python tests.Python tests for test_fib_matrix.fib_number_test.test_fib_number.executor": "Run",
     "Python tests.Python tests in test1.py.executor": "Run",
     "Python tests.Python tests in test10.py.executor": "Run",
+    "Python tests.Python tests in test13_1.py.executor": "Run",
     "Python tests.Python tests in test2.py.executor": "Run",
     "Python tests.Python tests in test3.py.executor": "Run",
     "Python tests.Python tests in test4.py.executor": "Run",
@@ -191,6 +213,7 @@
     "Python.task11.executor": "Run",
     "Python.task13.1.executor": "Run",
     "Python.task13.3 (1).executor": "Run",
+    "Python.task13_1.executor": "Run",
     "Python.task2.executor": "Run",
     "Python.task3.executor": "Run",
     "Python.task3_recursion.executor": "Run",
@@ -239,89 +262,89 @@
       <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab2\task4\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in test9.py">
-    <configuration name="Python tests for test5.HIndexTest.test_str_sort0" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test13_3.LinkedListTest.test_LL_4">
+    <configuration name="Python tests for test13_3.LinkedListTest.test_LL_0" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab3/task5/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4/task13_3/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test5.HIndexTest.test_str_sort0&quot;" />
+      <option name="_new_target" value="&quot;test13_3.LinkedListTest.test_LL_0&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test3.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test13_3.LinkedListTest.test_LL_1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab3/task3/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4/task13_3/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/lab3/task3/tests/test3.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test13_3.LinkedListTest.test_LL_1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test5.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test13_3.LinkedListTest.test_LL_2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab3/task5/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4/task13_3/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/lab3/task5/tests/test5.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test13_3.LinkedListTest.test_LL_2&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test7.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test13_3.LinkedListTest.test_LL_3" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab3/task7/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4/task13_3/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/lab3/task7/tests/test7.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test13_3.LinkedListTest.test_LL_3&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test9.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test13_3.LinkedListTest.test_LL_4" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab3/task9/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4/task13_3/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/lab3/task9/tests/test9.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test13_3.LinkedListTest.test_LL_4&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in test9.py" />
-        <item itemvalue="Python tests.Python tests in test7.py" />
-        <item itemvalue="Python tests.Python tests in test5.py" />
-        <item itemvalue="Python tests.Python tests for test5.HIndexTest.test_str_sort0" />
-        <item itemvalue="Python tests.Python tests in test3.py" />
+        <item itemvalue="Python tests.Python tests for test13_3.LinkedListTest.test_LL_4" />
+        <item itemvalue="Python tests.Python tests for test13_3.LinkedListTest.test_LL_3" />
+        <item itemvalue="Python tests.Python tests for test13_3.LinkedListTest.test_LL_2" />
+        <item itemvalue="Python tests.Python tests for test13_3.LinkedListTest.test_LL_1" />
+        <item itemvalue="Python tests.Python tests for test13_3.LinkedListTest.test_LL_0" />
       </list>
     </recent_temporary>
   </component>
@@ -340,14 +363,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726664580045</updated>
-    </task>
-    <task id="LOCAL-00026" summary="add new tests">
-      <option name="closed" value="true" />
-      <created>1727711044751</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1727711044751</updated>
     </task>
     <task id="LOCAL-00027" summary="add new files">
       <option name="closed" value="true" />
@@ -733,7 +748,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733350536182</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="updated files">
+      <option name="closed" value="true" />
+      <created>1733350632453</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1733350632453</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

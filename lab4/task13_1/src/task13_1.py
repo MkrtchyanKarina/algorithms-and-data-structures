@@ -1,30 +1,26 @@
-from lab4.src.utils import File
-
-
 class Node:
     def __init__(self, val: int, next=None) -> None:
         self.val = val
         self.next = next
 
 
-
 class LinkedList:
     def __init__(self, root) -> None:
         self.root = root
 
-    def append(self, val: int) -> None:
+    def push(self, val: int) -> None:
         tmp = self.root
         while tmp.next:
             tmp = tmp.next
         tmp.next = Node(val=val)
 
-    def output(self):
+    def output(self) -> list:
+        ll = []
         tmp = self.root
         while tmp:
-            print(tmp.val, end = " ")
+            ll.append(tmp.val)
             tmp = tmp.next
-
-
+        return ll
 
     def is_empty(self) -> bool:
         tmp = self.root
@@ -33,20 +29,15 @@ class LinkedList:
         else:
             return False
 
-    def pop_end(self):
+    def pop(self):
         tmp = self.root
-        while tmp.next.next:
-            tmp = tmp.next
-        tmp.next = None
+        if tmp.next:
+            while tmp.next.next:
+                tmp = tmp.next
+            tmp.next = None
+        else:
+            self.root = None
 
 
-ll = LinkedList(root=None)
-print(ll.is_empty())
-root = Node(10)
-ll = LinkedList(root=root)
-ll.append(13)
-ll.append(12)
-ll.output()
-print()
-ll.pop_end()
-ll.output()
+if __name__ == "__main__":
+    pass
