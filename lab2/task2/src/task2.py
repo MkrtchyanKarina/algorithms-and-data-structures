@@ -41,7 +41,7 @@ class MergeSortActions:
         return array_c
 
 
-    def return_actions(self):
+    def return_actions(self) -> str:
         a = self.actions.split('\n')[:-1]
         a[-1] = a[-1][5:]
         return '\n'.join(a)
