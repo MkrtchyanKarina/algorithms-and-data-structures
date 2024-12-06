@@ -1,5 +1,5 @@
 from math import log2, ceil
-
+from lab2.src.utils import File
 
 def verification(n, A, B, attempt=1):
     res = 1
@@ -77,7 +77,24 @@ def reformat(x):
             return x[i:]
 
 
+def limits(n: int, A: list[int], B: list[int]) -> bool:
+    if len(A) == len(B) == n:
+        return True
+    else:
+        return False
 
 
-# karatsuba_polynomial_multiply_main('input8.txt')
-# print(karatsuba_polynomial_multiply(30, [7, 1, 7, 2, 3, 4, -2, 2, 1, 2, 1, 3, 4, 5, 2, 1, 4, -2, 5, -2, 1, 3, 3, 2, 3, 4, 4, 5, -2, -1], [1, 4, -2, 5, -2, 1, 3, 3, 2, 3, 4, 4, 5, -2, -1, 7, 1, 7, 2, 3, 4, -2, 2, 1, 2, 1, 3, 4, 5, 2]))
+def karatsuba_polynomial_multiply_txt():
+    f = File(__file__)
+    arguments = f.read()
+    n = int(arguments[0])
+    A = list(map(int, arguments[1].split(" ")))
+    B = list(map(int, arguments[2].split(" ")))
+
+    if limits(n, A, B):
+        res = karatsuba_polynomial_multiply(A, B)
+        f.write(' '.join(map(str, res)))
+
+
+if __name__ == "__main__":
+    karatsuba_polynomial_multiply_txt()

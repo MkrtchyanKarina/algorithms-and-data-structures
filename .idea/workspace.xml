@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f721ea97-be28-463d-90db-e8984220e982" name="Changes" comment="updated files">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/task1/tests/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task1/tests/test1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/task2/tests/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task2/tests/test2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/task3/tests/test3.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task3/tests/test3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/task5/tests/test5.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task5/tests/test5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/task7/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task7/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/task7/src/task7.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task7/src/task7.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/task7/tests/input7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/task7/tests/output7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/task7/tests/test7.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task7/tests/test7.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/task7/txtf/input7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task7/txtf/input7.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/task7/txtf/output7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task7/txtf/output7.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/task8/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task8/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/task8/src/task8.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task8/src/task8.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/task8/tests/test8.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task8/tests/test8.py" afterDir="false" />
-    </list>
+    <list default="true" id="f721ea97-be28-463d-90db-e8984220e982" name="Changes" comment="updated files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -376,14 +360,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726664580045</updated>
-    </task>
-    <task id="LOCAL-00030" summary="add new files">
-      <option name="closed" value="true" />
-      <created>1728238133660</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1728238133660</updated>
     </task>
     <task id="LOCAL-00031" summary="add new files">
       <option name="closed" value="true" />
@@ -769,7 +745,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733513574072</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="updated files">
+      <option name="closed" value="true" />
+      <created>1733519423286</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1733519423286</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
