@@ -14,7 +14,7 @@ class MaxSubarrayTest(unittest.TestCase):
     def test_frequent_0(self):
         # given
         array_len = 1
-        array = [randint(-10 ** 9, 10 ** 9) for i in range(array_len)]
+        array = [randint(-10 ** 9, 10 ** 9) for _ in range(array_len)]
 
         # when
         t_start = time.perf_counter()
@@ -34,7 +34,7 @@ class MaxSubarrayTest(unittest.TestCase):
     def test_frequent_1(self):
         # given
         array_len = 1_000
-        array = [randint(-10 ** 9, 10 ** 9) for i in range(array_len)]
+        array = [randint(-10 ** 9, 10 ** 9) for _ in range(array_len)]
 
         # when
         t_start = time.perf_counter()
@@ -53,11 +53,12 @@ class MaxSubarrayTest(unittest.TestCase):
     def test_frequent_2(self):
         # given
         array_len = 10_000
-        array = [randint(-10 ** 9, 10 ** 9) for i in range(array_len)]
+        array = [randint(-10 ** 9, 10 ** 9) for _ in range(array_len)]
 
         # when
         t_start = time.perf_counter()
         result = line_find_max_subarray(array_len, array)
+
         expected_result = max(0, sum(array[result[0]:result[1] + 1]))
         result = result[2]
         t_end = round(time.perf_counter() - t_start, 2)
@@ -71,7 +72,7 @@ class MaxSubarrayTest(unittest.TestCase):
 
 
 
-    def test_merge_sort_4(self):
+    def test_frequent_3(self):
         # given
         array_len = 100_000
         array = [randint(-10 ** 9, 10 ** 9) for i in range(array_len)]

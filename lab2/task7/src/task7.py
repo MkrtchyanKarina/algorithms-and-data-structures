@@ -20,7 +20,7 @@ def line_find_max_subarray(array_len: int, array: tp.List[int]) -> tp.Tuple[int,
     if start_index <= end_index:
         return start_index, end_index, max_sum
     else:
-        return 0, 0, 0
+        return start_index, end_index, 0
 
 
 def limits(n: int, m: list[int]) -> bool:
