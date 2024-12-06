@@ -4,7 +4,7 @@ import psutil
 from lab5.task1.src.task1 import is_heap
 from lab5.src.utils import table
 from random import randint
-
+from colorama import Style
 
 expected_time = 2
 expected_memory = 256
@@ -69,7 +69,7 @@ class TestIsHeap(unittest.TestCase):
         table.add_row(["Максимальные значения", f'{n}\n{array[:3]}', t_end, memory, result])
 
         print()
-        print("Task #1 test result")
+        print(Style.BRIGHT + 'Task #1 - Test Table' + Style.RESET_ALL)
         print(table)
         table.clear_rows()
 

@@ -1,76 +1,46 @@
 from random import randint
+from lab2.src.utils import File
+import typing as tp
 
 
-def line_find_max_subarray_main(*args):
-    if len(args) == 1:
-        path = args[0]
-        file_input = open(path, 'r')
-        n = int(file_input.readline().strip())
-        array = list(map(int, file_input.readline().strip().split(" ")))
-        result = " ".join(map(str, line_find_max_subarray(n, array)))
-        file_output = open('output' + path[5:], 'w')
-        file_output.write(result)
-        file_output.close()
-    else:
-        n, array = args
-        line_find_max_subarray(n, array)
-
-
-def line_find_max_subarray(n, array):
-    if verification(n, array):
-        max_sum = 0
-        start_index = 0
-        end_index = 0
-        sums = 0
-        for i in range(n):
-
-            if sums == 0:
-                start_index = i
-            sums += array[i]
-            if max_sum < sums:
-                max_sum = sums
-                end_index = i
-            if sums < 0:
-                sums = 0
+def line_find_max_subarray(array_len: int, array: tp.List[int]) -> tp.Tuple[int, int, int]:
+    max_sum = 0
+    start_index = 0
+    end_index = 0
+    sums = 0
+    for i in range(array_len):
+        if sums == 0:
+            start_index = i
+        sums += array[i]
+        if max_sum < sums:
+            max_sum = sums
+            end_index = i
+        if sums < 0:
+            sums = 0
+    if start_index <= end_index:
         return start_index, end_index, max_sum
-
-
-def verification(n, array, attempt=1):
-    res = 1
-    if type(n) is int and 1 <= n <= 10 ** 5:
-        if type(array) is list and n == len(array) and all(type(x) is int and abs(x) <= 10 ** 9 for x in array):
-            res = 1
-        else:
-            res *= 0
     else:
-        res *= 0
-    if res == 0:
-        if attempt == 3:
-            return 'Ошибка!'
+        return 0, 0, 0
 
-        else:
-            print("Введите данные ещё раз, соблюдая ограничения: ")
-            try:
-                new_n = int(input())
-                new_array = list(map(int, input().split(" ")))
-                return verification(new_n, new_array, attempt + 1)
-            except:
-                return 'Ошибка!'
+
+def limits(n: int, m: list[int]) -> bool:
+    if 1 <= n <= 10**5 and len(m) == n and all(abs(x) <= 10**9 for x in m):
+        return True
     else:
-        return res
+        return False
+
+
+def quick_sort_txt():
+    f = File(__file__)
+    arguments = f.read()
+    array_len = int(arguments[0])
+    array = list(map(int, arguments[1].split(" ")))
+
+    if limits(array_len, array):
+        res = line_find_max_subarray(array_len, array)
+        f.write(" ".join(map(str, res)))
 
 
 
-
-
-
-# Запись данных в input файл и запуск программы для этого файла
-
-# file = open('input7.txt', 'w')
-# high = 10**5
-# strings = ' '.join(map(str, [randint(-10**9, 10**9) for index in range(high)]))
-# file.write(str(high))
-# file.write('\high'+strings)
-#
-# file.close()
-# line_find_max_subarray_main('input7.txt')
+if __name__ == "__main__":
+    quick_sort_txt()

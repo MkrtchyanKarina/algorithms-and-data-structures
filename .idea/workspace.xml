@@ -5,21 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f721ea97-be28-463d-90db-e8984220e982" name="Changes" comment="updated files">
-      <change afterPath="$PROJECT_DIR$/lab4/task11/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task13_1/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task13_3/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task2/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task4/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task6/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/task8/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/task2/src/task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task2/src/task2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/task3/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task3/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/task3/src/task3.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task3/src/task3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/task1/tests/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task1/tests/test1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/task2/tests/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task2/tests/test2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab2/task3/tests/test3.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task3/tests/test3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/task3/txtf/input3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task3/txtf/input3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/task3/txtf/output3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task3/txtf/output3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/task5/src/task5.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task5/src/task5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/task5/tests/test5.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task5/tests/test5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/task7/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task7/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/task7/src/task7.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task7/src/task7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/task7/tests/input7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/task7/tests/output7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/task7/tests/test7.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task7/tests/test7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/task7/txtf/input7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task7/txtf/input7.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/task7/txtf/output7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task7/txtf/output7.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/task8/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task8/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/task8/src/task8.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task8/src/task8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/task8/tests/test8.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task8/tests/test8.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +152,10 @@
     "Python tests.Python tests for test7.InsertionSortTestCase.test_insertion_sort2.executor": "Run",
     "Python tests.Python tests for test7.InsertionSortTestCase.test_insertion_sort3.executor": "Run",
     "Python tests.Python tests for test7.MaxSubarrayTest.executor": "Run",
+    "Python tests.Python tests for test7.MaxSubarrayTest.test_max_subarray1.executor": "Run",
     "Python tests.Python tests for test7.MaxSubarrayTest.test_max_subarray2.executor": "Run",
+    "Python tests.Python tests for test7.MaxSubarrayTest.test_max_subarray3.executor": "Run",
+    "Python tests.Python tests for test7.MaxSubarrayTest.test_max_subarray4.executor": "Run",
     "Python tests.Python tests for test7.StringsSortTest.executor": "Run",
     "Python tests.Python tests for test7.TestHeaSort.executor": "Run",
     "Python tests.Python tests for test7.TestHeaSort.test_should_heapsort_middle_arr.executor": "Run",
@@ -272,96 +275,89 @@
       <recent name="C:\Users\User\PycharmProjects\algorithms-and-data-structures\lab2\task8\txtf" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in test5.py">
-    <configuration name="task5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="algorithms-and-data-structures" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab2/task5/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab2/task5/src/task5.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test3.PermutationsCountTest" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests in test8.py">
+    <configuration name="Python tests for test8.PolyMultiplyTest" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab2/task3/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab2/task8/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test3.PermutationsCountTest&quot;" />
+      <option name="_new_target" value="&quot;test8.PolyMultiplyTest&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test5.MergeSortTest.test_merge_sort_0" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test8.PolyMultiplyTest.test_multiply1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab2/task5/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab2/task8/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test5.MergeSortTest.test_merge_sort_0&quot;" />
+      <option name="_new_target" value="&quot;test8.PolyMultiplyTest.test_multiply1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test8.EqualTest" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test8.PolyMultiplyTest.test_multiply2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4/task8/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab2/task8/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test8.EqualTest&quot;" />
+      <option name="_new_target" value="&quot;test8.PolyMultiplyTest.test_multiply2&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test5.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test8.PolyMultiplyTest.test_multiply3" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="algorithms-and-data-structures" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab2/task5/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab2/task8/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/lab2/task5/tests/test5.py&quot;" />
+      <option name="_new_target" value="&quot;test8.PolyMultiplyTest.test_multiply3&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test8.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="algorithms-and-data-structures" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab2/task8/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/lab2/task8/tests/test8.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in test5.py" />
-        <item itemvalue="Python tests.Python tests for test5.MergeSortTest.test_merge_sort_0" />
-        <item itemvalue="Python.task5" />
-        <item itemvalue="Python tests.Python tests for test8.EqualTest" />
-        <item itemvalue="Python tests.Python tests for test3.PermutationsCountTest" />
+        <item itemvalue="Python tests.Python tests in test8.py" />
+        <item itemvalue="Python tests.Python tests for test8.PolyMultiplyTest" />
+        <item itemvalue="Python tests.Python tests for test8.PolyMultiplyTest.test_multiply2" />
+        <item itemvalue="Python tests.Python tests for test8.PolyMultiplyTest.test_multiply3" />
+        <item itemvalue="Python tests.Python tests for test8.PolyMultiplyTest.test_multiply1" />
       </list>
     </recent_temporary>
   </component>
@@ -380,14 +376,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726664580045</updated>
-    </task>
-    <task id="LOCAL-00029" summary="add new files">
-      <option name="closed" value="true" />
-      <created>1728230082309</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1728230082309</updated>
     </task>
     <task id="LOCAL-00030" summary="add new files">
       <option name="closed" value="true" />
@@ -773,7 +761,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733507759560</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="updated files">
+      <option name="closed" value="true" />
+      <created>1733513574072</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1733513574072</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

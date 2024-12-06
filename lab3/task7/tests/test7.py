@@ -5,6 +5,7 @@ import time
 from random import randint, choice
 from lab3.src.utils import table
 from lab3.task7.src.task7 import strings_sort, reformat
+from colorama import Style
 
 expected_time = 3
 expected_memory = 256
@@ -89,6 +90,8 @@ class StringsSortTest(unittest.TestCase):
         self.assertLessEqual(memory, expected_memory)
         table.add_row(["Максимальные значения", f'{n} {m} {k}\n{arr_to_str([x[:3] for x in strings[:3]])}', t_end,
                        memory, arr_to_str(result)])
+        print()
+        print(Style.BRIGHT + 'Task #1 - Test Table' + Style.RESET_ALL)
         print()
         print(table)
         table.clear_rows()

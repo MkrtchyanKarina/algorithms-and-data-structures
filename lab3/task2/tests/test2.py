@@ -3,6 +3,7 @@ import psutil
 import time
 from lab3.src.utils import table
 from lab3.task2.src.task2 import worst_case
+from colorama import Style
 
 expected_time = 2
 expected_memory = 256
@@ -76,6 +77,8 @@ class ScarecrowSortTest(unittest.TestCase):
         self.assertLessEqual(t_end, expected_time)
         self.assertLessEqual(memory, expected_memory)
         table.add_row(["Минимальные значения", n, t_end, memory,f'{" ".join(map(str, result[:10]))}...'])
+        print()
+        print(Style.BRIGHT + 'Task #2 - Test Table' + Style.RESET_ALL)
         print()
         print(table)
         table.clear_rows()

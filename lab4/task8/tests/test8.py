@@ -4,6 +4,7 @@ import time
 from lab4.src.utils import table
 from lab4.task8.src.task8 import equal
 from random import randint, choice
+from colorama import Style
 
 expected_time = 2
 expected_memory = 256
@@ -86,6 +87,8 @@ class EqualTest(unittest.TestCase):
         self.assertLessEqual(t_end, expected_time)
         self.assertLessEqual(memory, expected_memory)
         table.add_row(["Значения из примера", f'{actions_count}\n{expression[:7]}', t_end, memory, result])
+        print()
+        print(Style.BRIGHT + 'Task #8 - Test Table' + Style.RESET_ALL)
         print()
         print(table)
         table.clear_rows()

@@ -26,20 +26,8 @@ def verification(n, A, B, attempt=1):
         return res
 
 
-def karatsuba_polynomial_multiply(*args):
-    if len(args) == 1:
-        path = args[0]
-        file_input = open(path, 'r')
-        n = int(file_input.readline())
-        A = list(map(int, file_input.readline().strip().split()))
-        B = list(map(int, file_input.readline().strip().split()))
-        if verification(n, A, B):
-            file_output = open('output' + path[5:], 'w')
-            file_output.write(reformat(multiply(power_of_two(A), power_of_two(B))))
-    else:
-        n, A, B = args
-        if verification(n, A, B):
-            return reformat(multiply(power_of_two(A), power_of_two(B)))
+def karatsuba_polynomial_multiply(A, B):
+    return reformat(multiply(power_of_two(A), power_of_two(B)))
 
 
 def multiply(poly1, poly2):
@@ -86,7 +74,7 @@ def power_of_two(m):
 def reformat(x):
     for i in range(len(x)):
         if x[i] != 0:
-            return " ".join(map(str, x[i:]))
+            return x[i:]
 
 
 

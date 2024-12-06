@@ -4,7 +4,7 @@ from random import randint
 import psutil
 from lab5.task7.src.task7 import heap_sort_max
 from lab5.src.utils import table
-
+from colorama import Style
 
 expected_time = 0.6  #  CPython выполняет около 10^7 операций в минуту => 
                     # при сложности O(visitors_count) программа должна выполняться менее 60/100 = 0.6 секунд
@@ -93,7 +93,7 @@ class TestHeapSort(unittest.TestCase):
         table.add_row(["Повторяющиеся значения", f'{n}\n{array[:4]}', t_end, memory, f'{result[:4]}'])
 
         print()
-        print("Task #7 test result")
+        print(Style.BRIGHT + 'Task #7 - Test Table' + Style.RESET_ALL)
         print(table)
         table.clear_rows()
 

@@ -4,6 +4,7 @@ import psutil
 import time
 from lab3.src.utils import table
 from lab3.task1.src.task1 import quick_sort
+from colorama import Style
 
 expected_time = 2
 expected_memory = 256
@@ -82,6 +83,8 @@ class QuickSortTest(unittest.TestCase):
         self.assertLessEqual(t_end, expected_time)
         self.assertLessEqual(memory, expected_memory)
         table.add_row(["Максимальные значения", f'{n}\n{" ".join(map(str, m[:3]))}...', t_end, memory, f'{" ".join(map(str, result[:3]))}...'])
+        print()
+        print(Style.BRIGHT + 'Task #1 - Test Table' + Style.RESET_ALL)
         print()
         print(table)
         table.clear_rows()

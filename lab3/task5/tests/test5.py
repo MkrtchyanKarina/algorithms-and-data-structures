@@ -5,6 +5,7 @@ from random import randint
 from lab3.src.utils import table
 from lab3.task5.src.task5 import h_index
 from scholarmetrics import hindex
+from colorama import Style
 
 expected_time = 1
 expected_memory = 64
@@ -78,6 +79,8 @@ class HIndexTest(unittest.TestCase):
         self.assertLessEqual(t_end, expected_time)
         self.assertLessEqual(memory, expected_memory)
         table.add_row(["Минимальные значения", f'{' '.join(map(str, citations[:4]))}', t_end, memory, result])
+        print()
+        print(Style.BRIGHT + 'Task #5 - Test Table' + Style.RESET_ALL)
         print()
         print(table)
         table.clear_rows()

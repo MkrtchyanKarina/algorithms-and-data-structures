@@ -4,7 +4,7 @@ import time
 from random import randint
 from lab2.src.utils import table
 from lab2.task2.src.task2 import MergeSortActions
-
+from colorama import Style
 
 expected_time = 2
 expected_memory = 256
@@ -68,7 +68,8 @@ class MergeSortTest(unittest.TestCase):
         self.assertLessEqual(memory, expected_memory)
         table.add_row(["Значения из примера", f'{array_len}\n{" ".join(map(str, array[:4]))}', t_end, memory,
                        " ".join(map(str, result[:4]))])
-
+        print()
+        print(Style.BRIGHT + 'Task #2 - Test Table' + Style.RESET_ALL)
         print()
         print(table)
         table.clear_rows()

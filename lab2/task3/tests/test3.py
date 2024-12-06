@@ -4,7 +4,7 @@ import time
 from random import randint
 from lab2.src.utils import table
 from lab2.task3.src.task3 import PermutationsCount
-
+from colorama import Style
 
 expected_time = 2
 expected_memory = 256
@@ -92,7 +92,8 @@ class PermutationsCountTest(unittest.TestCase):
         self.assertLessEqual(t_end, expected_time)
         self.assertLessEqual(memory, expected_memory)
         table.add_row(["Минимальные значения", f'{array_len}\n{" ".join(map(str, array[:3]))}', t_end, memory, result])
-
+        print()
+        print(Style.BRIGHT + 'Task #3 - Test Table' + Style.RESET_ALL)
         print()
         print(table)
         table.clear_rows()

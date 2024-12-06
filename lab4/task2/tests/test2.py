@@ -4,6 +4,7 @@ import time
 from lab4.src.utils import table
 from lab4.task2.src.task2 import queue_actions
 from random import randint
+from colorama import Style
 
 expected_time = 2
 expected_memory = 256
@@ -64,6 +65,8 @@ class QueueActionsTest(unittest.TestCase):
         self.assertLessEqual(memory, expected_memory)
         table.add_row(["Максимальные значения", f'{actions_count}\n{'\n'.join(actions[-5:])}',
                        t_end, memory, '\n'.join(result[-5:])])
+        print()
+        print(Style.BRIGHT + 'Task #2 - Test Table' + Style.RESET_ALL)
         print()
         print(table)
         table.clear_rows()

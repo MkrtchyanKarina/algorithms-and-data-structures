@@ -4,7 +4,7 @@ import time
 from random import randint, shuffle
 from lab2.src.utils import table
 from lab2.task5.src.task5 import frequent
-
+from colorama import Style
 
 expected_time = 2
 expected_memory = 256
@@ -106,6 +106,8 @@ class FrequentTest(unittest.TestCase):
         self.assertLessEqual(memory, expected_memory)
         table.add_row(["Максимальные значения", f'{array_len}\n{" ".join(map(str, array[-4:]))}', t_end, memory, result])
 
+        print()
+        print(Style.BRIGHT + 'Task #5 - Test Table' + Style.RESET_ALL)
         print()
         print(table)
         table.clear_rows()

@@ -3,6 +3,7 @@ import psutil
 import time
 from lab4.src.utils import table
 from lab4.task13_3.src.task13_3 import LinkedList, Node
+from colorama import Style
 
 
 class LinkedListTest(unittest.TestCase):
@@ -168,6 +169,8 @@ class LinkedListTest(unittest.TestCase):
         self.assertEqual(result, expected_result)
         table.add_row(["Значения из примера", f'{ll.output()}\nsearch(''Hello'')', t_end, memory, f'{result}'])
 
+        print()
+        print(Style.BRIGHT + 'Task #13.3 - Test Table' + Style.RESET_ALL)
         print()
         print(table)
         table.clear_rows()

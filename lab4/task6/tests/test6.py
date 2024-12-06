@@ -4,6 +4,7 @@ import time
 from lab4.src.utils import table
 from lab4.task6.src.task6 import queue_actions
 from random import randint, choice
+from colorama import Style
 
 expected_time = 2
 expected_memory = 256
@@ -66,6 +67,8 @@ class BracketSequenceTest(unittest.TestCase):
         self.assertLessEqual(memory, expected_memory)
         table.add_row(["Значения из примера", f'{commands_count}\n{'\n'.join(commands[-5:])}',
                        t_end, memory, '\n'.join(map(str, result[-5:]))])
+        print()
+        print(Style.BRIGHT + 'Task #6 - Test Table' + Style.RESET_ALL)
         print()
         print(table)
         table.clear_rows()

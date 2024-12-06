@@ -4,6 +4,7 @@ import psutil
 import unittest
 from random import randint
 from lab3.src.utils import table
+from colorama import Style
 
 expected_time = 10
 expected_memory = 256
@@ -84,6 +85,8 @@ class ShortestDistanceTest(unittest.TestCase):
         self.assertLessEqual(t_end, expected_time)
         self.assertLessEqual(memory, expected_memory)
         table.add_row(["Максимальные значения", f'{n}\n{" ".join(map(str, array[:2]))}...', t_end, memory,result])
+        print()
+        print(Style.BRIGHT + 'Task #1 - Test Table' + Style.RESET_ALL)
         print()
         print(table)
         table.clear_rows()

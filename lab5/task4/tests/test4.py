@@ -4,7 +4,7 @@ import time
 from lab5.src.utils import table
 from lab5.task4.src.task4 import MinHeap
 from random import randint
-
+from colorama import Style
 
 expected_time = 3
 expected_memory = 512
@@ -66,7 +66,7 @@ class TestHeapSortSwaps(unittest.TestCase):
         self.assertLessEqual(memory, expected_memory)
         table.add_row(["Максимальные значения",f'{n}\n{array[:4]}', t_end, memory, f'{result[0]}\n{result[1][:4]}'])
         print()
-        print("Task #4 test result")
+        print(Style.BRIGHT + 'Task #4 - Test Table' + Style.RESET_ALL)
         print(table)
         table.clear_rows()
 

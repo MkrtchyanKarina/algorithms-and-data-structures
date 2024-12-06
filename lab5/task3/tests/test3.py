@@ -4,7 +4,7 @@ import time
 from lab5.src.utils import table
 from lab5.task3.src.task3 import net_packet_processing
 from random import randint
-
+from colorama import Style
 
 expected_time = 10
 expected_memory = 512
@@ -119,7 +119,7 @@ class TestNetworkPacketProcessing(unittest.TestCase):
         self.assertLessEqual(memory, expected_memory)
         table.add_row(["Максимальные значения",f'{size}\n{count}\n{packages[count-5:]}', t_end, memory, " ".join(map(str, result[count-5:]))])
         print()
-        print("Task #3 test result")
+        print(Style.BRIGHT + 'Task #3 - Test Table' + Style.RESET_ALL)
         print(table)
         table.clear_rows()
 
