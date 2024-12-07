@@ -1,5 +1,9 @@
-def fib_number(n):
+from lab0.src.utils import File
+
+def fib_number(n: int) -> int:
     return fast_multiply([[0, 1], [1, 1]], n)[0][1]
+
+
 def fast_multiply(x, n):
     if n == 0:
         return [[1, 0], [0, 1]]
@@ -21,7 +25,22 @@ def matrix_multiply_2x2(A, B):
     return C
 
 
-# file_input = open("input.txt")
-# file_output = open("output.txt", "w")
-# high = int(file_input.readline())
-# file_output.write(str(fib_number(high)))
+def limits(number: int) -> bool:
+    if 0 <= number <= 10**7:
+        return True
+    else:
+        return False
+
+
+def addition_sqrt_txt():
+    f = File(__file__)
+    arguments = f.read()
+    number = int(arguments[0])
+    if limits(number):
+        res = str(fib_number(number))
+        f.write(res)
+
+
+if __name__ == "__main__":
+    addition_sqrt_txt()
+

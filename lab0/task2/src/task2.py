@@ -1,8 +1,8 @@
 from lab0.src.utils import File
 
 
-def addition(first_term: int, second_term: int) -> int:
-    return first_term + second_term
+def addition_sqrt(first_term: int, second_term: int) -> int:
+    return first_term + second_term ** 2
 
 
 
@@ -13,14 +13,14 @@ def limits(first_term: int, second_term: int) -> bool:
         return False
 
 
-def addition_txt():
+def addition_sqrt_txt():
     f = File(__file__)
     arguments = f.read()
     first_term, second_term = map(int, arguments[0].split(" "))
     if limits(first_term, second_term):
-        res = str(addition(first_term, second_term))
+        res = str(addition_sqrt(first_term, second_term))
         f.write(res)
 
 
 if __name__ == "__main__":
-    addition_txt()
+    addition_sqrt_txt()

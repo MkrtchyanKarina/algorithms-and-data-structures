@@ -11,7 +11,7 @@ def insertion_sort(n, m):
     return m
 
 
-# file = open("input1.txt")
+# file = open("input2.txt")
 # test_n = int(file.readline())
 # test_m = list(map(int, file.readline().split(" ")))
 # open("output1.txt", "w").write(" ".join(map(str, insertion_sort(test_n, test_m))))
