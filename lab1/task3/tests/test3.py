@@ -1,50 +1,95 @@
-import unittest
-
 from lab1.task3.src.task3 import insertion_sort
-from lab1.task3.src.task3_recursion import insertion_sort_rec
-
+import unittest
 import psutil
 import time
-import random
+from random import randint
+from lab1.src.utils import table
+from colorama import Style
+
+
+expected_time = 2
+expected_memory = 256
 
 
 class InsertionSortTestCase(unittest.TestCase):
-    def test_insertion_sort1(self):
-        t_start = time.perf_counter()
-        self.assertEqual(insertion_sort(1, [0]), [0])
-        print("Время работы: %s секунд" % (time.perf_counter() - t_start))
-        print(f"Память: {psutil.Process().memory_info().rss / 1024 ** 2:.2f} МБ")
+    def test_insertion_sort_0(self):
+        # given
+        array_len = 1
+        array = [0]
+        expected_result = sorted(array)[::-1]
 
-    def test_insertion_sort2(self):
-        m = [31, 41, 59, 26, 41, 58]
+        # when
         t_start = time.perf_counter()
-        self.assertEqual(insertion_sort(6, m), sorted(m)[::-1])
-        print("Время работы: %s секунд" % (time.perf_counter() - t_start))
-        print(f"Память: {psutil.Process().memory_info().rss / 1024 ** 2:.2f} МБ")
+        result = insertion_sort(array_len, array)
+        t_end = round(time.perf_counter() - t_start, 2)
+        memory = round(psutil.Process().memory_info().rss / 1024 ** 2, 2)
 
-    def test_insertion_sort3(self):
-        m = [random.randint(-10 ** 9, 10 ** 9) for i in range(10 ** 3)]
-        t_start = time.perf_counter()
-        self.assertEqual(insertion_sort(1000, m), sorted(m)[::-1])
-        print("Время работы: %s секунд" % (time.perf_counter() - t_start))
-        print(f"Память: {psutil.Process().memory_info().rss / 1024 ** 2:.2f} МБ")
+        # then
+        self.assertEqual(result, expected_result)
+        self.assertLessEqual(t_end, expected_time)
+        self.assertLessEqual(memory, expected_memory)
+        table.add_row(["Минимальные значения", f'{array_len}\n{' '.join(map(str, array))}', t_end, memory,  ' '.join(map(str, result))])
 
-    def test_insertion_sort_rec1(self):
-        t_start = time.perf_counter()
-        self.assertEqual(insertion_sort_rec(1, [0]), [0])
-        print("Время работы: %s секунд" % (time.perf_counter() - t_start))
-        print(f"Память: {psutil.Process().memory_info().rss / 1024 ** 2:.2f} МБ")
+    def test_insertion_sort_1(self):
+        # given
+        array_len = 6
+        array = [31, 41, 59, 26, 41, 58]
+        expected_result = sorted(array)[::-1]
 
-    def test_insertion_sort_rec2(self):
-        m = [31, 41, 59, 26, 41, 58]
+        # when
         t_start = time.perf_counter()
-        self.assertEqual(insertion_sort_rec(6, m), sorted(m)[::-1])
-        print("Время работы: %s секунд" % (time.perf_counter() - t_start))
-        print(f"Память: {psutil.Process().memory_info().rss / 1024 ** 2:.2f} МБ")
+        result = insertion_sort(array_len, array)
+        t_end = round(time.perf_counter() - t_start, 2)
+        memory = round(psutil.Process().memory_info().rss / 1024 ** 2, 2)
 
-    def test_insertion_sort_rec3(self):
-        m = [random.randint(-10 ** 9, 10 ** 9) for i in range(10 ** 3)]
+        # then
+        self.assertEqual(result, expected_result)
+        self.assertLessEqual(t_end, expected_time)
+        self.assertLessEqual(memory, expected_memory)
+        table.add_row(["Значения из примера", f'{array_len}\n{' '.join(map(str, array))}', t_end, memory,  ' '.join(map(str, result))])
+
+    def test_insertion_sort_2(self):
+        # given
+        array_len = 100
+        array = [randint(-10**9, 10**9) for _ in range(array_len)]
+        expected_result = sorted(array)[::-1]
+
+        # when
         t_start = time.perf_counter()
-        self.assertEqual(insertion_sort_rec(1000, m), sorted(m)[::-1])
-        print("Время работы: %s секунд" % (time.perf_counter() - t_start))
-        print(f"Память: {psutil.Process().memory_info().rss / 1024 ** 2:.2f} МБ")
+        result = insertion_sort(array_len, array)
+        t_end = round(time.perf_counter() - t_start, 2)
+        memory = round(psutil.Process().memory_info().rss / 1024 ** 2, 2)
+
+        # then
+        self.assertEqual(result, expected_result)
+        self.assertLessEqual(t_end, expected_time)
+        self.assertLessEqual(memory, expected_memory)
+        table.add_row(["Значения из примера", f'{array_len}\n{' '.join(map(str, array[:4]))}', t_end, memory,  ' '.join(map(str, result[:4]))])
+
+
+    def test_insertion_sort_3(self):
+        # given
+        array_len = 1000
+        array = [randint(-10**9, 10**9) for _ in range(array_len)]
+        expected_result = sorted(array)[::-1]
+
+        # when
+        t_start = time.perf_counter()
+        result = insertion_sort(array_len, array)
+        t_end = round(time.perf_counter() - t_start, 2)
+        memory = round(psutil.Process().memory_info().rss / 1024 ** 2, 2)
+
+        # then
+        self.assertEqual(result, expected_result)
+        self.assertLessEqual(t_end, expected_time)
+        self.assertLessEqual(memory, expected_memory)
+        table.add_row(["Максимальные значения", f'{array_len}\n{' '.join(map(str, array[:4]))}', t_end, memory,  ' '.join(map(str, result[:4]))])
+
+        print()
+        print(Style.BRIGHT + 'Task #3 - Test Table' + Style.RESET_ALL)
+        print()
+        print(table)
+        table.clear_rows()
+
+if __name__ == "__main__":
+    unittest.main()
