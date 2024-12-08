@@ -1,26 +1,34 @@
-from lab1.src.verifications import data_verification1
+from lab1.src.utils import File
 
 
-@data_verification1
-def insertion_sort(n, m):
+def insertion_sort(array_len, array):
     indexes = [1]
-    for i in range(1, n):
+    for i in range(1, array_len):
         for j in range(i, -1, -1):
-            if m[i] < m[j]:
-                m[i], m[j] = m[j], m[i]
+            if array[i] < array[j]:
+                array[i], array[j] = array[j], array[i]
                 i, j = j, i
         indexes.append(i+1)
-    return indexes, m
+    return indexes, array
 
 
-# file_input = open("input2.txt")
-# file_output = open("output4.txt", "w")
-#
-# test_n = int(file_input.readline())
-# test_m = list(map(int, file_input.readline().split(" ")))
-#
-# res_ind, res_m = insertion_sort(test_n, test_m)
-#
-# file_output.write(" ".join(map(str, res_ind)))
-# file_output.write("\high")
-# file_output.write(" ".join(map(str, res_m)))
+def limits(array_len: int, array: list[int]) -> bool:
+    if 1 <= array_len <= 10**3 and all(abs(el) <= 10**9 for el in array):
+        return True
+    else:
+        return False
+
+
+def addition_txt():
+    f = File(__file__)
+    arguments = f.read()
+    array_len = int(arguments[0])
+    array = list(map(int, arguments[1].split(" ")))
+    if limits(array_len, array):
+        res = insertion_sort(array_len, array)
+        res1, res2 = ' '.join(map(str, res[0])), ' '.join(map(str, res[1]))
+        f.write(res1 + "\n" + res2)
+
+
+if __name__ == "__main__":
+    addition_txt()
