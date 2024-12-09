@@ -1,4 +1,4 @@
-from lab1.src.verifications import data_verification10
+from lab1.src.utils import File
 
 
 def merge_sort(string):
@@ -28,17 +28,17 @@ def merge_list(arr1, arr2, n1, n2):
     return res_str
 
 
-@data_verification10
-def palindrome(n: int, s: str, index=0):
-    s = merge_sort(s)
+
+def palindrome(length: int, string: str, index=0) -> str:
+    string = merge_sort(string)
     count1 = ""
     count2 = ""
-    while index < n:
-        k = s[index]
+    while index < length:
+        k = string[index]
         count = 1
         index += 1
-        while index < n:
-            if s[index] == k:
+        while index < length:
+            if string[index] == k:
                 count += 1
                 index += 1
             else:
@@ -59,9 +59,25 @@ def palindrome2(count1, count2):
     return res_str
 
 
-# file = open("input10.txt")
-# test_n = int(file.readline())
-# test_s = file.readline()
-# open("output10.txt", "w").write(palindrome(test_n, test_s))
+def limits(length: int, string: str) -> bool:
+    if len(string) == length and all(65 <= ord(el) <= 90 for el in string):
+        return True
+    else:
+        return False
+
+
+def palindrome_txt():
+    f = File(__file__)
+    arguments = f.read()
+    length = int(arguments[0])
+    string = arguments[1]
+    if limits(length, string):
+        res = palindrome(length, string)
+        f.write(res)
+
+
+if __name__ == "__main__":
+    palindrome_txt()
+
 
 

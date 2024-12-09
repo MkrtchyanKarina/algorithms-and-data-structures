@@ -1,22 +1,38 @@
-from lab1.src.verifications import data_verification9
+from lab1.src.utils import File
 
 
-@data_verification9
-def sum_dv(a, b):
-    a = [int(i) for i in a]
-    b = [int(i) for i in b]
-    n = len(a)
+def binary_addition(binary1: str, binary2: str) -> str:
+    binary1 = [int(i) for i in binary1]
+    binary2 = [int(i) for i in binary2]
+    n = len(binary1)
     c = [int(i) for i in "0"*(n+1)]
     for i in range(1, n+1):
-
-        s = a[-i] + b[-i] + c[-i]
-
+        s = binary1[-i] + binary2[-i] + c[-i]
         c[-i - 1] = s // 2
         c[-i] = s % 2
-    result = "".join(map(str, c))
-    result = result[result.index("1"):]
-    return result
+    binary_sum = "".join(map(str, c))
+    binary_sum = binary_sum[binary_sum.index("1"):]
+    return binary_sum
 
-# array, b = open('input9.txt').readline().split(" ")
-# file_output = open('output9.txt', 'w')
-# file_output.write(sum_dv(array, b))
+
+def limits(binary1: str, binary2: str) -> bool:
+    if (all(b in "01" for b in binary1) and all(b in "01" for b in binary2) and
+            (1 <= len(binary1) == len(binary2) <= 10**3)):
+        return True
+    else:
+        return False
+
+
+def binary_addition_txt():
+    f = File(__file__)
+    arguments = f.read()[0]
+    binary1, binary2 = arguments.split(" ")
+    if limits(binary1, binary2):
+        res = binary_addition(binary1, binary2)
+        f.write(res)
+
+
+if __name__ == "__main__":
+    binary_addition_txt()
+
+

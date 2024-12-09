@@ -1,23 +1,41 @@
-from lab1.src.verifications import data_verification4
+from lab1.src.utils import File
 
 
-@data_verification4
-def lineal_search(m, x):
-    res = []
-    for i in range(len(m)):
-        if m[i] == x:
-            res.append(i)
-    count = len(res)
+def lineal_search(array: list[int], element: int) -> tuple[int, list[int]]:
+    indexes = []
+    for i in range(len(array)):
+        if array[i] == element:
+            indexes.append(i)
+    count = len(indexes)
     if count == 0:
-        return str(-1)
-    elif count == 1:
-        return str(res[0])
+        return 0, [-1]
     else:
-        return str(count) + ' ' + ", ".join(map(str, res))
+        return count, indexes
 
 
-# file = open("input4.txt")
-# array = list(map(int, file.readline().split(" ")))
-# V = int(file.readline())
-# open("output4.txt", "w").write(lineal_search(array, V))
+def limits(array: list[int], element: int) -> bool:
+    if 1 <= len(array) <= 10**3 and all(abs(el) <= 10**3 for el in array+[element]):
+        return True
+    else:
+        return False
 
+
+def lineal_search_txt():
+    f = File(__file__)
+    arguments = f.read()
+    array = list(map(int, arguments[0].split(" ")))
+    element = int(arguments[1])
+    if limits(array, element):
+        res = ""
+        count, indexes = lineal_search(array, element)
+        if count == 0:
+            res += "-1"
+        elif count == 1:
+            res += str(indexes[0])
+        else:
+            res += f"{count}\n{", ".join(map(str, indexes))}"
+        f.write(res)
+
+
+if __name__ == "__main__":
+    lineal_search_txt()
